@@ -1,4 +1,4 @@
-import NavbarContainer from "./NavbarContainer";
+import NavbarContainer from "../navbar/NavbarContainer";
 
 function Header() {
     return (
