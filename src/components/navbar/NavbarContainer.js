@@ -5,7 +5,7 @@ function NavbarContainter() {
         <div>
             
         </div>
-    )
+    );
 }
 
 export default NavbarContainter
