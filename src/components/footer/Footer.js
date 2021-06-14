@@ -15,20 +15,20 @@ function Footer() {
     return (
         <div>
             <footer>
-                <div className="container mx-auto py-6">
+                <div className="container mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-3">
-                        <div className="flex justify-items-center lg:justify-items-start">
-                            <img src={LogoPenabur} className="object-scale-down h-24 mr-2" alt="BPK PENABUR Logo"/>
-                            <img src={LogoSMAK1} className="object-scale-down h-24" alt="OSIS SMAK 1 Logo"/>
+                        <div className="flex justify-self-center lg:justify-self-start pt-6 lg:py-6">
+                                <img src={LogoPenabur} className="object-scale-down h-20 mr-2" alt="BPK PENABUR Logo"/>
+                                <img src={LogoSMAK1} className="object-scale-down h-20" alt="OSIS SMAK 1 Logo"/>
                         </div>
-                        <div className="flex justify-center object-center ">
-                            <p className="text-center">
+                        <div className="flex justify-self-center object-center py-3 lg:py-6">
+                            <p className="text-center align-center">
                                 Jalan Tanjung Duren Raya Nomor 4<br/>
                                 Jakarta Barat, DKI Jakarta 11470<br/>
                                 Tel:(+62)21 5666962
                             </p>
                         </div>
-                        <div className="text-center lg:text-right">
+                        <div className="text-center lg:text-right pb-10 lg:py-6">
                             <h3 className="mb-3 font-bold">
                                 Hubungi Kami
                             </h3>
