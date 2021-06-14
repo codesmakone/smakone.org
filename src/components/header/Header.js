@@ -12,7 +12,7 @@ function Header() {
         <h1 className="italic">smakone.org</h1>
         <div className="flex-1 flex justify-between items-center">
           <a href="#">
-          <svg width={32} height={36} viewBox="0 0 32 36" src={LogoSMAK1}></svg>
+          <img className="w-10 h-12" src={LogoSMAK1} alt="OSIS SMAK 1 Logo" />
           </a>
         </div>
         <label htmlFor="menu-toggle" className="pointer-cursor lg:hidden block"><svg className="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg></label>

@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby';
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
 import LogoPenabur from '../../images/Logo_BPK.png';
 import LogoSMAK1 from '../../images/OSIS-SMAK-1.png';
 
@@ -15,7 +19,7 @@ function NavbarContainter() {
             </ul>
           </nav>
           <a href="#" className="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 pointer-cursor">
-            <img className="square-full w-10 h-10 border-2 border-transparent hover:border-gray-400" src={LogoSMAK1} alt="smakone" />
+            <FontAwesomeIcon icon={faSearch} size="lg" className="rounded-full border-2 border-transparent hover:bor-gray-400" alt="Search Logo" />
           </a>
         </div>
     );
