@@ -4,7 +4,7 @@ import Footer from '../components/footer/Footer'
 
 const IndexPage = () => {
   return (
-    <div className="font-SFPro">
+    <div className="font-sans">
       <Header></Header>
       <Footer />
     </div>
