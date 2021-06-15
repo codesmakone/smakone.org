@@ -10,7 +10,7 @@ function Header() {
     <header className="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
         <div className="flex-1 flex justify-between items-center">
           <a href="#!">
-          <img className="object-scale-down h-24" src={SMAK1} alt="OSIS SMAK 1 Logo" />
+          <img className="object-scale-down h-5" src={SMAK1} alt="OSIS SMAK 1 Logo" />
           </a>
         </div>
         <label htmlFor="menu-toggle" className="pointer-cursor lg:hidden block">
