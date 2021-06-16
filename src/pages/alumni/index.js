@@ -1,6 +1,6 @@
 import React from 'react'
-import AlumniPage from '../../components/Alumni/AlumniPage'
-import AlumniCard from '../../components/Alumni/AlumniCard'
+import AlumniPage from '../../components/page_template/AlumniPage'
+import AlumniCard from '../../components/alumni/AlumniCard'
 
 import BillyStevanus from '../../images/Card/BillyStevanus.jpg'
 import ScottMoses from '../../images/Card/ScottMoses.jpg'

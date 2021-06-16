@@ -1,7 +1,7 @@
 import React from 'react'
-import AboutLayout from '../../components/PageTemplate/AboutLayout'
+import AboutLayout from '../../components/page_template/AboutLayout'
 
-export default function index() {
+export default function AboutPage() {
     return (
         <AboutLayout>
             Hello World

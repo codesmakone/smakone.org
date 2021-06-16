@@ -6,7 +6,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 function NavbarContainter() {
     return (
-        <div className="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+        <div className="hidden lg:flex lg:items-center lg:w-auto w-full py-7" id="menu">
           <nav>
             <ul className="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
               <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-400" href="#!">Gallery</a></li>

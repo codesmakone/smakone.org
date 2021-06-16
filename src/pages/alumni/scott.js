@@ -1,5 +1,5 @@
 import React from 'react'
-import AlumniPage from '../../components/Alumni/AlumniPage'
+import AlumniPage from '../../components/page_template/AlumniPage'
 
 import ScottMoses from '../../images/Card/ScottMoses.jpg'
 import AlumniArticle from '../../components/Alumni/AlumniArticle'
