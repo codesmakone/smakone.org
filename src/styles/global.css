@@ -3,3 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-purple-soc {
+    background-color: #d43d84;
+}

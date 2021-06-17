@@ -9,7 +9,7 @@ import NicoleCharlene from '../../images/Card/NicoleCharlene.jpg'
 export default function index() {
     return (
         <AlumniLayout>
-            <div className="grid grid-cols-3 gap-3 py-5">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 py-5">
                 <div>
                     <AlumniCard
                         img={ BillyStevanus } 
