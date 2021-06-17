@@ -9,8 +9,10 @@ function NavbarContainter() {
         <div className="hidden lg:flex lg:items-center lg:w-auto w-full py-7" id="menu">
           <nav>
             <ul className="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
-              <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-400" href="#!">Gallery</a></li>
-              <li><Link className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-400" to="/about">About Us</Link></li>
+              <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-400" href="/about">Tentang Kami</a></li>
+              <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-400" href="#!">Kehidupan Smukierz</a></li>
+              <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-400" href="#!">Kegiatan</a></li>
+              <li><Link className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-400" to="#!">Berita</Link></li>
               <li><Link className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-400 lg:mb-0 mb-2" to="/alumni">Alumni</Link></li>
             </ul>
           </nav>

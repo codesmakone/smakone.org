@@ -1,5 +1,5 @@
 import React from 'react'
-import AlumniPage from '../../components/page_template/AlumniPage'
+import AlumniLayout from '../../components/page_template/AlumniLayout'
 import AlumniCard from '../../components/alumni/AlumniCard'
 
 import BillyStevanus from '../../images/Card/BillyStevanus.jpg'
@@ -8,7 +8,7 @@ import NicoleCharlene from '../../images/Card/NicoleCharlene.jpg'
 
 export default function index() {
     return (
-        <AlumniPage>
+        <AlumniLayout>
             <div className="grid grid-cols-3 gap-3 py-5">
                 <div>
                     <AlumniCard
@@ -35,6 +35,6 @@ export default function index() {
                     />
                 </div>
             </div>
-        </AlumniPage>
+        </AlumniLayout>
     )
 }

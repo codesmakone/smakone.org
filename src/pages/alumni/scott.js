@@ -1,12 +1,12 @@
 import React from 'react'
-import AlumniPage from '../../components/page_template/AlumniPage'
+import AlumniLayout from '../../components/page_template/AlumniLayout'
 
 import ScottMoses from '../../images/Card/ScottMoses.jpg'
 import AlumniArticle from '../../components/Alumni/AlumniArticle'
 
 export default function Scott() {
     return (
-        <AlumniPage>
+        <AlumniLayout>
             <img src={ ScottMoses } className="h-96 mx-auto rounded-lg" alt="Scott Moses" />
             <h1 className="text-center mt-10 mb-8 font-bold text-5xl">
                 Scott Moses
@@ -49,6 +49,6 @@ export default function Scott() {
                 </i><br/>
                 - Scott
             </p>
-        </AlumniPage>
+        </AlumniLayout>
     )
 }

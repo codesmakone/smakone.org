@@ -2,7 +2,7 @@ import React from 'react'
 
 import MainContainer from './MainContainer';
 
-function AlumniPage({children}) {
+function AlumniLayout({children}) {
     return(
         <MainContainer>
             <div className="container mx-auto">
@@ -15,4 +15,4 @@ function AlumniPage({children}) {
     )
 }
 
-export default AlumniPage
+export default AlumniLayout
