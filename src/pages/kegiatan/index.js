@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import MainContainer from '../../components/page_template/MainContainer'
-import HeroImage from '../../global/HeroImage'
+import HeroImage from '../../components/global/HeroImage'
 import SOC from '../../images/kegiatan/SOC.jpg'
 
 export default function index() {

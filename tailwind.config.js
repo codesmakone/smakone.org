@@ -1,10 +1,12 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['SF-Pro', 'Helvetica', 'Arial', 'sans-serif'],
+        'sans': ['Montserrat','SF-Pro', ...defaultTheme.fontFamily.sans],
+        'serif':['Lora', ...defaultTheme.fontFamily.sans]
       },
     },
   },
