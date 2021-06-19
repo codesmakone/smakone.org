@@ -1,10 +1,11 @@
 import React,{useState,useEffect} from 'react'
 import { Parallax } from 'react-parallax';
-import Banner from "../../images/banner2.jpg"
-import Title from '../text_helper/Title';
-export default function HeroImage() {
+export default function HeroImage({title,hero}) {
     return (
-        <Parallax bgImage={Banner} className="lg:min-h-500 xl:min-h-700" bgImageAlt="SMAK 1 Flag Ceremony Team" strength={100} bgImageStyle={{top:"-200px"}}>    
+        <Parallax bgImage={hero} className="lg:min-h-500 xl:min-h-screen" bgImageAlt="SMAK 1 Flag Ceremony Team" strength={100} bgImageStyle={{top:"-100px"}}>
+            <div className="lg:min-h-500 xl:min-h-screen bg-gray-700 bg-opacity-70 flex justify-center items-center">
+                <h1 className="text-7xl top-9 text-white font-bold block max-w-4xl text-center">{title}</h1>
+            </div>   
         </Parallax>    
     )
 }

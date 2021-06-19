@@ -3,9 +3,8 @@ import AboutLayout from '../../components/page_template/AboutLayout'
 import Content from '../../components/text_helper/Content'
 import Banner from "../../images/banner2.jpg"
 
-
-export default function AboutPage() {
-    const title = "Sekilas Tentang SMAKONE"
+export default function HistoryPage() {
+    const title = "Sejarah, Visi, dan Misi SMAKONE"
     const content = (
         <Content>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor nulla vel accumsan blandit. Mauris luctus sem non quam vestibulum, non placerat ipsum venenatis. Nam vitae felis et lectus porttitor sagittis. Nunc sit amet metus ornare, auctor lorem at, congue orci. Aliquam tempus tellus diam, quis viverra felis laoreet ac. Vestibulum at dolor ut arcu dictum tincidunt. Pellentesque et justo nec nibh tincidunt bibendum nec quis elit. Nullam porttitor magna semper, cursus odio quis, tincidunt purus. Aenean mattis magna in sapien rhoncus finibus. Quisque eleifend lacus sit amet mollis posuere. Maecenas efficitur eros viverra dui lacinia, viverra tristique eros semper.
