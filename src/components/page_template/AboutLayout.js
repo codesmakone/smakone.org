@@ -9,7 +9,7 @@ export default function AboutLayout({children}) {
             <div>
                 <HeroImage />
             </div>
-            <div className="container mx-auto mt-24">
+            <div className="container mx-auto mt-24 md:px-10">
                 <div className="grid grid-cols-12 gap-6">
                     <div className="col-span-3 border-r-2">
                         <Sidebar />
