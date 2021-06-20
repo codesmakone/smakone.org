@@ -7,3 +7,7 @@
 .bg-purple-soc {
     background-color: #d43d84;
 }
+
+.btn{
+    @apply rounded-lg py-4 px-5 cursor-pointer
+}
