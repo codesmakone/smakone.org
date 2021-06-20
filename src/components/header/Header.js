@@ -7,7 +7,7 @@ import './Checked.css';
 
 function Header() {
   return (
-    <header className="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
+    <header className="bg-white lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2 fixed z-50 w-full shadow-lg top-0">
         <div className="flex-1 flex justify-between items-center">
           <Link to="/">
             <img className="object-scale-down h-5" src={SMAK1} alt="OSIS SMAK 1 Logo" />
