@@ -1,12 +1,15 @@
 import React from 'react'
 import AlumniLayout from '../../components/page_template/AlumniLayout'
-
-import ScottMoses from '../../images/Card/ScottMoses.jpg'
 import AlumniArticle from '../../components/Alumni/AlumniArticle'
 
-export default function Scott() {
-    return (
-        <AlumniLayout>
+import ScottMoses from '../../images/Card/ScottMoses.jpg'
+import Banner from "../../images/bannerAlumni.jpg"
+
+export default function AlumniPage() {
+    const title = "Alumni Kami"
+    const content = (
+        <div className="grid grid-cols-1 gap-3 py-5">
+            <div>
             <img src={ ScottMoses } className="h-96 mx-auto rounded-lg" alt="Scott Moses" />
             <h1 className="text-center mt-10 mb-8 font-bold text-5xl">
                 Scott Moses
@@ -49,6 +52,13 @@ export default function Scott() {
                 </i><br/>
                 - Scott
             </p>
-        </AlumniLayout>
+            </div>
+        </div>
+    )
+    return (
+        <AlumniLayout 
+            hero = {Banner}
+            title= {title}
+            content={content}/>
     )
 }

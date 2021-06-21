@@ -8,8 +8,8 @@ export default function AlumniLayout({title, hero, content}) {
     const sideMenuItem = [
         {
             id:1,
-            title: "Billy Stevanus",
-            link:"/alumni/billy"
+            title: "Ada Apa Aja Sih di SMAK 1?",
+            link:"/kegiatan"
         },
         {
             id:2,
