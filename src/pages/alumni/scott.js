@@ -5,7 +5,7 @@ import AlumniArticle from '../../components/Alumni/AlumniArticle'
 import ScottMoses from '../../images/Card/ScottMoses.jpg'
 import Banner from "../../images/bannerAlumni.jpg"
 
-export default function AlumniPage() {
+export default function ScottPage() {
     const title = "Alumni Kami"
     const content = (
         <div className="grid grid-cols-1 gap-3 py-5">

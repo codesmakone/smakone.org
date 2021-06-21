@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import HeroImage from '../global/HeroImage'
 import MobileNavbar from '../sidebar/MobileNavbar'
 import Sidebar from '../sidebar/Sidebar'

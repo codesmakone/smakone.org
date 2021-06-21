@@ -1,14 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import KegiatanSection from '../../components/kegiatan/KegiatanSection'
-import KegiatanList from '../../components/kegiatan/KegiatanList'
 import KegiatanLayout from '../../components/page_template/KegiatanLayout'
-
-import SOC from '../../images/kegiatan/SOC.jpg'
-import Soundscape from '../../images/kegiatan/soundscape.jpg'
-import STN from '../../images/kegiatan/STN.jpg'
-import KR1ZA from '../../images/kegiatan/KR1ZA.jpg'
-import Seni from '../../images/kegiatan/Seni.jpg'
 
 import Banner from "../../images/bannerKegiatan.jpg"
 
@@ -77,100 +68,8 @@ export default function KegiatanPage() {
                 sendiri merupakan pengalaman yang tak terlupakan karena kami banyak berkolaborasi bersama siswa lain, belajar mengemban 
                 tanggung jawab akademik dan non-akademik, serta bersama-sama berjuang meraih mimpi dengan mengembangkan bakat kami di 
                 berbagai fasilitas yang telah disediakan SMAK 1 dengan cara yang seru dan interaktif. Penulis rasa, teman-teman harus 
-                mencoba sendiri berbagai hal yang disediakan SMAK 1 untuk merasakan keseruannya.😆
+                mencoba sendiri berbagai hal yang disediakan SMAK 1 untuk merasakan keseruannya.
             </p>
-            {/* Smakonecup section */}
-            <KegiatanSection
-                title="Smakeonecup"
-                subtitle='"Acara tahunan yang penuh sinar matahari, keringat, dan kejutan"'
-                img={SOC}
-            />
-            <div className="pb-5">
-                <div className="text-center">
-                    <Link className="text-white btn bg-purple-soc" target="blank" to="https://cup.smakone.org">
-                        Kenali Lebih Lanjut {">"}
-                    </Link>
-                </div>
-            </div>
-            {/* Soundscape section */}
-            <KegiatanSection
-                title="Soundscape"
-                subtitle='"Malam penuh hiburan berkelas untuk menutup Smakonecup"'
-                img={Soundscape}
-            />
-            <div className="pb-5">
-                <div className="text-center">
-                    <Link className="text-white btn bg-purple-600" target="blank" to="https://soundscape.id">
-                        Kenali Lebih Lanjut {">"}
-                    </Link>
-                </div>
-            </div>
-            {/* STN */}
-            <KegiatanSection
-                title="SMUKIEZ Theater Night"
-                subtitle='"Saat berbagai seni dipadukan dan menghasilkan sebuah karya yang memukau"'
-                img={STN}
-            />
-            <div className="pb-5">
-                <div className="text-center">
-                    <Link className="text-white btn bg-black"target="blank" to="https://stn.smakone.org">
-                        Kenali Lebih Lanjut {">"}
-                    </Link>
-                </div>
-            </div>
-            {/* KRIZA */}
-            <KegiatanSection
-                title="KR1ZA"
-                subtitle='"Berkeringat dan kobarkan semangatmu"'
-                img={KR1ZA}
-            />
-            <div className="pb-5">
-                <div className="text-2xl text-left grid grid-cols-1 lg:grid-cols-2 gap-y-3 gap-x-10 px-10">
-                    <KegiatanList name="Basket" />
-                    <KegiatanList name="Bulutangkis" />
-                    <KegiatanList name="Catur" />
-                    <KegiatanList name="Futsal" />
-                    <KegiatanList name="Pencak Silat" />
-                    <KegiatanList name="Tenis Meja" />
-                    <KegiatanList name="Voli" />
-                </div>
-            </div>
-            {/* Seni */}
-            <KegiatanSection
-                title="Seni"
-                subtitle='"Ekspresikan dirimu lewat cara yang mempesona"'
-                img={Seni}
-            />
-            <div className="pb-5">
-                <div className="text-2xl text-left grid grid-cols-1 lg:grid-cols-2 gap-y-3 gap-x-10 px-10">
-                    <KegiatanList name="Animasi" />
-                    <KegiatanList name="Bahasa Korea" />
-                    <KegiatanList name="Beauty Class" />
-                    <KegiatanList name="Fotografi" />
-                    <KegiatanList name="Manga" />
-                    <KegiatanList name="Master of Ceremony" />
-                    <KegiatanList name="Mini Orchestra" />
-                    <KegiatanList name="Paduan Suara" />
-                    <KegiatanList name="Teater" />
-                    <KegiatanList name="Web Design" />
-                </div>
-            </div>
-            {/* Ekstrakulikuler lainnya */}
-            <div className="pt-5">
-                <h2 className="font-medium text-3xl lg:text-5xl mt-12 justify-center text-center mb-5">
-                    Ekstrakulikuler Lainnya
-                </h2>
-            </div>
-            <div className="pb-5">
-                <div className="text-2xl text-left grid grid-cols-1 lg:grid-cols-2 gap-y-3 gap-x-10 px-10">
-                    <KegiatanList name="Business Plan" />
-                    <KegiatanList name="English Debate Society (EDS)" />
-                    <KegiatanList name="Jurnalistik" />
-                    <KegiatanList name="Multimedia" />
-                    <KegiatanList name="Model United Nation" />
-                    <KegiatanList name="Youth Christian Community" />
-                </div>
-            </div>
         </div>
     )
     return (

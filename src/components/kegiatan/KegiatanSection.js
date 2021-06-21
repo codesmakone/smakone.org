@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function KegiatanSection(props) {
     return (
-        <div className="pt-5">
+        <div>
             <h2 className="font-medium text-3xl lg:text-5xl mt-12 justify-center text-center">
                 {props.title}
             </h2>

@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import HeroImage from '../global/HeroImage'
 import MobileNavbar from '../sidebar/MobileNavbar'
 import Sidebar from '../sidebar/Sidebar'
@@ -13,13 +13,53 @@ export default function AlumniLayout({title, hero, content}) {
         },
         {
             id:2,
-            title: "Scott Moses",
-            link:"/alumni/scott",
+            title: "Smakonecup",
+            link:"/kegiatan/smakonecup",
         },
         {
             id:3,
-            title: "Nicole Charlene",
-            link:"/alumni/nicole"
+            title: "Soundscape",
+            link:"/kegiatan/soundscape"
+        },
+        {
+            id:4,
+            title: "SMUKIEZ Theater Night",
+            link:"/kegiatan/stn"
+        },
+        {
+            id:5,
+            title: "KR1ZA",
+            link:"/kegiatan/kr1za"
+        },
+        {
+            id:6,
+            title: "Seni",
+            link:"/kegiatan/seni"
+        },
+        {
+            id:7,
+            title: "Science Club",
+            link:"/kegiatan/scj"
+        },
+        {
+            id:8,
+            title: "Pramuka",
+            link:"/kegiatan"
+        },
+        {
+            id:9,
+            title: "ONECAST",
+            link:"/kegiatan"
+        },
+        {
+            id:10,
+            title: "The Duke of Edinburgh International Award",
+            link:"/kegiatan"
+        },
+        {
+            id:11,
+            title: "Ekstrakulikuler Lainnya",
+            link:"/kegiatan/lainnya"
         }
     ]
     return (
