@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import HeroImage from '../global/HeroImage'
 import MobileNavbar from '../sidebar/MobileNavbar'
 import Sidebar from '../sidebar/Sidebar'
@@ -28,7 +28,7 @@ export default function AboutLayout({title, hero, content}) {
             id:4,
             title: "Logo",
             link:"/about/logo",
-            slug:"Logo"
+            slug:"logo"
         },
         {
             id:5,
@@ -49,7 +49,7 @@ export default function AboutLayout({title, hero, content}) {
                 <HeroImage hero={hero} title={title} />
             </div>
             <MobileNavbar  data= {sideMenuItem}/>
-            <div className="container mx-auto mt-24 px-7 lg:px-3 xl:px-0">
+            <div className="container mx-auto mt-16 lg:mt-24 px-7 lg:px-3 xl:px-0">
                 <div className="grid grid-cols-12 gap-6">
                     <div className="hidden lg:block lg:col-span-3 border-r-2">
                         <Sidebar data= {sideMenuItem}/>
