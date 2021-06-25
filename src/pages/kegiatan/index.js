@@ -5,9 +5,12 @@ import Banner from "../../images/bannerKegiatan.jpg"
 
 
 export default function KegiatanPage() {
-    const title = "Ada Apa Aja Sih di SMAK 1?"
+    const title = "Kegiatan"
     const content = (
         <div className="container mx-auto"> 
+            <h1 className="justify-center text-center p-2 font-extrabold text-5xl">
+                Ada Apa Aja Sih di SMAK 1?
+            </h1>
             <p className="justify-center text-justify p-2">
                 Banyak orang mengira di SMAK 1 itu hanya belajar, belajar, dan belajar. Memang benar sih kami banyak belajar, 
                 tetapi belajarnya bukan hanya dalam bidang akademis. Dalam bidang non-akademis kami juga banyak belajar, loh. 

@@ -1,6 +1,6 @@
 import React from 'react'
 import AlumniLayout from '../../components/page_template/AlumniLayout'
-import AlumniArticle from '../../components/Alumni/AlumniArticle'
+import AlumniArticle from '../../components/alumni/AlumniArticle'
 
 import ScottMoses from '../../images/Card/ScottMoses.jpg'
 import Banner from "../../images/bannerAlumni.jpg"
