@@ -9,7 +9,7 @@ export default function KegiatanSection(props) {
             <p className="mb-6 justify-center text-center text-lg text-gray-500">
                 {props.subtitle}
             </p>
-            <img src={props.img} className="mb-8 text-center" alt="Smakonecup"/>
+            <img src={props.img} className="mb-8 text-center" alt={props.alt}/>
         </div>
     )
 }
