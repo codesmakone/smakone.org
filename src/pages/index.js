@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
+import Parser from 'rss-parser';
 import { Parallax, Background } from 'react-parallax';
 import MainContainer from '../components/page_template/MainContainer'
 import HomeCard from '../components/home/homeCard'
@@ -10,6 +11,15 @@ import Kegiatan from '../images/home/Kegiatan.jpg'
 import Osis from '../images/home/OSIS.jpg'
 
 const IndexPage = () => {
+  const {podcast,setPodcast} = useState();
+  let parser = new Parser();
+  useEffect(()=>{
+    const RSS_URL = `https://anchor.fm/s/53711968/podcast/rss`;
+
+    parser.parseURL(RSS_URL,(data)=>{
+      console.log(data)
+    })
+  },[])
   return (
     <MainContainer>
       <div>
@@ -58,44 +68,7 @@ const IndexPage = () => {
           </div>
         </div>
         
-        <div className="shadow-xl">
-          <div className="container mx-auto py-40">
-            <h1 className="justify-center text-5xl text-center font-bold mb-5">
-              Berita Terkini
-            </h1>
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-3">
-              <div>
-                <HomeCard
-                      img={ KehidupanSMUKIERZ } 
-                      title="Bertemu Dengan SMUKIERZ" 
-                      dir="./scott"
-                  />
-              </div>
-              <div>
-                <HomeCard
-                      img={ KehidupanSMUKIERZ } 
-                      title="Bertemu Dengan SMUKIERZ" 
-                      dir="./scott"
-                  />
-              </div>
-              <div>
-                <HomeCard
-                      img={ KehidupanSMUKIERZ } 
-                      title="Bertemu Dengan SMUKIERZ" 
-                      dir="./scott"
-                  />
-              </div>
-              <div>
-                <HomeCard
-                      img={ KehidupanSMUKIERZ } 
-                      title="Bertemu Dengan SMUKIERZ" 
-                      dir="./scott"
-                  />
-              </div>
-            </div>
-          </div>
-        </div>
-
+        
         <div className="bg-yellow-400 lg:px-12 px-3 py-40 shadow-xl">
           <div className="container mx-auto">
             <h1 className="justify-center text-white text-5xl text-center font-bold mb-12">
