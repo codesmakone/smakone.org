@@ -14,29 +14,20 @@ export default function SoundscapePage() {
         <div className="container mx-auto"> 
             <KegiatanSection
                 title="Soundscape"
-                subtitle='"Malam penuh hiburan berkelas untuk menutup Smakonecup"'
+                subtitle='"Pertunjukan Spektakuler Di Akhir SOC"'
                 img={Soundscape}
             />
             <p className="justify-center text-justify p-2">
-                Banyak orang mengira di SMAK 1 itu hanya belajar, belajar, dan belajar. Memang benar sih kami banyak belajar, 
-                tetapi belajarnya bukan hanya dalam bidang akademis. Dalam bidang non-akademis kami juga banyak belajar, loh. 
-                SMAK 1 menyediakan berbagai club, ekstrakulikuler, banyak acara menarik seperti SMAK ONE CUP, dan sebagainya. 
-            </p>
-            <p className="justify-center text-justify p-2">
-                Pertama, mengenai club di SMAK 1 PENABUR. Club di SMUKI itu sangat beragam dimulai dari club graphic design Monograph, 
-                jurnalistik PENS1L, mini orchestra Smukiez Youth Chamber, band Cressendo, Smukiez Wind Ensemble, SMUKIEZ Choir, 
-                English Debate Society, ONE Model United Nations, contemporary dance SEREN1TY, modern Dance F1RST, pramuka (siswa juga 
-                bisa berpartisipasi menjadi dewan ambalan dan mengurus acara seperti PERJUSA, Raimuna, dan sebagainya), PMR, PASKIBRAKA 
-                Flash One, club fotografi, Shutter One, radio club ONE FM yang mengisi jam istirahat warga sekolah dengan lagu-lagu 
-                seru dan berita-berita terbaru dunia setiap dua minggu sekali, teater MASK yang tampil ketika Smukiez Theather Night 
-                dan acara SMAK 1 lainnya, serta club olahraga KR1ZA yang terdiri dari bulutangkis, futsal, basket, voli, tenis meja, 
-                dan banyak olahraga lainnya. Dengan banyaknya club yang disediakan, siswa-siswi dapat menikmati hobi bersama kawan-kawan 
-                yang memiliki interest dalam bidang yang sama. 
+                Setelah sepuluh hari penyelenggaraan Smak One Cup (SOC), SMAK 1 akan menutup SOC dengan pertunjukan musik yang bernama 
+                Soundscape sebagai puncak acara.
             </p>
             <p className="justify-center text-justify px-2 pt-2 pb-12">
-                Kedua, SMUKI juga menyediakan banyak ekstrakulikuleer menarik seperti bahasa korea, manga, animation, web design, 
-                multimedia, master of ceremony, business plan, kolintang, pencak silat, dan lain sebagainya. Adapun pilihan ekskur 
-                dapat berganti dari tahun ke tahun menyesuaikan dengan pihak sekolah. 
+            Soundscape merupakan pertunjukan musik yang diselenggarakan oleh panitia SOC dan terbuka untuk umum. Selama berlangsungnya Soundscape, 
+            akan diumumkan pemenang-pemenang dari berbagai lomba yang diadakan saat SOC dan dilengkapi dengan games menarik bagi para penonton. 
+            Selain itu,  terdapat penampilan oleh siswa dan artis-artis Indonesia, seperti Isyana Sarasvati (2019), Dipha Barus (2019), Kunto Aji (2019), 
+            Tulus (2015), Edho Zell (2015), dan masih banyak lagi. Bagi mereka yang bukan siswa SMAK 1, dapat menonton acara ini dengan membeli tiket secara 
+            online ataupun on the spot. Sedangkan, siswa SMAK 1 akan mendapatkan tiket tanpa dikenakan biaya. Panitia berharap agar acara ini menjadi media rekreasi 
+            dan hiburan di tengah kesibukan sekolah serta menjadi wadah untuk mengekspresikan bakat siswa-siswi terutama dalam bidang non-akademik. 
             </p>
             <div className="pb-12">
                 <div className="text-center">
