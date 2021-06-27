@@ -54,10 +54,15 @@ export default function AlumniLayout({title, hero, content}) {
         {
             id:10,
             title: "The Duke of Edinburgh International Award",
-            link:"/kegiatan"
+            link:"/kegiatan/dofe"
         },
         {
             id:11,
+            title: "Model United Nation dan English Debate Society",
+            link:"/kegiatan/muneds"
+        },
+        {
+            id:12,
             title: "Ekstrakulikuler Lainnya",
             link:"/kegiatan/lainnya"
         }
