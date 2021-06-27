@@ -12,7 +12,7 @@ export default function MUNEDSPage() {
     const content = (
         <div className="container mx-auto"> 
             <KegiatanSection
-                title="Kegiatan Setelah Sekolah"
+                title="KEGIATAN SMUKIERZ SETELAH KELAS"
                 subtitle='"Produktivitas dan istirahat yang seimbang"'
                 img={afterschool}
                 alt="Tari"
@@ -53,11 +53,18 @@ export default function MUNEDSPage() {
             <h2 className="justify-left text-left font-bold px-2 pt-4 pb-2">
                 Mencari Hiburan dan Bersantai Sejenak
             </h2>
-            <p className="justify-center text-justify px-2 pt-2 pb-12">
+            <p className="justify-center text-justify p-2">
                 Lokasi yang strategis membuat SMAK 1 PENABUR dekat dengan tempat berkumpul. Tempat terdekat seperti Family Mart, Richeese, 
                 Fore, serta Starbucks kerap dipenuhi peserta didik SMAK 1 usai sekolah. Baik untuk sekedar makan ataupun belajar bersama 
                 teman. Selain itu, tidak jarang juga peserta didik mengunjungi mall terdekat seperti, Central Park dan Taman Anggrek untuk 
                 mencari hiburan bersama teman dan mengisi ulang energi seusai sekolah.
+            </p>
+            <p className="justify-center text-justify px-2 pt-2 pb-12">
+                Melalui setiap kegiatan yang kerap dilakukan peserta didik SMAK 1, kegiatan-kegiatan 
+                yang dilakukan sebuah ekspresi yang digunakan siswa-siswi untuk melepas 	
+                diri dari kesibukan diri. Baik beristirahat, berorganisasi, maupun berkumpul bersama 
+                teman, sangat disarankan bagi siswa-siswi untuk memilih kegiatan yang tepat untuk 
+                menyegarkan diri setelah menjalani hari yang melelahkan.
             </p>
         </div>
     )
