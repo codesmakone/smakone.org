@@ -3,12 +3,7 @@ import { Parallax, Background } from 'react-parallax';
 import MainContainer from '../components/page_template/MainContainer'
 import HomeCard from '../components/home/homeCard'
 
-<<<<<<< HEAD
 import HeroImage from '../images/home/HeroImage.jpg'
-=======
-import Banner from '../images/banner2.jpg'
-import STN from '../images/kegiatan/STN.jpg'
->>>>>>> parent of a878feb (Revert "Merge branch 'master' of https://github.com/gtjusila/smakone.org")
 
 import KehidupanSMUKIERZ from '../images/home/kehidupanSMUKIERZ.jpg'
 import Kegiatan from '../images/home/Kegiatan.jpg'
@@ -19,7 +14,6 @@ const IndexPage = () => {
     <MainContainer>
       <div>
         <div>
-<<<<<<< HEAD
           <div className="relative z-20">
           <Parallax strength={100} className="mt-20 min-h-700 w-full" bgClassName="w-full" bgStyle={{width:"100%"}}>
             <Background className="w-full">
@@ -45,11 +39,6 @@ const IndexPage = () => {
 
           <div className="container relative block mx-auto mb-12 px-3 z-50">
             <div className="grid grid-cols-1 bg-blue-900 bg-opacity-90 rounded-2xl z-50">
-=======
-          <img src={STN} />
-          <div className="container mx-auto mb-6 px-3 py-5">
-            <div className="grid grid-cols-1 bg-blue-400 rounded-2xl shadow-xl">
->>>>>>> parent of a878feb (Revert "Merge branch 'master' of https://github.com/gtjusila/smakone.org")
               <div className="flex justify-center align-middle">
                 <h2 className="font-extrabold text-xl text-white">
                   Sekolah Swasta 
