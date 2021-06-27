@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 function HomeCard(props) {
     return(
         <div className="m-3">
-            <img src={ props.img } className="object-contain rounded-lg" alt="Billy" />
+            <img src={ props.img } className="object-contain rounded-lg" alt={props.alt} />
             <div className="p-2">
                 <p className="text-center">{ props.desc }</p>
                 <h2 className="font-medium text-center text-lg mb-2">{ props.title }</h2>
