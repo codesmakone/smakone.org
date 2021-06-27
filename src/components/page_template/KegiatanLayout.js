@@ -44,7 +44,7 @@ export default function AlumniLayout({title, hero, content}) {
         {
             id:8,
             title: "Pramuka",
-            link:"/kegiatan"
+            link:"/kegiatan/pramuka"
         },
         {
             id:9,
