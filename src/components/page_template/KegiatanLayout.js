@@ -49,7 +49,7 @@ export default function AlumniLayout({title, hero, content}) {
         {
             id:9,
             title: "ONECAST",
-            link:"/kegiatan"
+            link:"/kegiatan/onecast"
         },
         {
             id:10,
