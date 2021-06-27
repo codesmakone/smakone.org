@@ -44,7 +44,7 @@ export default function AlumniLayout({title, hero, content}) {
         {
             id:8,
             title: "Pramuka",
-            link:"/kegiatan"
+            link:"/kegiatan/pramuka"
         },
         {
             id:9,
@@ -63,6 +63,11 @@ export default function AlumniLayout({title, hero, content}) {
         },
         {
             id:12,
+            title: "Kegiatan Setelah Sekolah",
+            link:"/kegiatan/afterschool"
+        },
+        {
+            id:13,
             title: "Ekstrakulikuler Lainnya",
             link:"/kegiatan/lainnya"
         }

@@ -17,7 +17,7 @@ export default function AlumniPage() {
                     img={ BillyStevanus } 
                     title="Billy Stevanus" 
                     desc="Billy Stevanus merupakan salah seorang alumni SMAK 1 Penabur yang lulus pada tahun ...."
-                    dir="./scott"
+                    dir="./billy"
                 />
             </div>
             <div>
