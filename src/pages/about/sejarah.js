@@ -22,7 +22,7 @@ export default function HistoryPage() {
                 <li>Meningkatkan profesionalisme tenaga kependidikan sesuai perkembangan dunia pendidikan</li>
             </ul>
             <h2 className="justify-left text-left font-bold text-lg pt-4 pb-2">
-                History:
+                Sejarah:
             </h2>
             <p className="justify-center text-justify p-2">
             SMAK 1 PENABUR Jakarta didirikan pada tahun 1947 sebagai MULO (Meer Uitgebreid Lager Onderwijs, 
