@@ -8,10 +8,18 @@ export default function SongsPage() {
     const title = "Sekilas Tentang SMAKONE"
     const content = (
         <Content>
-            <h2 className="justify-left text-left font-bold text-xl pt-4 pb-2">
+            <h2 className="font-medium text-3xl lg:text-5xl mt-12 justify-center text-center">
                 Cinta SMAK 1
             </h2>
-
+            <br />
+            <div className="mb-8 iframe-container">
+                <iframe
+                    title="Cinta SMAK 1"
+                    src="https://www.youtube.com/embed/3u_OEOwSBjE" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
             Lirik: 
             <br />
             <br />
@@ -33,14 +41,7 @@ export default function SongsPage() {
             Berdoa slalu padaNya <br />
             Belajar dan bekerjalah <br />
             Maju terus dan pantang mundur  <br />
-            Di SMAK 1 kita jaya <br /> <br />
-            <div className="pb-12">
-                <div className="text-center">
-                    <Link className="text-white btn bg-purple-soc" target="blank" to="https://youtu.be/3u_OEOwSBjE ">
-                        Link Youtube {">"}
-                    </Link>
-                </div>
-            </div>
+            Di SMAK 1 kita jaya 
         </Content>
     )
     return (
