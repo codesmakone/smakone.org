@@ -16,6 +16,7 @@ export default function SmakonecupPage() {
                 title="Smakeonecup"
                 subtitle='"Acara tahunan yang penuh sinar matahari, keringat, dan kejutan"'
                 img={SOC}
+                alt="Smakonecup"
             />
             <p className="justify-center text-justify p-2">
                 Banyak orang mengira di SMAK 1 itu hanya belajar, belajar, dan belajar. Memang benar sih kami banyak belajar, 

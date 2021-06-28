@@ -16,6 +16,7 @@ export default function Kr1zaPage() {
                 title="KR1ZA"
                 subtitle='"Terus berlatih dan raih prestasi"'
                 img={KR1ZA}
+                alt="KR1ZA"
             />
             <p className="justify-center text-justify p-2">
                 Terdapat berbagai ekskul dan klub olahraga yang bisa diikuti siswa-siswi SMAK 1. Mulai dari basket, voli, futsal, hingga catur, dan masih banyak lagi. 

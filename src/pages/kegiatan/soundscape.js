@@ -16,6 +16,7 @@ export default function SoundscapePage() {
                 title="Soundscape"
                 subtitle='"Pertunjukan Spektakuler Di Akhir SOC"'
                 img={Soundscape}
+                alt="Soundscape"
             />
             <p className="justify-center text-justify p-2">
                 Setelah sepuluh hari penyelenggaraan Smak One Cup (SOC), SMAK 1 akan menutup SOC dengan pertunjukan musik yang bernama 

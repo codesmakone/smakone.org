@@ -14,8 +14,9 @@ export default function OnecastPage() {
         <div className="container mx-auto"> 
             <KegiatanSection
                 title="ONECAST"
-                subtitle='"Luaskanlah wawasanmu!"'
+                subtitle='"Perluas wawasanmu!"'
                 img={ONECAST}
+                alt="ONECAST"
             />
             <p className="justify-center text-justify p-2">
                 ONECAST merupakan podcast resmi dari OSIS SMAK 1 PENABUR Jakarta, yang dibawakan  

@@ -16,6 +16,7 @@ export default function StnPage() {
                 title="SMUKIEZ Theater Night"
                 subtitle='"Saat berbagai seni dipadukan dan menghasilkan sebuah karya yang memukau"'
                 img={STN}
+                alt="STN"
             />
             <p className="justify-center text-justify p-2">
                 Smukiez Theater Night (STN) adalah sebuah pertunjukan seni yang ditampilkan oleh murid-murid teater untuk siswa-siswi SMAK 1 PENABUR. 

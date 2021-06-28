@@ -16,6 +16,7 @@ export default function SeniPage() {
                 title="Seni"
                 subtitle='"Ekspresikan dirimu lewat cara yang mempesona"'
                 img={Seni}
+                alt="Seni"
             />
             <div className="pb-5">
                 <div className="text-2xl text-left grid grid-cols-1 lg:grid-cols-2 gap-y-3 gap-x-10 px-10">

@@ -1,9 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import KegiatanSection from '../../components/kegiatan/KegiatanSection'
 import KegiatanLayout from '../../components/page_template/KegiatanLayout'
-
-import MUN from '../../images/kegiatan/MUN.jpg'
 
 import Banner from "../../images/bannerKegiatan.jpg"
 
@@ -12,12 +9,21 @@ export default function DofEPage() {
     const title = "Kegiatan"
     const content = (
         <div className="container mx-auto"> 
-            <KegiatanSection
-                title="The Duke of Edinburgh’s International Award"
-                subtitle='"Penghargaan bagi kamu yang suka berpetualang sambil mengembangkan kemampuan"'
-                img={MUN}
-                alt="MUN"
-            />
+            <h2 className="font-medium text-3xl lg:text-5xl mt-12 justify-center text-center">
+                The Duke of Edinburgh’s International Award
+            </h2>
+            <p className="mb-6 justify-center text-center text-lg text-gray-500">
+                "Penghargaan bagi kamu yang suka berpetualang sambil mengembangkan kemampuan"
+            </p>
+            <div className="mb-8 iframe-container">
+                <iframe
+                    title="The Duke of Edinburgh’s International Award"
+                    src="https://www.youtube-nocookie.com/embed/EJWgbe1eWKA" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div>
             <p className="justify-center text-justify p-2">
                 Penghargaan Internasional Duke of Edinburgh (The Duke of Edinburgh’s International Award) merupakan kerangka pendidikan dan pembelajaran 
                 non-formal yang beroperasi di lebih dari 130 wilayah dan negara. Program yang lebih dikenal dengan nama DofE ini dipelopori  oleh 
@@ -75,6 +81,7 @@ export default function DofEPage() {
             <p className="justify-center text-justify px-2 pt-2 pb-12">
                 Untuk informasi lebih lanjut, dapat mengunjungi website di https://intaward.org/ atau menghubungi wali kelas masing-masing.
             </p>
+            </div>
             <div className="pb-12">
                 <div className="text-center">
                     <Link className="text-white btn bg-red-500" target="blank" to="https://intaward.org/">

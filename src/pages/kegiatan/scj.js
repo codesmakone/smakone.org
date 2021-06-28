@@ -14,6 +14,7 @@ export default function ScjPage() {
                 title="Science Club"
                 subtitle='"Teruslah belajar dan raih prestasi"'
                 img={OSN}
+                alt="OSN"
             />
             <p className="justify-center text-justify p-2">
             Sebuah komunitas yang memberikan tempat bagi murid SMAK 1 untuk bisa memperdalam ilmu 

@@ -36,6 +36,7 @@
     "timers-browserify": "^2.0.12"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
     "autoprefixer": "^10.2.6",
     "gatsby-plugin-postcss": "^4.7.1",
     "postcss": "^8.3.2",
