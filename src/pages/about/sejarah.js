@@ -17,10 +17,10 @@ export default function HistoryPage() {
             <h2 className="justify-left text-left font-bold text-lg pt-4 pb-2">
                 Misi SMAK 1:
             </h2>
-            <p className="justify-center text-justify p-2">
-            - Menyiapkan calon inventor / ilmuwan masa depan yang menguasai ilmu pengetahuan dan teknologi, kreatif, inovatif, mandiri, dan proaktif serta mempunyai landasan iman yang teguh <br />
-            - Meningkatkan profesionalisme tenaga kependidikan sesuai perkembangan dunia pendidikan
-            </p>
+            <ul className="list-disc px-6 pt-2 pb-12">
+                <li>Menyiapkan calon inventor / ilmuwan masa depan yang menguasai ilmu pengetahuan dan teknologi, kreatif, inovatif, mandiri, dan proaktif serta mempunyai landasan iman yang teguh</li>
+                <li>Meningkatkan profesionalisme tenaga kependidikan sesuai perkembangan dunia pendidikan</li>
+            </ul>
             <h2 className="justify-left text-left font-bold text-lg pt-4 pb-2">
                 History:
             </h2>
@@ -43,7 +43,7 @@ export default function HistoryPage() {
             Pada tahun 1956, sekolah tersebut terpilih <b>sebagai sekolah percontohan</b> untuk pengembangan sekolah-sekolah lain di Jakarta. 
             Pada tahun yang sama SMAK 1 juga mencatatkan rekor tertinggi Ujian Nasional Fisika dan Kimia Indonesia, <b>prestasi yang diraih hingga saat ini</b>.
             </p>
-            <p className="justify-center text-justify p-2">
+            <p className="justify-center text-justify px-2 pt-2 pb-12">
             Pada bulan Maret 1989, BPK Jabar KPS Jakarta berganti nama menjadi BPK PENABUR KPS Jakarta. Pada tahun yang sama SMAK 1 dipindahkan ke lokasi saat ini di Jalan Tanjung Duren Raya. 
             Sekolah ini memiliki kantin, lapangan olahraga, laboratorium sains, perpustakaan, auditorium, laboratorium bahasa, ruang musik dan dansa, rumah kaca, pusat konseling siswa, ruang OSIS, 
             aula pertemuan besar (untuk 1000 orang), dua puluh tujuh ruang kelas, dan berbagai fasilitas lainnya.
