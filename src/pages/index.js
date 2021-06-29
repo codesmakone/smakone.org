@@ -10,6 +10,11 @@ import KehidupanSMUKIERZ from '../images/home/kehidupanSMUKIERZ.jpg'
 import Kegiatan from '../images/home/Kegiatan.jpg'
 import Osis from '../images/home/OSIS.jpg'
 
+import Smakonecup from '../images/kegiatan/SOC.jpg'
+import Soundscape from '../images/kegiatan/Soundscape.jpg'
+import STN from '../images/kegiatan/STN.jpg'
+import Kriza from '../images/kegiatan/KR1ZA.jpg'
+
 const IndexPage = () => {
   const {podcast,setPodcast} = useState();
   let parser = new Parser();
@@ -80,24 +85,32 @@ const IndexPage = () => {
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:mx-5 rounded-2xl">
                   <HomeCard
-                      img={ KehidupanSMUKIERZ } 
-                      title="Ada Apa Aja Sih di SMUKI?" 
-                      dir="./scott"
-                  />
-                  <HomeCard
-                      img={ KehidupanSMUKIERZ } 
+                      img={ Smakonecup } 
+                      alt="Smakonecup"
+                      desc='"Acara tahunan yang penuh sinar matahari, keringat, dan kejutan"'
                       title="Smakonecup" 
-                      dir="./scott"
+                      dir="/kegiatan/smakonecup"
                   />
                   <HomeCard
-                      img={ KehidupanSMUKIERZ } 
+                      img={ Soundscape } 
+                      alt="Soundscape"
+                      desc='"Pertunjukan Spektakuler Di Akhir Smakonecup"'
                       title="Soundscape" 
-                      dir="./scott"
+                      dir="/kegiatan/soundscape"
                   />
                   <HomeCard
-                      img={ KehidupanSMUKIERZ } 
+                      img={ STN } 
+                      alt="STN"
+                      desc='"Saat berbagai seni dipadukan dan menghasilkan sebuah karya yang memukau"'
                       title="SMUKIEZ Theater Night" 
-                      dir="./scott"
+                      dir="/kegiatan/stn"
+                  />
+                  <HomeCard
+                      img={ Kriza } 
+                      alt="KR1ZA"
+                      desc='"Terus berlatih dan raih prestasi"'
+                      title="KR1ZA" 
+                      dir="/kegiatan/kr1za"
                   />
               </div>
             </div>

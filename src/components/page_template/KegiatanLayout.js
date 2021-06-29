@@ -63,11 +63,6 @@ export default function AlumniLayout({title, hero, content}) {
         },
         {
             id:12,
-            title: "Kegiatan Setelah Sekolah",
-            link:"/kegiatan/afterschool"
-        },
-        {
-            id:13,
             title: "Ekstrakulikuler Lainnya",
             link:"/kegiatan/lainnya"
         }

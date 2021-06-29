@@ -1,18 +1,18 @@
 import React from 'react'
+import { Link } from 'gatsby'
+import SmukierzLayout from '../../components/page_template/SmukierzLayout'
 import KegiatanSection from '../../components/kegiatan/KegiatanSection'
-import KegiatanLayout from '../../components/page_template/KegiatanLayout'
 
-import afterschool from '../../images/kegiatan/afterschool.jpg'
-
-import Banner from "../../images/bannerKegiatan.jpg"
+import Banner from "../../images/17an.jpg"
+import afterschool from '../../images/afterschool.jpg'
 
 
-export default function MUNEDSPage() {
+export default function AfterPage() {
     const title = "Kegiatan"
     const content = (
         <div className="container mx-auto"> 
             <KegiatanSection
-                title="KEGIATAN SMUKIERZ SETELAH KELAS"
+                title="Kegiatan Setelah Kelas"
                 subtitle='"Produktivitas dan istirahat yang seimbang"'
                 img={afterschool}
                 alt="Tari"
@@ -69,7 +69,7 @@ export default function MUNEDSPage() {
         </div>
     )
     return (
-        <KegiatanLayout 
+        <SmukierzLayout 
             hero = {Banner}
             title= {title}
             content={content}/>

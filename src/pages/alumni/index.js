@@ -16,7 +16,7 @@ export default function AlumniPage() {
                 <AlumniCard
                     img={ BillyStevanus } 
                     title="Billy Stevanus" 
-                    desc="Billy Stevanus merupakan salah seorang alumni SMAK 1 Penabur yang lulus pada tahun ...."
+                    desc='"Alumni yang selalu aktif dan bersemangat"'
                     dir="./billy"
                 />
             </div>
@@ -32,8 +32,8 @@ export default function AlumniPage() {
                 <AlumniCard
                     img={ NicoleCharlene } 
                     title="Nicole Charlene" 
-                    desc="Billy Stevanus merupakan salah seorang alumni SMAK 1 Penabur yang lulus pada tahun ...."
-                    dir="./scott"
+                    desc='"Perempuan yang suka melayani dengan segudang prestasi"'
+                    dir="./nicole"
                 />
             </div>
         </div>
