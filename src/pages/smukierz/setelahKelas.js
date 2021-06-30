@@ -7,7 +7,7 @@ import afterschool from '../../images/afterschool.jpg'
 
 
 export default function AfterPage() {
-    const title = "Kegiatan"
+    const title = "Kehidupan SMUKIERZ"
     const content = (
         <div className="container mx-auto"> 
             <KegiatanSection

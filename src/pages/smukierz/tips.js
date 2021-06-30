@@ -7,7 +7,7 @@ import Tips from "../../images/tips.jpg"
 
 
 export default function TipsPage() {
-    const title = "Kegiatan"
+    const title = "Kehidupan SMUKIERZ"
     const content = (
         <div className="container mx-auto"> 
             <KegiatanSection
