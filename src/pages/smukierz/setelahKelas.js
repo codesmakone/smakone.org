@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import SmukierzLayout from '../../components/page_template/SmukierzLayout'
 import KegiatanSection from '../../components/kegiatan/KegiatanSection'
 

@@ -17,10 +17,8 @@ export default function LainnyaPage() {
             <div className="pb-5">
                 <div className="text-2xl text-left grid grid-cols-1 lg:grid-cols-2 gap-y-3 gap-x-10 px-10">
                     <KegiatanList name="Business Plan" />
-                    <KegiatanList name="English Debate Society (EDS)" />
                     <KegiatanList name="Jurnalistik" />
                     <KegiatanList name="Multimedia" />
-                    <KegiatanList name="Model United Nation" />
                     <KegiatanList name="Palang Merah Remaja" />
                     <KegiatanList name="Paskibra" />
                     <KegiatanList name="Youth Christian Community" />

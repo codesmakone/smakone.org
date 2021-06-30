@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import KegiatanSection from '../../components/kegiatan/KegiatanSection'
 import KegiatanLayout from '../../components/page_template/KegiatanLayout'
 
-import Soundscape from '../../images/kegiatan/soundscape.jpg'
+import Soundscape from '../../images/kegiatan/Sound.jpg'
 
 import Banner from "../../images/bannerKegiatan.jpg"
 

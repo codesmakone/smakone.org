@@ -11,9 +11,13 @@ import Kegiatan from '../images/home/Kegiatan.jpg'
 import Osis from '../images/home/OSIS.jpg'
 
 import Smakonecup from '../images/kegiatan/SOC.jpg'
-import Soundscape from '../images/kegiatan/Soundscape.jpg'
+import Sound from '../images/kegiatan/Sound.jpg'
 import STN from '../images/kegiatan/STN.jpg'
 import Kriza from '../images/kegiatan/KR1ZA.jpg'
+
+import Kehidupan from '../images/17an.jpg'
+import Tips from '../images/tips.jpg'
+import Afterschool from '../images/afterschool.jpg'
 
 const IndexPage = () => {
   const {podcast,setPodcast} = useState();
@@ -30,25 +34,24 @@ const IndexPage = () => {
       <div>
         <div>
           <div className="relative z-10">
-          <Parallax strength={200} className="mt-20 min-h-700 w-full" bgClassName="w-full" bgStyle={{width:"100%"}}>
-            <Background className="w-full">
-            <div className="grid grid-cols-12 min-h-700">
-              <div className="col-span-6 bg-gray-100 flex flex-col justify-center" >
-                <h1 className="text-6xl font-bold ml-16">Selamat Datang</h1>
-                <h1 className="text-3xl font-serif mt-3 ml-16">Di Website OSIS SMAK 1 BPK Penabur Jakarta</h1>
-             </div>
-            <div className="col-span-6">
-              <img src={HeroImage} className="object-cover min-h-700"/>
+            <Parallax strength={200} className="mt-20 min-h-700 w-full" bgClassName="w-full" bgStyle={{width:"100%"}}>
+              <Background className="w-full">
+                <div className="grid grid-cols-6 lg:grid-cols-12 min-h-700">
+                  <div className="col-span-6 lg:bg-gray-100 bg-white flex flex-col justify-center my-5" >
+                    <h1 className="text-6xl font-bold ml-16">Selamat Datang</h1>
+                    <h1 className="text-3xl font-serif mt-3 ml-16">Di Website OSIS SMAK 1 BPK Penabur Jakarta</h1>
+                  </div>
+                  <div className="col-span-6">
+                    <img src={HeroImage} className="object-cover min-h-700"/>
+                  </div>
+                </div>
+              </Background>
+            </Parallax>
+            <div class="absolute z-10 -bottom-10 left-0 w-full">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path style={{fill:"rgb(254,254,255)"}}  fill-opacity="1" d="M0,192L80,186.7C160,181,320,171,480,181.3C640,192,800,224,960,218.7C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+              </svg>
             </div>
-          </div>
-
-            </Background>
-          </Parallax>
-          <div class="absolute z-10 -bottom-10 left-0 w-full">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-              <path style={{fill:"rgb(254,254,255)"}}  fill-opacity="1" d="M0,192L80,186.7C160,181,320,171,480,181.3C640,192,800,224,960,218.7C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
-            </svg>
-        </div>
           </div>
 
 
@@ -92,7 +95,7 @@ const IndexPage = () => {
                       dir="/kegiatan/smakonecup"
                   />
                   <HomeCard
-                      img={ Soundscape } 
+                      img={ Sound } 
                       alt="Soundscape"
                       desc='"Pertunjukan Spektakuler Di Akhir Smakonecup"'
                       title="Soundscape" 
@@ -124,23 +127,29 @@ const IndexPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-4">
             <div>
               <HomeCard
-                    img={ KehidupanSMUKIERZ } 
-                    title="Bertemu Dengan SMUKIERZ" 
-                    dir="./scott"
+                    img={ Kehidupan } 
+                    alt="Kehidupan Selama Menjadi SMUKIERZ" 
+                    desc='"Hidup penuh keseimbangan"'
+                    title="Kehidupan Selama Menjadi SMUKIERZ" 
+                    dir="/smukierz"
                 />
             </div>
             <div>
               <HomeCard
-                    img={ KehidupanSMUKIERZ } 
-                    title="Bertemu Dengan SMUKIERZ" 
-                    dir="./scott"
+                    img={ Tips } 
+                    alt="Tips Belajar"
+                    desc='"Selalu berusaha meraih yang terbaik"'
+                    title="Tips Belajar SMUKIERZ" 
+                    dir="/smukierz/tips"
                 />
             </div>
             <div>
               <HomeCard
-                    img={ KehidupanSMUKIERZ } 
-                    title="Bertemu Dengan SMUKIERZ" 
-                    dir="./scott"
+                    img={ Afterschool } 
+                    alt="Kegiatan setelah kelas"
+                    title="Kegiatan Setelah Kelas" 
+                    desc='"Produktivitas dan istirahat yang seimbang"'
+                    dir="/smukierz/setelahKelas"
                 />
             </div>
             <div>

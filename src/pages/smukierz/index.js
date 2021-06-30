@@ -3,7 +3,7 @@ import SmukierzLayout from '../../components/page_template/SmukierzLayout'
 
 import Banner from "../../images/17an.jpg"
 
-{/*import LifeAtSMAKONE from "../../images/LifeatSmakone.mp4"*/}
+/*import LifeAtSMAKONE from "../../images/LifeatSmakone.mp4"*/
 
 
 export default function KehidupanPage() {
@@ -17,7 +17,7 @@ export default function KehidupanPage() {
                 "Hidup penuh keseimbangan"
             </p>
             <div className="mb-8 iframe-container">
-                <img src={Banner}/>
+                <img src={Banner} alt="sementara"/>
                 {/*
                 <video controls>
                     <source src={LifeAtSMAKONE} type="video/mp4"/>

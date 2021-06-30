@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import AboutLayout from '../../components/page_template/AboutLayout'
 import Content from '../../components/text_helper/Content'
 import Banner from "../../images/banner2.jpg"
