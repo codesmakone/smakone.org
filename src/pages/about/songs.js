@@ -6,7 +6,7 @@ import Banner from "../../images/banner2.jpg"
 export default function SongsPage() {
     const title = "Sekilas Tentang SMAKONE"
     const content = (
-        <Content>
+        <div>
             <h2 className="font-medium text-3xl lg:text-5xl mt-12 justify-center text-center">
                 Cinta SMAK 1
             </h2>
@@ -41,7 +41,7 @@ export default function SongsPage() {
             Belajar dan bekerjalah <br />
             Maju terus dan pantang mundur  <br />
             Di SMAK 1 kita jaya 
-        </Content>
+        </div>
     )
     return (
         <AboutLayout 
