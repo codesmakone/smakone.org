@@ -162,7 +162,7 @@ const IndexPage = () => {
           </div>
         </div>
 
-        <div className="bg-red-300 lg:px-12 px-3 py-40 shadow-xl">
+        <div className="bg-red-300 lg:px-12 px-3 py-40">
           <div className="container mx-auto">
             <h1 className="justify-center text-white text-5xl text-center font-bold mb-12">
               Kenal Kami Lebih Jauh
