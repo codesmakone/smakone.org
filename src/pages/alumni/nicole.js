@@ -10,10 +10,11 @@ export default function NicolePage() {
     const content = (
         <div className="grid grid-cols-1 gap-3 py-5">
             <div>
-            <img src={ Nicole } className="h-96 mx-auto rounded-lg" alt="Nicole" />
-            <h1 className="text-center mt-10 mb-8 font-bold text-5xl">
+            <img src={ Nicole } className="lg:h-96 mx-auto rounded-lg" alt="Nicole" />
+            <h1 className="text-center mt-5 font-bold text-5xl">
                 Nicole Charlene
             </h1>
+            <p className="text-center mb-8">"Perempuan yang suka melayani dengan segudang prestasi"</p>
             <AlumniArticle>
                 Nicole Charlene merupakan lulusan tahun 2020 dari SMAK 1 PENABUR JAKARTA yang  telah memenangkan lebih dan 30 lomba pada skala lokal hingga nasional 
                 dalam waktu singkatnya di SMUKI. Setelah lulus dari SMAK 1, Ia melanjutkan pendidikannya di Fakultas Hubungan Internasional Universitas Leiden, 

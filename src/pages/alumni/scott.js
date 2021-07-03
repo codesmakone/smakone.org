@@ -10,10 +10,11 @@ export default function ScottPage() {
     const content = (
         <div className="grid grid-cols-1 gap-3 py-5">
             <div>
-            <img src={ ScottMoses } className="h-96 mx-auto rounded-lg" alt="Scott Moses" />
-            <h1 className="text-center mt-10 mb-8 font-bold text-5xl">
+            <img src={ ScottMoses } className="lg:h-96 mx-auto rounded-lg" alt="Scott Moses" />
+            <h1 className="text-center mt-5 font-bold text-5xl">
                 Scott Moses
             </h1>
+            <p className="text-center mb-8">"Anak muda berbakat dengan segudang pengalaman di bidangnya"</p>
             <AlumniArticle>
                 Scott Moses Sunarto yang akrab dipanggil “Scott” menjadi salah satu lulusan terbaik SMAK 1 PENABUR Jakarta. 
                 Selama bersekolah di SMAK 1, ia telah berhasil memenangkan berbagai perlombaan termasuk kompetisi mancanegara 

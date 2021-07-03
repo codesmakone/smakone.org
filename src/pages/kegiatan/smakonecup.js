@@ -19,25 +19,24 @@ export default function SmakonecupPage() {
                 alt="Smakonecup"
             />
             <p className="justify-center text-justify p-2">
-                Banyak orang mengira di SMAK 1 itu hanya belajar, belajar, dan belajar. Memang benar sih kami banyak belajar, 
-                tetapi belajarnya bukan hanya dalam bidang akademis. Dalam bidang non-akademis kami juga banyak belajar, loh. 
-                SMAK 1 menyediakan berbagai club, ekstrakulikuler, banyak acara menarik seperti SMAK ONE CUP, dan sebagainya. 
+                Smakonecup  atau yang biasa disingkat SOC adalah sebuah acara tahunan yang berisikan lomba-lomba akademik dan non-akademik antar 
+                sekolah yang diselenggarakan oleh SMAK 1 PENABUR Jakarta. Acara ini biasanya diadakan di bulan Oktober dan berlangsung selama 10 
+                hari. Smakonecup pertama kali diadakan pada tahun 1995, jadi acara ini sudah dilakukan oleh 26 generasi murid SMAK 1. Dalam acara 
+                ini, terdapat lomba akademis seperti lomba Matematika, IPA, dan Bahasa Inggris untuk SMP dan debat bagi SMA. Sedangkan lomba 
+                non-akademis berupa lomba olahraga, musik, seni, dan PASKIBRA untuk tingkat SMA.
             </p>
             <p className="justify-center text-justify p-2">
-                Pertama, mengenai club di SMAK 1 PENABUR. Club di SMUKI itu sangat beragam dimulai dari club graphic design Monograph, 
-                jurnalistik PENS1L, mini orchestra Smukiez Youth Chamber, band Cressendo, Smukiez Wind Ensemble, SMUKIEZ Choir, 
-                English Debate Society, ONE Model United Nations, contemporary dance SEREN1TY, modern Dance F1RST, pramuka (siswa juga 
-                bisa berpartisipasi menjadi dewan ambalan dan mengurus acara seperti PERJUSA, Raimuna, dan sebagainya), PMR, PASKIBRAKA 
-                Flash One, club fotografi, Shutter One, radio club ONE FM yang mengisi jam istirahat warga sekolah dengan lagu-lagu 
-                seru dan berita-berita terbaru dunia setiap dua minggu sekali, teater MASK yang tampil ketika Smukiez Theather Night 
-                dan acara SMAK 1 lainnya, serta club olahraga KR1ZA yang terdiri dari bulutangkis, futsal, basket, voli, tenis meja, 
-                dan banyak olahraga lainnya. Dengan banyaknya club yang disediakan, siswa-siswi dapat menikmati hobi bersama kawan-kawan 
-                yang memiliki interest dalam bidang yang sama. 
+                SOC diselenggarakan dengan tujuan sebagai wadah bagi peserta didik SMAK 1 dan juga sekolah-sekolah lainnya untuk menyalurkan 
+                kemampuan mereka di bidang akademik dan non akademik, serta sebagai upaya mempererat hubungan SMAK 1 dengan sekolah lain. 
+                Selain itu, SOC juga dapat menjadi tempat generasi muda mengembangkan potensi diri mereka secara luas dan mendalam.	 
             </p>
             <p className="justify-center text-justify px-2 pt-2 pb-12">
-                Kedua, SMUKI juga menyediakan banyak ekstrakulikuleer menarik seperti bahasa korea, manga, animation, web design, 
-                multimedia, master of ceremony, business plan, kolintang, pencak silat, dan lain sebagainya. Adapun pilihan ekskur 
-                dapat berganti dari tahun ke tahun menyesuaikan dengan pihak sekolah. 
+                Acara ini diorganisir oleh panitia siswa yang telah dibentuk 9 bulan sebelum SOC berlangsung. Panitia lomba yang berjumlah 
+                sekitar 150 orang ini, bertugas untuk menangani semua persiapan lomba, mulai dari mengumpulkan peserta lomba, merinci kegiatan lomba, 
+                hingga mencari dana. Peserta didik yang berminat untuk menjadi bagian dari kepanitiaan SOC harus mendaftarkan diri terlebih dahulu 
+                di bidang yang diminati, dan selanjutnya akan menjalani proses seleksi panitia, sebelum akhirnya dapat bekerja di bidangnya 
+                masing-masing. Tentunya setiap panitia akan diberikan sertifikat resmi dari sekolah ketika acara sudah selesai. Bukan hanya itu, 
+                kenangan yang melekat selamanya juga akan dirasakan oleh semua orang yang berpartisipasi dalam Smakonecup ini. 
             </p>
             <div className="pb-12">
                 <div className="text-center">

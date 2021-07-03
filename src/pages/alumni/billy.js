@@ -10,10 +10,11 @@ export default function BillyPage() {
     const content = (
         <div className="grid grid-cols-1 gap-3 py-5">
             <div>
-            <img src={ BillyStevanus } className="h-96 mx-auto rounded-lg" alt="Billy Stevanus" />
-            <h1 className="text-center mt-10 mb-8 font-bold text-5xl">
+            <img src={ BillyStevanus } className="lg:h-96 mx-auto rounded-lg" alt="Billy Stevanus" />
+            <h1 className="text-center mt-5 font-bold text-5xl">
                 Billy Stevanus
             </h1>
+            <p className="text-center mb-8">"Alumni yang selalu aktif dan bersemangat"</p>
             <AlumniArticle>
                 Billy Stevanus, salah satu alumni SMAK 1 yang identik dengan ‘aktif’ dan ‘bersemangat’ yang lulus pada tahun 2016. 
                 Setelah lulus dari SMAK 1, ia melanjutkan pendidikannya di fakultas <i>Communication Science</i> Universitas Pelita Harapan (UPH) dengan jurusan <i>Broadcast and Journalism</i>. 
