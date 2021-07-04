@@ -63,7 +63,7 @@ const IndexPage = () => {
             <div className="grid grid-cols-1 bg-blue-900 bg-opacity-90 rounded-2xl z-50">
               <div className="flex justify-center align-middle">
                 <h2 className="font-extrabold text-xl text-white">
-                  Sekolah Swasta 
+                  Sekolah swasta 
                 </h2>
               </div>
               <div className="flex justify-center">
@@ -73,7 +73,7 @@ const IndexPage = () => {
               </div>
               <div className="flex justify-center">
                 <h2 className="font-extrabold text-xl text-white text-center">
-                  Berdasarkan Rerata TPS UTBK 2020
+                  di Jakarta berdasarkan rerata TPS UTBK 2020
                 </h2>
               </div>
             </div>
