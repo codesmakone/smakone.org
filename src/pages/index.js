@@ -80,11 +80,17 @@ const IndexPage = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 my-9">
               <div className="bg-red-800 rounded-2xl z-50 text-center p-12">
+                <h1 className="font-extrabold text-7xl text-white">
+                  #2
+                </h1>
                 <h1 className="font-extrabold text-2xl text-white">
                   Alumni SMAK 1 tersebar di seluruh dunia
                 </h1>
               </div>
               <div className="bg-yellow-400 rounded-2xl z-50 text-center p-12">
+                <h1 className="font-extrabold text-7xl text-white">
+                  #3
+                </h1>
                 <h1 className="font-extrabold text-2xl text-white">
                   Sudah dikenal sampai ke mancanegara
                 </h1>
