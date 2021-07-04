@@ -2,20 +2,63 @@ import React from 'react'
 import OsisLayout from '../../components/page_template/OsisLayout'
 import Content from '../../components/text_helper/Content'
 import Banner from "../../images/banner2.jpg"
-
+import KegiatanSection from '../../components/kegiatan/KegiatanSection'
+import OSIS from '../../images/pelantikan.jpg'
 
 export default function OsisPage() {
     const title = "Deeper Look Into SMAK 1 Student Council"
     const content = (
         <Content>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor nulla vel accumsan blandit. Mauris luctus sem non quam vestibulum, non placerat ipsum venenatis. Nam vitae felis et lectus porttitor sagittis. Nunc sit amet metus ornare, auctor lorem at, congue orci. Aliquam tempus tellus diam, quis viverra felis laoreet ac. Vestibulum at dolor ut arcu dictum tincidunt. Pellentesque et justo nec nibh tincidunt bibendum nec quis elit. Nullam porttitor magna semper, cursus odio quis, tincidunt purus. Aenean mattis magna in sapien rhoncus finibus. Quisque eleifend lacus sit amet mollis posuere. Maecenas efficitur eros viverra dui lacinia, viverra tristique eros semper.
-
-Aliquam sollicitudin elementum dui, vitae dapibus neque efficitur ut. Fusce mattis libero dolor, sit amet mollis purus auctor eget. Cras justo purus, venenatis nec eros semper, pulvinar consectetur velit. Vivamus dignissim sodales lorem a eleifend. Nullam aliquet nulla vel neque auctor rutrum. Mauris ut quam condimentum, efficitur mauris sed, porta magna. Proin vitae ante quis justo porta volutpat id vitae tortor. Curabitur mattis mi in est blandit, ac ultrices turpis dictum. Suspendisse vel felis nisi. Vivamus id turpis mollis, consequat ipsum in, consequat turpis. Nullam tempor elementum nunc non facilisis. Praesent sed massa ac libero rhoncus elementum et et purus. Donec molestie, ex eu pellentesque rhoncus, erat lectus finibus risus, ut gravida odio velit blandit nunc.
-
-Sed molestie tortor in eros pulvinar laoreet. Nulla porttitor ligula sed mollis lacinia. Nam lorem mi, pellentesque eu placerat nec, ultricies vel velit. Suspendisse pretium magna viverra velit sodales blandit. Vivamus eu justo diam. Donec eleifend efficitur diam. Maecenas id ipsum urna. Praesent at lorem rhoncus mauris faucibus iaculis nec a nulla. Pellentesque eu orci id neque efficitur sagittis. Duis ut malesuada tortor, ut tempus libero. Mauris iaculis ut ante sed volutpat. Nulla posuere pharetra lorem, id dignissim ante laoreet eu. In hac habitasse platea dictumst. Aenean non metus mollis, consectetur lorem eget, pharetra felis. Suspendisse in ullamcorper elit.
-
-In hac habitasse platea dictumst. Nullam ut elit tincidunt, pretium lacus et, fringilla odio. Sed commodo purus sed dolor hendrerit, ac dignissim ipsum accumsan. In in posuere metus. Maecenas quis turpis velit. Duis bibendum sem sed orci porttitor, eu sodales ipsum consequat. Vestibulum aliquet semper mattis. Donec metus neque, tristique sit amet lacus non, ornare laoreet orci. Morbi molestie euismod est, ut lacinia lacus varius sed. Vestibulum dolor sapien, vestibulum sed elementum in, pulvinar eget lacus. Aliquam nec ipsum ut tellus varius pharetra vel in. (400 Word)
-            </Content>
+            <div className="container mx-auto">
+            <KegiatanSection
+                title="Tentang Kami"
+                img={OSIS}
+                alt="Pelantikan OSIS"
+            />
+            <p className="justify-center text-justify p-2">
+                OSIS SMAK 1 merupakan satu-satunya organisasi resmi di SMAK 1 PENABUR Jakarta. 
+                Sejak awal dibentuk, kami selalu dituntut untuk membuat salah satu sekolah terbaik di Indonesia menjadi lebih baik lagi. 
+                Dengan satu tim, satu visi, dan satu misi, OSIS SMAK 1 mengarah ke arah yang benar dengan segudang prestasi termasuk menyelenggarakan ajang <i>SMAK ONE CUP setiap</i> tahunnya. 
+                Jalan yang akan dilewati bebas dari hambatan untuk OSIS SMAK 1 terus melebarkan sayapnya. 
+            </p>
+            <br />
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <h2 className="font-medium text-lg lg:text-5xl mt-12 justify-center text-center">
+                        Visi Kami
+                    </h2>
+                </div>
+                <div>
+                    <h2 className="font-medium text-lg lg:text-5xl mt-12 justify-center text-center">
+                        Misi Kami
+                    </h2>
+                </div>
+                <div>
+                    <p className="justify-center text-center p-2">
+                        Meningkatkan eksistensi SMAK 1 PENABUR melalui pengembangan prestasi, potensi, dan bakat peserta didik SMAK 1 PENABUR, baik di bidang akademik maupun non-akademik, 
+                        sekaligus membangun karakter yang berlandaskan iman, ilmu, dan pelayanan, serta mengedepankan pemanfaatan teknologi modern dan terwujudnya cita-cita sekaligus aspirasi warga SMAK 1 PENABUR
+                    </p>
+                </div>
+                <div>
+                    <p className="justify-center text-center p-2">
+                        Memperkenalkan serta memberikan kesempatan bagi seluruh peserta didik untuk menunjukkan kemampuan, talenta, dan hasil karya dalam program yang diadakan OSIS
+                    </p>
+                    <p className="justify-center text-center p-2">
+                        Membantu menjaga kesehatan mental dan kesehatan fisik, serta membangun karakter positif bagi warga SMAK 1 PENABUR
+                    </p>
+                    <p className="justify-center text-center p-2">
+                        Meningkatkan keterampilan dan kesiapan dalam era modern, serta menginspirasi seluruh warga SMAK 1 PENABUR untuk selalu melangkah ke depan
+                    </p>
+                    <p className="justify-center text-center p-2">
+                        Menjawab setiap aspirasi yang telah disampaikan serta merealisasikan dengan baik seluruh program OSIS sebagai bentuk nyata berjalannya OSIS yang penuh tanggung jawab
+                    </p>
+                    <p className="justify-center text-center px-2 pt-2 pb-12">
+                        Menciptakan relasi yang baik dan harmonis antar seluruh warga SMAK 1 PENABUR disertai peran OSIS sebagai penghubungnya
+                    </p>
+                </div>
+            </div>
+            </div>    
+        </Content>
     )
     return (
         <OsisLayout 

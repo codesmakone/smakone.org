@@ -29,7 +29,7 @@ export default function AfterPage() {
                 <Card
                     img={ Gabriela } 
                     alt="Gabriela Erin" 
-                    desc='"Matematikawan dengan puluhan mendali"'
+                    desc='"Matematikawan dengan puluhan medali"'
                     title="Gabriela Erin" 
                     dir="./gabriela"
                 />
