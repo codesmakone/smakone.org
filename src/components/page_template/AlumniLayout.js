@@ -29,7 +29,7 @@ export default function AlumniLayout({title, hero, content}) {
             </div>
             <MobileNavbar  data= {sideMenuItem}/>
             <div className="container mx-auto mt-16 lg:mt-24 px-7 lg:px-3 xl:px-0">
-                <div className="grid grid-cols-12 gap-6">
+                <div className="container grid grid-cols-12 gap-6">
                     <div className="hidden lg:block lg:col-span-3 border-r-2">
                         <Sidebar data= {sideMenuItem}/>
                     </div>
