@@ -1,6 +1,6 @@
 import React from 'react'
 import OsisLayout from '../../components/page_template/OsisLayout'
-import Content from '../../components/text_helper/Content'
+import Content from '../../components/block/Content'
 import Banner from "../../images/banner2.jpg"
 import Osis from '../../components/osis/OsisSection'
 import jolene from '../../images/team/jolene.jpg'
