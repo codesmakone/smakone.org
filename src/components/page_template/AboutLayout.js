@@ -14,7 +14,7 @@ export default function AboutLayout({title, hero, content}) {
         },
         {
             id:2,
-            title: "Sejarah, Visi, Misi",
+            title: "Sejarah, Visi, dan Misi",
             link:"/about/sejarah",
             slug:"history"
         },

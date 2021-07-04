@@ -18,6 +18,7 @@ import Kriza from '../images/kegiatan/KR1ZA.jpg'
 import Kehidupan from '../images/17an.jpg'
 import Tips from '../images/tips.jpg'
 import Afterschool from '../images/afterschool.jpg'
+import Interview from '../images/Card/GabrielaErin.jpg' 
 
 const IndexPage = () => {
   const {podcast,setPodcast} = useState();
@@ -55,7 +56,10 @@ const IndexPage = () => {
           </div>
 
 
-          <div className="container relative block mx-auto mb-12 px-3 z-20">
+          <div className="container relative block mx-auto mb-12 px-3 z-20 gap-3">
+            <h1 className="justify-center text-5xl text-center font-bold mb-12">
+              Kenapa SMAK 1?
+            </h1>
             <div className="grid grid-cols-1 bg-blue-900 bg-opacity-90 rounded-2xl z-50">
               <div className="flex justify-center align-middle">
                 <h2 className="font-extrabold text-xl text-white">
@@ -73,6 +77,20 @@ const IndexPage = () => {
                 </h2>
               </div>
             </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 my-9">
+              <div className="bg-red-800 rounded-2xl z-50 text-center p-12">
+                <h1 className="font-extrabold text-2xl text-white">
+                  Alumni SMAK 1 tersebar di seluruh dunia
+                </h1>
+              </div>
+              <div className="bg-yellow-400 rounded-2xl z-50 text-center p-12">
+                <h1 className="font-extrabold text-2xl text-white">
+                  Sudah dikenal sampai ke mancanegara
+                </h1>
+              </div>
+            </div>
+
           </div>
         </div>
         
@@ -154,9 +172,11 @@ const IndexPage = () => {
             </div>
             <div>
               <HomeCard
-                    img={ KehidupanSMUKIERZ } 
+                    img={ Interview } 
+                    alt="Gabriela Erin"
                     title="Bertemu Dengan SMUKIERZ" 
-                    dir="./scott"
+                    desc='"Dengar langsung dari para murid SMAK 1"'
+                    dir="/smukierz/interview"
                 />
             </div>
           </div>
