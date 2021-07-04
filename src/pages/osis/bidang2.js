@@ -2,25 +2,76 @@ import React from 'react'
 import OsisLayout from '../../components/page_template/OsisLayout'
 import Content from '../../components/block/Content'
 import Banner from "../../images/banner2.jpg"
-
+import Osis from '../../components/osis/OsisSection'
+import darrel from '../../images/team/darrel.jpg'
+import stephanie from '../../images/team/stephanie.jpg'
+import chloe from '../../images/team/Chloe .jpg'
+import kevin from '../../images/team/kevin frans.jpg'
 
 export default function bidang2() {
-    const title = "Deskripsi Bidang-bidang OSIS SMAK 1 PENABUR Jakarta"
+    const title = "OSIS"
     const content = (
-        <Content>
-            BPH: lorem ipsum <br></br>
-            Bidang 1: lorem ipsum <br></br>
-            Bidang 2: lorem ipsum <br></br>
-            Bidang 3: lorem ipsum <br></br>
-            Bidang 4: lorem ipsum <br></br>
-            Bidang 5: lorem ipsum <br></br>
-            Bidang 6: lorem ipsum <br></br>
-            Bidang 7: lorem ipsum <br></br>
-            Bidang 8: lorem ipsum <br></br>
-            Bidang 9: lorem ipsum <br></br>
-            Bidang 10: lorem ipsum <br></br>
-            </Content>
-    )
+        <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-1 gap-3 py-5 text-center">
+                <h1 className="font-semibold text-center text-4xl"><b>Bidang Pembinaan Budi Pekerti Luhur dan Akhlak Mulia</b></h1>
+                <div>
+                    <Osis
+                        img={ darrel } 
+                        title="Darrel Afrian Tjahjadi" 
+                        desc="Halo teman-teman, namaku Darrel Afrian Tjahjadi, biasa dipanggil Darrel, aku bertugas sebagai koordinator bidang 2 OSIS SMAK 1 Penabur Jakarta. Aku bersekolah di SMAK 1 pada tahun 2019-2022, aku sekarang duduk di kelas 12 MIPA, Hobi aku suka menonton dan olahraga, satu hal lagi, silakan ya teman teman kalau mau tanya tanya tentang SMUKI sama aku
+                        "
+                    />
+                </div>
+                <div>
+                    <Osis
+                        img={ stephanie } 
+                        title="Stephanie Patricia Anshell" 
+                        desc="Haiii!!! Nama aku Stephanie Patricia Anshell biasa dipanggil Stephanie. Saat ini aku adalah anak kelas 12 IPS. Kalo ditanya tentang hobi hmm hobiku cukup banyak diantaranya olahraga, baca novel, masak, dan jalan-jalan. Kalo olahraga sendiri selain karena bikin badan sehat tapi juga seru misalnya seperti bersepeda, jogging, renang, dll. Percaya lah alasan utama aku hobi masak karena aku suka ngerecokin dapur ada sensasi kesenangan sendiri aja gitu hahaha. Btw, kalau ada yang mau ditanya tentang aku atau sekolah, jangan malu buat tanya ya."
+                    />
+                </div>
+                <div>
+                    <Osis
+                        img={ chloe } 
+                        title="Chloe Stephanie Sugiarto" 
+                        desc="hii smuaa! namaku chloe stephanie sugiarto, kalian bisa panggil aku chloe. Aku lahir di jakarta, tahun 2005. Salah satu fun fact tentang aku, aku tuh gabisa diem jadi suka coba hal-hal baru. Seru aja gitu rasanya kalo ada tantangan. Oh iya, aku juga suka bangett nonton film series sama drakor. Jadi kalo ada juga yang suka, pasti nyambung deh kitaa! itu aja sii tentang aku. last but not least, feel free aja yaa yang mau ngobrol atau nanya tentang apa ajaa. xoxo, chloe"
+                    />
+                </div>
+                <div>
+                    <Osis
+                        img={ kevin } 
+                        title="Chloe Stephanie Sugiarto" 
+                        desc="Halo semuanya salam kenal , namaku Geoffrey Li dan biasanya dipanggil Gio. Saat ini saya sedang duduk di kelas 11 MIPA. Nah kalau hobiku sendiri itu biasanya berhubungan dengan olahraga seperti menonton bola . Nah fun fact tentang aku ya gais , aku orangnya kalau ngomong suka cepet banget sampe kadang temenku ga ngerti sama yg aku ngomongin hehehehe . Jadi nanti kalo aku ngomongnya ada yang tidak jelas feel free buat tanya lagi aja ya"
+                    />
+                </div>
+                <div>
+                    <h1 className="font-semibold text-center text-4xl"><b>Deskripsi</b></h1>
+                    <br/>
+                    <p className="text-center">
+                        OSIS Bidang 2 adalah bidang pembinaan budi pekerti luhur dan akhlak mulia, sesuai namanya visi dari seksi bidang 2 adalah untuk menamakan sikap-sikap yang yang sesuai dengan budi pekerti dan nilai-nilai kristiani. Dalam rangka mewujudkan visi tersebut osis bidang 2 membuat beberapa program yaitu Christmas Carol, Quozzy, Spread the Word, dan Tutorial for Others by Smukiers. Jadi kalau teman teman berminat untuk bergabung di OSIS bidang 2 jangan lupa daftar ya saat ada pendaftaran OSIS
+                    </p>
+                    <br/>
+                    <h1 className="font-semibold text-left text-4xl"><b>Program Kerja</b></h1>
+                    <br/>
+                    <p className="text-left">
+                        1. Christmas carol, adalah program berupa kunjungan ke panti jompo pada masa menjelang natal, disana akan diadakan semacam talent show yang fungsinya untuk menghibur para lansia disana,
+                    </p>
+                    <br/>
+                    <p className="text-left">
+                        2. Quozzy, adalah quiz berbasis quotes yang ada di instagram,
+                    </p>
+                    <br/>
+                    <p className="text-left">
+                        3. Spread the Word adalah program dimana anggota osis menyebarkan motivasi melalui media sosial instagram dan biasanya akan disebarkan lagi oleh siswa-siswi yang di-tag di media sosial instagram oleh anggota osis dan seterusnya
+                    </p>
+                    <br/>
+                    <p className="text-left">
+                        4. Tutorial for Others yang adalah program pengajaran anak-anak kurang beruntung yang diadakan bersama Yayasan Sahabat Anak, di mana kami  beserta para relawan siswa/i akan mengajarkan mereka pelajaran seperti matematika dasar, bahasa inggris dan lain-lain. 
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        )
     return (
         <OsisLayout 
             hero = {Banner}
