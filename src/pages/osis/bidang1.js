@@ -2,25 +2,38 @@ import React from 'react'
 import OsisLayout from '../../components/page_template/OsisLayout'
 import Content from '../../components/text_helper/Content'
 import Banner from "../../images/banner2.jpg"
-
+import Osis from '../../components/Osis/OsisSection'
+import jolene from '../../images/team/jolene.jpg'
+import raynard from '../../images/team/Raynard.jpg'
+import beatrice from '../../images/team/beatrice.jpg'
 
 export default function bidang1() {
-    const title = "Deskripsi Bidang-bidang OSIS SMAK 1 PENABUR Jakarta"
+    const title = "Bidang 1"
     const content = (
-        <Content>
-            BPH: lorem ipsum <br></br>
-            Bidang 1: lorem ipsum <br></br>
-            Bidang 2: lorem ipsum <br></br>
-            Bidang 3: lorem ipsum <br></br>
-            Bidang 4: lorem ipsum <br></br>
-            Bidang 5: lorem ipsum <br></br>
-            Bidang 6: lorem ipsum <br></br>
-            Bidang 7: lorem ipsum <br></br>
-            Bidang 8: lorem ipsum <br></br>
-            Bidang 9: lorem ipsum <br></br>
-            Bidang 10: lorem ipsum <br></br>
-            </Content>
-    )
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-3 py-5 justify-self-center">
+            <div>
+                <Osis
+                    img={ jolene } 
+                    title="Billy Stevanus" 
+                    desc='"Alumni yang selalu aktif dan bersemangat"'
+                />
+            </div>
+            <div>
+                <Osis
+                    img={ raynard } 
+                    title="Billy Stevanus" 
+                    desc='"Alumni yang selalu aktif dan bersemangat"'
+                />
+            </div>
+            <div>
+                <Osis
+                    img={ beatrice } 
+                    title="Billy Stevanus" 
+                    desc='"Alumni yang selalu aktif dan bersemangat"'
+                />
+            </div>
+        </div>
+        )
     return (
         <OsisLayout 
             hero = {Banner}
