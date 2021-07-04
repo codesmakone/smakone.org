@@ -20,9 +20,63 @@ export default function OsisLayout({title, hero, content}) {
         },
         {
             id:3,
-            title: "Deskripsi Bidang",
-            link:"/osis/deskripsi",
-            slug:"description"
+            title: "Bidang 1",
+            link:"/osis/bidang1",
+            slug:"bidang1"
+        },
+        {
+            id:4,
+            title: "Bidang 2",
+            link:"/osis/bidang2",
+            slug:"bidang2"
+        },
+        {
+            id:5,
+            title: "Bidang 3",
+            link:"/osis/bidang3",
+            slug:"bidang3"
+        },
+        {
+            id:6,
+            title: "Bidang 4",
+            link:"/osis/bidang4",
+            slug:"bidang4"
+        },
+        {
+            id:7,
+            title: "Bidang 5",
+            link:"/osis/bidang5",
+            slug:"bidang5"
+        },
+        {
+            id:8,
+            title: "Bidang 6",
+            link:"/osis/bidang6",
+            slug:"bidang6"
+        },
+        {
+            id:9,
+            title: "Bidang 7",
+            link:"/osis/bidang7",
+            slug:"bidang7"
+        },
+        {
+            id:10,
+            title: "Bidang 8",
+            link:"/osis/bidang8",
+            slug:"bidang8"
+        },        
+        {
+            id:11,
+            title: "Bidang 9",
+            link:"/osis/bidang9",
+            slug:"bidang9"
+        },
+        {
+            id:12,
+            title: "Bidang 10",
+            link:"/osis/bidang10",
+            slug:"bidang10"
         }
     ]
     return (

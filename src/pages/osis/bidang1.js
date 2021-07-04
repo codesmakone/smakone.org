@@ -4,7 +4,7 @@ import Content from '../../components/text_helper/Content'
 import Banner from "../../images/banner2.jpg"
 
 
-export default function DeskripsiPage() {
+export default function bidang1() {
     const title = "Deskripsi Bidang-bidang OSIS SMAK 1 PENABUR Jakarta"
     const content = (
         <Content>
