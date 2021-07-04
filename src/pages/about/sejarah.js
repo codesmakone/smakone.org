@@ -7,14 +7,26 @@ export default function HistoryPage() {
     const content = (
         <div>
             <h2 className="justify-left text-left font-bold text-lg pt-4 pb-2">
-                Visi SMAK 1:
+                Visi BPK PENABUR Jakarta
+            </h2>
+            <p className=" text-justify p-2">
+            Menjadi lembaga pendidikan Kristen unggul dalam Iman, Ilmu, dan Pelayanan
+            </p>
+            <h2 className="justify-left text-left font-bold text-lg pt-4 pb-2">
+                Misi BPK PENABUR Jakarta
+            </h2>
+            <p className=" text-justify p-2">
+            Mengembangkan potensi peserta didik secara optimal melalui pendidikan dan pengajaran bermutu berdasarkan nilai-nilai Kristiani
+            </p>
+            <h2 className="justify-left text-left font-bold text-lg pt-4 pb-2">
+                Visi SMAK 1
             </h2>
             <p className=" text-justify p-2">
             Mewujudkan sumber daya berkualitas unggul dalam ilmu pengetahuan dan teknologi 
             serta peduli terhadap sesama berdasarkan nilai-nilai hidup Kristiani.
             </p>
             <h2 className="justify-left text-left font-bold text-lg pt-4 pb-2">
-                Misi SMAK 1:
+                Misi SMAK 1
             </h2>
             <ul className="list-disc px-6 pt-2 pb-12">
                 <li>Menyiapkan calon inventor / ilmuwan masa depan yang menguasai ilmu pengetahuan dan teknologi, kreatif, inovatif, mandiri, dan proaktif serta mempunyai landasan iman yang teguh</li>
