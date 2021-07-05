@@ -20,6 +20,11 @@ import Tips from '../images/tips.jpg'
 import Afterschool from '../images/afterschool.jpg'
 import Interview from '../images/Card/GabrielaErin.jpg' 
 
+import Pelantikan from '../images/pelantikan.jpg'
+import Lobby from '../images/Lobby.jpg'
+import Perpus from '../images/perpus.jpg'
+import SC from '../images/SC.jpg'
+
 const IndexPage = () => {
   const {podcast,setPodcast} = useState();
   let parser = new Parser();
@@ -181,7 +186,7 @@ const IndexPage = () => {
                     img={ Interview } 
                     alt="Gabriela Erin"
                     title="Bertemu Dengan SMUKIERZ" 
-                    desc='"Dengar langsung dari para murid SMAK 1"'
+                    desc='"Dengar langsung dari murid SMAK 1"'
                     dir="/smukierz/interview"
                 />
             </div>
@@ -199,24 +204,24 @@ const IndexPage = () => {
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:mx-5 rounded-2xl">
                   <HomeCard
-                      img={ KehidupanSMUKIERZ } 
-                      title="Ada Apa Aja Sih di SMUKI?" 
-                      dir="./scott"
+                      img={ Pelantikan } 
+                      title="Tentang OSIS SMAK 1" 
+                      dir="/osis"
                   />
                   <HomeCard
-                      img={ KehidupanSMUKIERZ } 
-                      title="Smakonecup" 
-                      dir="./scott"
+                      img={ Lobby } 
+                      title="Tentang SMAK 1" 
+                      dir="/about"
                   />
                   <HomeCard
-                      img={ KehidupanSMUKIERZ } 
-                      title="Soundscape" 
-                      dir="./scott"
+                      img={ Perpus } 
+                      title="Fasilitas" 
+                      dir="/about/fasilitas"
                   />
                   <HomeCard
-                      img={ KehidupanSMUKIERZ } 
-                      title="SMUKIEZ Theater Night" 
-                      dir="./scott"
+                      img={ SC } 
+                      title="Lagu Tema" 
+                      dir="/about/songs"
                   />
               </div>
             </div>

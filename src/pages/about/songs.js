@@ -5,7 +5,7 @@ import Banner from "../../images/banner2.jpg"
 export default function SongsPage() {
     const title = "Sekilas Tentang SMAKONE"
     const content = (
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-2">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 pb-12">
             <div>
                 <h2 className="font-medium text-3xl lg:text-5xl mt-12 justify-center text-center">
                     Mars BPK PENABUR

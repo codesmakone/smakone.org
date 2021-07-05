@@ -35,12 +35,6 @@ export default function AboutLayout({title, hero, content}) {
             title: "Lagu Tema",
             link:"/about/songs",
             slug:"songs"
-        },
-        {
-            id:6,
-            title: "Guru dan Staff",
-            link:"/about/staff",
-            slug:"staff"
         }
     ]
     return (
