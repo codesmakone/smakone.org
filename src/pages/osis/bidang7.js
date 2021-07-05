@@ -13,7 +13,7 @@ export default function bidang2() {
     const content = (
         <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-1 gap-3 py-5 text-center">
-                <h1 className="font-semibold text-center text-4xl"><b>\Kualitas Olahraga, Jasmani, Kesehatan, dan Gizi Berbasis Sumber Gizi Terdiversifikasi</b></h1>
+                <h1 className="font-semibold text-center text-4xl"><b>Bidang Pembinaan Kualitas Olahraga, Jasmani, Kesehatan, dan Gizi Berbasis Sumber Gizi Terdiversifikasi</b></h1>
                 <div>
                     <Osis
                         img={ valensia } 
@@ -39,7 +39,7 @@ export default function bidang2() {
                     <Osis
                         img={ david } 
                         title="David Chen" 
-                        desc="Halo semua perkenalkan nama aku david chen dari kelas 12 MIPA  . Aku tinggal di taman palem lestari. Hobi aku bermain basket dan juga mendengarkan musik. Fun fact dari aku adalah aku orang gk suka liat kamar berantakan"
+                        desc="Halo semua perkenalkan nama aku David Chen dari kelas 12 MIPA  . Aku tinggal di taman palem lestari. Hobi aku bermain basket dan juga mendengarkan musik. Fun fact dari aku adalah aku orang gk suka liat kamar berantakan"
                     />
                 </div>
                 <div>
@@ -51,25 +51,37 @@ export default function bidang2() {
                     <br/>
                     <h1 className="font-semibold text-left text-4xl"><b>Program Kerja</b></h1>
                     <br/>
-                    <p className="text-left">
-                        1. SMAK ONE CUP, Program terbesar OSIS untuk mengembangkan potensi siswa SMAK 1 di bidang akademik maupun non akademik dan juga untuk mempererat hubungan antar sekolah!
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        2. HEALTH1NFO, Konten informatif dan menarik mengenai kesehatan, gizi, dan olahraga yang disebar luaskan melalui media sosial
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        3. Smukiez Olympics, Pertandingan antar kelas untuk mempererat hubungan antar kelas dan meningkatkan kesehatan siswa melalui perlombaan antar kelas dan pelaksanaanya setelah PAT
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        4. Peer Educator, Tim Peer Educator atau pendidik sebaya untuk mencegah dan mendidik warga SMAK 1 Penabur tentang bahaya NAPZA, PTM, dan HIV AIDS
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        5. M1STER1, Case solving games mengenai kasus kesehatan dan psikologi untuk meningkatkan wawasan dan pengetahuan secara kreatif dan interaktif
-                    </p>
+                    <ul className="list-decimal ml-5">
+                        <li>
+                            <p className="text-justify">
+                                SMAK ONE CUP, Program terbesar OSIS untuk mengembangkan potensi siswa SMAK 1 di bidang akademik maupun non akademik dan juga untuk mempererat hubungan antar sekolah!
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                HEALTH1NFO, Konten informatif dan menarik mengenai kesehatan, gizi, dan olahraga yang disebar luaskan melalui media sosial
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Smukiez Olympics, Pertandingan antar kelas untuk mempererat hubungan antar kelas dan meningkatkan kesehatan siswa melalui perlombaan antar kelas dan pelaksanaanya setelah PAT
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Peer Educator, Tim Peer Educator atau pendidik sebaya untuk mencegah dan mendidik warga SMAK 1 Penabur tentang bahaya NAPZA, PTM, dan HIV AIDS
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                M1STER1, Case solving games mengenai kasus kesehatan dan psikologi untuk meningkatkan wawasan dan pengetahuan secara kreatif dan interaktif
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

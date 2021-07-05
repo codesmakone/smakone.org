@@ -12,7 +12,7 @@ export default function bidang2() {
     const content = (
         <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-1 gap-3 py-5 text-center">
-                <h1 className="font-semibold text-center text-4xl"><b> Pembinaan Demokrasi, Hak Asasi Manusia, Pendidikan Politik, Lingkungan Hidup, Kepekaan, dan Toleransi Sosial Dalam Konteks Masyarakat Plural</b></h1>
+                <h1 className="font-semibold text-center text-4xl"><b>Bidang Pembinaan Demokrasi, Hak Asasi Manusia, Pendidikan Politik, Lingkungan Hidup, Kepekaan, dan Toleransi Sosial Dalam Konteks Masyarakat Plural</b></h1>
                 <div>
                     <Osis
                         img={ gillian } 
@@ -36,29 +36,43 @@ export default function bidang2() {
                     <br/>
                     <h1 className="font-semibold text-left text-4xl"><b>Program Kerja</b></h1>
                     <br/>
-                    <p className="text-left">
-                        1. EcoVille, Berupa Artikel dan Quiz interaktif mengenai berbagai isu lingkungan hidup. Untuk gambaran yang lebih jelas, bisa check di instagram story kita yaa @smukiee.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        2. We Care merupakan program bidang 5 berupa video kampanye yang menyuarakan berbagai isu kemanusiaan dan lingkungan hidup. Check out video campaign kita di feeds @smukiee!
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        3. EcoGuru, melalui EcoGuru, diharapkan para peserta MPLS dapat mengerti akan pentingnya menjaga lingkungan hidup baik di lingkungan sekolah maupun luar sekolah.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        4. Aspire, Asp1re merupakan wadah bagi seluruh siswa SMAK 1 untuk menyalurkan aspirasinya terhadap berbagai program OSIS yang berjalan, agar penyelenggaraan program tersebut dapat mengalami perbaikan di tahun-tahun berikutnya. 
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        5. One Vote, pelaksanaan pemilihan ketua dan wakil ketua OSIS 
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        6. Kompetisi Debat
-                    </p>
+                    <ul className="list-decimal ml-5">
+                        <li>
+                            <p className="text-justify">
+                                EcoVille, Berupa Artikel dan Quiz interaktif mengenai berbagai isu lingkungan hidup. Untuk gambaran yang lebih jelas, bisa check di instagram story kita yaa @smukiee.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                We Care merupakan program bidang 5 berupa video kampanye yang menyuarakan berbagai isu kemanusiaan dan lingkungan hidup. Check out video campaign kita di feeds @smukiee!
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                EcoGuru, melalui EcoGuru, diharapkan para peserta MPLS dapat mengerti akan pentingnya menjaga lingkungan hidup baik di lingkungan sekolah maupun luar sekolah.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Aspire, Asp1re merupakan wadah bagi seluruh siswa SMAK 1 untuk menyalurkan aspirasinya terhadap berbagai program OSIS yang berjalan, agar penyelenggaraan program tersebut dapat mengalami perbaikan di tahun-tahun berikutnya. 
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                One Vote, pelaksanaan pemilihan ketua dan wakil ketua OSIS 
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Kompetisi Debat
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

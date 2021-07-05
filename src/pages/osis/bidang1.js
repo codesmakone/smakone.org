@@ -12,7 +12,7 @@ export default function bidang1() {
     const content = (
         <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-1 gap-3 py-5 text-center">
-                <h1 className="font-semibold text-center text-4xl"><b>Bidang 1</b></h1>
+                <h1 className="font-semibold text-center text-4xl"><b>Bidang Pembinaan Keimanan dan Ketakwaan Terhadap Tuhan Yang Maha Esa</b></h1>
                 <div>
                     <Osis
                         img={ jolene } 
@@ -43,37 +43,55 @@ export default function bidang1() {
                     <br/>
                     <h1 className="font-semibold text-left text-4xl"><b>Program Kerja</b></h1>
                     <br/>
-                    <p className="text-left">
-                        1. Kebaktian Rutin Tujuan : Siswa-siswi mendapat kesempatan untuk bersekutu bersama dan belajar Firman Tuhan sehingga dapat menerapkannya dalam kehidupan sehari-hari
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        2. Kebaktian Natal Tujuan : Menyediakan wadah bagi siswa-siswi untuk merayakan dan memperingati Natal sekaligus menutup tahun
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        3. Doa Syafaat US, UAS, UN Tujuan : Memotivasi serta menguatkan siswa-siswi untuk menghadapi UAS, US, dan UN dengan berserah kepada Tuhan
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        4. Kebaktian Paskah Tujuan : Merayakan dan memperingati Paskah sebagai sebuah bentuk ucapan syukur atas kasih Allah
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        5. R4G (Radio for God) - R4G merupakan proker bidang 1 berupa pemutaran lagu rohani sesuai jadwal tertentu melalui radio sekolah Tujuan : Menyediakan wadah bagi siswa-siswi untuk dapat mengalami persekutuan dengan Tuhan melalui lagu-lagu rohani
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        6. SOG (Servant of God) - Melalui SOG, dibuka kesempatan bagi siswa-siswi yang memiliki panggilan melayani dalam setiap kebaktian sebagai penatalayan (singer, WL, pemusik) Tujuan : Menyediakan sarana bagi siswa-siswi yang rindu untuk melayani Tuhan
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        7. Bible Trivia - Find out more about this program on our instagram stories @smukiee ! Tujuan : Memperdalam pengetahuan siswa-siswi SMAK 1 mengenai Alkitab dalam bentuk pertanyaan kuis
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        8. Sermon Recap - Menyediakan ringkasan khotbah dalam setiap kebaktian rutin Tujuan : Meng-highlight intisari dari khotbah yang telah dibawakan dalam kebaktian
-                    </p>
+                    <ul className="list-decimal ml-5">
+                        <li>
+                            <p className="text-justify">
+                                Kebaktian Rutin Tujuan : Siswa-siswi mendapat kesempatan untuk bersekutu bersama dan belajar Firman Tuhan sehingga dapat menerapkannya dalam kehidupan sehari-hari
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Kebaktian Natal Tujuan : Menyediakan wadah bagi siswa-siswi untuk merayakan dan memperingati Natal sekaligus menutup tahun
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Doa Syafaat US, UAS, UN Tujuan : Memotivasi serta menguatkan siswa-siswi untuk menghadapi UAS, US, dan UN dengan berserah kepada Tuhan
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Kebaktian Paskah Tujuan : Merayakan dan memperingati Paskah sebagai sebuah bentuk ucapan syukur atas kasih Allah
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                R4G (Radio for God) - R4G merupakan proker bidang 1 berupa pemutaran lagu rohani sesuai jadwal tertentu melalui radio sekolah Tujuan : Menyediakan wadah bagi siswa-siswi untuk dapat mengalami persekutuan dengan Tuhan melalui lagu-lagu rohani
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                SOG (Servant of God) - Melalui SOG, dibuka kesempatan bagi siswa-siswi yang memiliki panggilan melayani dalam setiap kebaktian sebagai penatalayan (singer, WL, pemusik) Tujuan : Menyediakan sarana bagi siswa-siswi yang rindu untuk melayani Tuhan
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Bible Trivia - Find out more about this program on our instagram stories @smukiee ! Tujuan : Memperdalam pengetahuan siswa-siswi SMAK 1 mengenai Alkitab dalam bentuk pertanyaan kuis
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Sermon Recap - Menyediakan ringkasan khotbah dalam setiap kebaktian rutin Tujuan : Meng-highlight intisari dari khotbah yang telah dibawakan dalam kebaktian
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

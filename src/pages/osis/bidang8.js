@@ -12,7 +12,7 @@ export default function bidang2() {
     const content = (
         <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-1 gap-3 py-5 text-center">
-                <h1 className="font-semibold text-center text-4xl"><b>Pembinaan Sastra dan Budaya</b></h1>
+                <h1 className="font-semibold text-center text-4xl"><b>Bidang Pembinaan Sastra dan Budaya</b></h1>
                 <div>
                     <Osis
                         img={ rachel } 
@@ -44,33 +44,49 @@ export default function bidang2() {
                     <br/>
                     <h1 className="font-semibold text-left text-4xl"><b>Program Kerja</b></h1>
                     <br/>
-                    <p className="text-left">
-                        1. Birthday Calendar, Birthday Calendar merupakan program harian yaitu mengumumkan siswa yang berulang tahun setiap hari efektif masuk sekolah.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        2. PENS1L, PENS1L merupakan pembuatan majalah/ artikel online yang mencakup tema dalam 1 tahun dan disalurkan melalui instagram @PENS1L. Artikel akan ditulis oleh tim jurnalistik SMAK 1.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        3. Valentine’s day + Chinese New Year, CNYxVal’s adalah hari perayaan Valentine dan tahun baru Imlek melalui serangkaian acara, penampilan,  dan lomba yang akan diikuti oleh siswa-siswi SMAK 1.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        4. ART1STIC, Program ini bertujuan untuk meningkatkan apresiasi kesenian dan kreativitas siswa-siswi SMAK 1 dengan cara memposting video uprak hasil karya kelas 12 ke sosial media.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        5. Smukiez Theater Night, Smukiez Theater Night atau yang biasa disingkat STN merupakan program tahunan yang menyelenggarakan sebuah pertunjukkan teater dan pentas seni di SMAK 1.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        6. RESONANSI, RESONANSI atau yang dikenal sebagai program yang lomba musikalisasi puisi dalam rangka merayakan hari Kemerdekaan Indonesia bertujuan untuk meningkatkan apresiasi sastra dalam bentuk puisi.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        7. SMURF, SMURF merupakan singkatan dari Smukiez Rolling Festival yang bertujuan untuk meningkatkan kreativitas murid-murid SMAK 1 dengan mengadakan perlombaan pembuatan film pendek.
-                    </p>
+                    <ul className="list-decimal ml-5">
+                        <li>
+                            <p className="text-justify">
+                                Birthday Calendar, Birthday Calendar merupakan program harian yaitu mengumumkan siswa yang berulang tahun setiap hari efektif masuk sekolah.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                PENS1L, PENS1L merupakan pembuatan majalah/ artikel online yang mencakup tema dalam 1 tahun dan disalurkan melalui instagram @PENS1L. Artikel akan ditulis oleh tim jurnalistik SMAK 1.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Valentine’s day + Chinese New Year, CNYxVal’s adalah hari perayaan Valentine dan tahun baru Imlek melalui serangkaian acara, penampilan,  dan lomba yang akan diikuti oleh siswa-siswi SMAK 1.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                ART1STIC, Program ini bertujuan untuk meningkatkan apresiasi kesenian dan kreativitas siswa-siswi SMAK 1 dengan cara memposting video uprak hasil karya kelas 12 ke sosial media.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Smukiez Theater Night, Smukiez Theater Night atau yang biasa disingkat STN merupakan program tahunan yang menyelenggarakan sebuah pertunjukkan teater dan pentas seni di SMAK 1.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                RESONANSI, RESONANSI atau yang dikenal sebagai program yang lomba musikalisasi puisi dalam rangka merayakan hari Kemerdekaan Indonesia bertujuan untuk meningkatkan apresiasi sastra dalam bentuk puisi.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                SMURF, SMURF merupakan singkatan dari Smukiez Rolling Festival yang bertujuan untuk meningkatkan kreativitas murid-murid SMAK 1 dengan mengadakan perlombaan pembuatan film pendek.
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

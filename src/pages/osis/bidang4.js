@@ -12,7 +12,7 @@ export default function bidang2() {
     const content = (
         <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-1 gap-3 py-5 text-center">
-                <h1 className="font-semibold text-center text-4xl"><b>Pembinaan Prestasi Akademik dan Ilmu Pengetahuan dan Teknologi (IPTEK)</b></h1>
+                <h1 className="font-semibold text-center text-4xl"><b>Bidang Pembinaan Prestasi Akademik dan Ilmu Pengetahuan dan Teknologi (IPTEK)</b></h1>
                 <div>
                     <Osis
                         img={ jesselyne } 
@@ -43,21 +43,31 @@ export default function bidang2() {
                     <br/>
                     <h1 className="font-semibold text-left text-4xl"><b>Program Kerja</b></h1>
                     <br/>
-                    <p className="text-left">
-                        1. TEDxYouth@SmakOne - TEDxYouth@SmakOne merupakan event kolaborasi SMAK 1 dengan TED, media organisasi Internasional 
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        2. Tutor Teman Sebaya - merupakan kegiatan yang mewadahi murid murid yang memiliki talenta dalam suatu subjek untuk menyalurkan berkat yang mereka terima
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        3. Dollar x Cent - merupakan story yang berisi dua pertanyaan yang di mana satu berjudul dollar yang berupa pengetahuan umum dan satunya lagi cent yang berupa teka teki dan riddles yang menuntut kita untuk berpikir outside of the box
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        4. ASS1ST - berisi jurusan jurusan yang dapat siswa pilih untuk universitas nanti serta list untuk beberapa universitas yang direkomendasikan untuk jurusan tersebut
-                    </p>
+                    <ul className="list-decimal ml-5">
+                        <li>
+                            <p className="text-justify">
+                                TEDxYouth@SmakOne - TEDxYouth@SmakOne merupakan event kolaborasi SMAK 1 dengan TED, media organisasi Internasional 
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Tutor Teman Sebaya - merupakan kegiatan yang mewadahi murid murid yang memiliki talenta dalam suatu subjek untuk menyalurkan berkat yang mereka terima
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Dollar x Cent - merupakan story yang berisi dua pertanyaan yang di mana satu berjudul dollar yang berupa pengetahuan umum dan satunya lagi cent yang berupa teka teki dan riddles yang menuntut kita untuk berpikir outside of the box
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                ASS1ST - berisi jurusan jurusan yang dapat siswa pilih untuk universitas nanti serta list untuk beberapa universitas yang direkomendasikan untuk jurusan tersebut
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

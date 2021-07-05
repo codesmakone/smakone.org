@@ -12,7 +12,7 @@ export default function bidang2() {
     const content = (
         <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-1 gap-3 py-5 text-center">
-                <h1 className="font-semibold text-center text-4xl"><b>Bidang 2</b></h1>
+                <h1 className="font-semibold text-center text-4xl"><b>Bidang Kreativitas, Keterampilan, dan Kewirausahaan</b></h1>
                 <div>
                     <Osis
                         img={ bob } 
@@ -43,29 +43,37 @@ export default function bidang2() {
                     <br/>
                     <h1 className="font-semibold text-left text-4xl"><b>Program Kerja</b></h1>
                     <br/>
-                    <p className="text-left">
-                        1. Secret Admirer,  Secret Admirer adalah sebuah program tahunan untuk memperingati hari valentin.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        2. Technopreneur,  workshop mengenai minat murid murid
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        3. Koperasi Kejujuran
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        4. Monopoly,  program terbaru bidang kami yang akan dilaksanakan pada saat peringatan kemerdekaan Indonesia pada tanggal 17 Agustus.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        5. Vintage Store,  program pengajaran anak-anak kurang beruntung yang diadakan bersama Yayasan Sahabat Anak, di mana kami  beserta para relawan siswa/i akan mengajarkan mereka pelajaran seperti matematika dasar, bahasa inggris dan lain-lain. 
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        6. Koperasi Kejujuran,  program pengajaran anak-anak kurang beruntung yang diadakan bersama Yayasan Sahabat Anak, di mana kami  beserta para relawan siswa/i akan mengajarkan mereka pelajaran seperti matematika dasar, bahasa inggris dan lain-lain. 
-                    </p>
+                    <ul className="list-decimal ml-5">
+                        <li>
+                            <p className="text-justify">
+                                Secret Admirer,  Secret Admirer adalah sebuah program tahunan untuk memperingati hari valentin.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Technopreneur,  workshop mengenai minat murid murid
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Koperasi Kejujuran
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Monopoly,  program terbaru bidang kami yang akan dilaksanakan pada saat peringatan kemerdekaan Indonesia pada tanggal 17 Agustus.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Vintage Store,  program pengajaran anak-anak kurang beruntung yang diadakan bersama Yayasan Sahabat Anak, di mana kami  beserta para relawan siswa/i akan mengajarkan mereka pelajaran seperti matematika dasar, bahasa inggris dan lain-lain. 
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

@@ -43,22 +43,46 @@ export default function bidang2() {
                     <br/>
                     <h1 className="font-semibold text-left text-4xl"><b>Program Kerja</b></h1>
                     <br/>
-                    <p className="text-left">
-                        1. Christmas carol, adalah program berupa kunjungan ke panti jompo pada masa menjelang natal, disana akan diadakan semacam talent show yang fungsinya untuk menghibur para lansia disana,
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        2. Quozzy, adalah quiz berbasis quotes yang ada di instagram,
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        3. Spread the Word adalah program dimana anggota osis menyebarkan motivasi melalui media sosial instagram dan biasanya akan disebarkan lagi oleh siswa-siswi yang di-tag di media sosial instagram oleh anggota osis dan seterusnya
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        4. Tutorial for Others yang adalah program pengajaran anak-anak kurang beruntung yang diadakan bersama Yayasan Sahabat Anak, di mana kami  beserta para relawan siswa/i akan mengajarkan mereka pelajaran seperti matematika dasar, bahasa inggris dan lain-lain. 
-                    </p>
-
+                    <ul className="list-decimal ml-5">
+                        <li>
+                            <p className="text-justify">
+                                Upacara Rutin Hari Selasa, OSIS Bidang 3 memupuk rasa nasionalisme dan membangun karakter cinta terhadap bangsanya sendiri melalui upacara rutin
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Upacara Hari Nasional, menyediakan wadah bagi siswa-siswi untuk merayakan dan memperingati hari-hari penting seperti Hari Kartini, Hari Lahir Pancasila, Hari Kemerdekaan Indonesia, dan hari-hari penting lainnya
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Perayaan Hari Kemerdekaan Republik Indonesia, OSIS Bidang 3 mengadakan perayaan 17 Agustus menjadi ajang bagi peserta didik untuk memupuk rasa cinta tanah air dan juga mempererat rasa persatuan dan kesatuan yang ada melalui kegiatan-kegiatan yang diadakan.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Paskibra, Pasukan Pengibar Bendera bertugas pada setiap kegiatan Upacara 
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text-justify">
+                                RESTORE : OSIS Bidang 3 membuat program bagi peserta didik untuk berekreasi ke destinasi wisata di Indonesia untuk menambah wawasan tentang budaya Indonesia 
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text-justify">
+                                Perayaan Hari Kartini : OSIS Bidang 3 membuat perayaan untuk Hari Kartini sebagai ajang bagi peserta didik untuk mengapresiasi jasa Ibu R.A Kartini 
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text-justify">
+                                Perayaan Hari Guru : OSIS Bidang 3 mengadakan acara Perayaan Hari Guru sebagai ajang bagi peserta didik untuk memberi penghormatan dan menunjukkan rasa terima kasih kepada para guru yang sudah berjasa bagi mereka
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

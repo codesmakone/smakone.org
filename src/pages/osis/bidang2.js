@@ -33,14 +33,14 @@ export default function bidang2() {
                     <Osis
                         img={ chloe } 
                         title="Chloe Stephanie Sugiarto" 
-                        desc="hii smuaa! namaku chloe stephanie sugiarto, kalian bisa panggil aku chloe. Aku lahir di jakarta, tahun 2005. Salah satu fun fact tentang aku, aku tuh gabisa diem jadi suka coba hal-hal baru. Seru aja gitu rasanya kalo ada tantangan. Oh iya, aku juga suka bangett nonton film series sama drakor. Jadi kalo ada juga yang suka, pasti nyambung deh kitaa! itu aja sii tentang aku. last but not least, feel free aja yaa yang mau ngobrol atau nanya tentang apa ajaa. xoxo, chloe"
+                        desc="Hii smuaa! namaku Chloe Stephanie Sugiarto, kalian bisa panggil aku chloe. Aku lahir di jakarta, tahun 2005. Salah satu fun fact tentang aku, aku tuh gabisa diem jadi suka coba hal-hal baru. Seru aja gitu rasanya kalo ada tantangan. Oh iya, aku juga suka bangett nonton film series sama drakor. Jadi kalo ada juga yang suka, pasti nyambung deh kitaa! itu aja sii tentang aku. last but not least, feel free aja yaa yang mau ngobrol atau nanya tentang apa ajaa. xoxo, chloe"
                     />
                 </div>
                 <div>
                     <Osis
                         img={ kevin } 
-                        title="Chloe Stephanie Sugiarto" 
-                        desc="Halo semuanya salam kenal , namaku Geoffrey Li dan biasanya dipanggil Gio. Saat ini saya sedang duduk di kelas 11 MIPA. Nah kalau hobiku sendiri itu biasanya berhubungan dengan olahraga seperti menonton bola . Nah fun fact tentang aku ya gais , aku orangnya kalau ngomong suka cepet banget sampe kadang temenku ga ngerti sama yg aku ngomongin hehehehe . Jadi nanti kalo aku ngomongnya ada yang tidak jelas feel free buat tanya lagi aja ya"
+                        title="Kevin Frans Periatna" 
+                        desc="Haloo semuanyaa, aku Kevin Frans Periatna biasa dipanggil Kev. Aku saat ini ada di kelas 11 IPS. Untuk hobi hmm... aku sih suka nonton tv series, main game sampai mendengarkan lagu. Nah untuk jenis lagu yang aku dengerin itu dari indo sampai kpop semuaa aku dengerin ;) Terakhirrr, untuk kalian yang mau tanya apapun gausah malu-malu yaa bole contact aku di ig akfp05 atau line.. "
                     />
                 </div>
                 <div>
@@ -52,22 +52,31 @@ export default function bidang2() {
                     <br/>
                     <h1 className="font-semibold text-left text-4xl"><b>Program Kerja</b></h1>
                     <br/>
-                    <p className="text-left">
-                        1. Christmas carol, adalah program berupa kunjungan ke panti jompo pada masa menjelang natal, disana akan diadakan semacam talent show yang fungsinya untuk menghibur para lansia disana,
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        2. Quozzy, adalah quiz berbasis quotes yang ada di instagram,
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        3. Spread the Word adalah program dimana anggota osis menyebarkan motivasi melalui media sosial instagram dan biasanya akan disebarkan lagi oleh siswa-siswi yang di-tag di media sosial instagram oleh anggota osis dan seterusnya
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        4. Tutorial for Others yang adalah program pengajaran anak-anak kurang beruntung yang diadakan bersama Yayasan Sahabat Anak, di mana kami  beserta para relawan siswa/i akan mengajarkan mereka pelajaran seperti matematika dasar, bahasa inggris dan lain-lain. 
-                    </p>
-
+                    <ul className="list-decimal ml-5">
+                        <li>
+                            <p className="text-justify">
+                                Christmas carol, adalah program berupa kunjungan ke panti jompo pada masa menjelang natal, disana akan diadakan semacam talent show yang fungsinya untuk menghibur para lansia disana,
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Quozzy, adalah quiz berbasis quotes yang ada di instagram,
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Spread the Word adalah program dimana anggota osis menyebarkan motivasi melalui media sosial instagram dan biasanya akan disebarkan lagi oleh siswa-siswi yang di-tag di media sosial instagram oleh anggota osis dan seterusnya
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Tutorial for Others yang adalah program pengajaran anak-anak kurang beruntung yang diadakan bersama Yayasan Sahabat Anak, di mana kami  beserta para relawan siswa/i akan mengajarkan mereka pelajaran seperti matematika dasar, bahasa inggris dan lain-lain. 
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

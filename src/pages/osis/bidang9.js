@@ -12,7 +12,7 @@ export default function bidang2() {
     const content = (
         <div className="container mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-1 gap-3 py-5 text-center">
-                <h1 className="font-semibold text-center text-4xl"><b>Pembinaan Teknologi Informasi dan Komunikasi (TIK)</b></h1>
+                <h1 className="font-semibold text-center text-4xl"><b>Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK)</b></h1>
                 <div>
                     <Osis
                         img={ jonathan } 
@@ -42,45 +42,67 @@ export default function bidang2() {
                     <br/>
                     <h1 className="font-semibold text-left text-4xl"><b>Program Kerja</b></h1>
                     <br/>
-                    <p className="text-left">
-                        1. Website: Website merupakan program situs resmi OSIS SMAK 1 PENABUR Jakarta dimana terdapat informasi mengenai OSIS SMAK 1 dan acara-acara OSIS yang sudah maupun akan diadakan.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        2. Photo Gallery: Berisikan dokumentasi yang berupa gambar dari acara SMAK 1. Photo Gallery dapat diakses bagi seluruh warga SMAK 1 di https://smakone.org/.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        3. Shutter One: Organisasi naungan OSIS SMAK 1 PENABUR Jakarta yang beranggotakan siswa-siswi bertalenta dalam video editing dan mendokumentasi foto maupun video dari sebuah acara.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        4. SMAK One Social Network: Sosial media (Instagram, Line, dan Youtube) resmi OSIS SMAK 1 PENABUR Jakarta yang memberikan konten mengenai program OSIS dan tempat untuk lebih berinteraktif antara OSIS dengan warga SMAK 1. 
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        5. G-Drive: Tempat penyimpanan online (Google Drive) dari OSIS untuk menyimpan prosata, proker, anggaran, dan laporan kegiatan.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        6. ANEWS: Tempat penerbitan berita terbaru mengenai hampir segala hal mengenai OSIS, SMAK 1, maupun acara-acara yang sudah atau akan diadakan.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        7. Cashless Canteen: Metode pembayaran kantin yang tidak memakai uang tunai.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        8. Monograph: Organisasi naungan OSIS SMAK 1 PENABUR Jakarta yang beranggotakan siswa-siswi bertalenta dalam membuat desain yang akan digunakan untuk acara.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        9. ONE-MEDIA: Tim multimedia OSIS SMAK 1 PENABUR Jakarta yang beranggotakan anggota OSIS Bidang 9 yang bertugas untuk melancarkan pelaksanaan kegiatan dan acara sekolah dan OSIS.
-                    </p>
-                    <br/>
-                    <p className="text-left">
-                        10. ONECAST: Podcast resmi OSIS SMAK 1 PENABUR Jakarta yang dibawakan oleh peserta didik SMAK 1 dan dapat didengarkan Spotify.
-                    </p>
+                    <ul className="list-decimal ml-5">
+                        <li>
+                            <p className="text-justify">
+                                Website: Website merupakan program situs resmi OSIS SMAK 1 PENABUR Jakarta dimana terdapat informasi mengenai OSIS SMAK 1 dan acara-acara OSIS yang sudah maupun akan diadakan.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Photo Gallery: Berisikan dokumentasi yang berupa gambar dari acara SMAK 1. Photo Gallery dapat diakses bagi seluruh warga SMAK 1 di https://smakone.org/.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Shutter One: Organisasi naungan OSIS SMAK 1 PENABUR Jakarta yang beranggotakan siswa-siswi bertalenta dalam video editing dan mendokumentasi foto maupun video dari sebuah acara.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                SMAK One Social Network: Sosial media (Instagram, Line, dan Youtube) resmi OSIS SMAK 1 PENABUR Jakarta yang memberikan konten mengenai program OSIS dan tempat untuk lebih berinteraktif antara OSIS dengan warga SMAK 1. 
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                G-Drive: Tempat penyimpanan online (Google Drive) dari OSIS untuk menyimpan prosata, proker, anggaran, dan laporan kegiatan.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                ANEWS: Tempat penerbitan berita terbaru mengenai hampir segala hal mengenai OSIS, SMAK 1, maupun acara-acara yang sudah atau akan diadakan.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Cashless Canteen: Metode pembayaran kantin yang tidak memakai uang tunai.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                Monograph: Organisasi naungan OSIS SMAK 1 PENABUR Jakarta yang beranggotakan siswa-siswi bertalenta dalam membuat desain yang akan digunakan untuk acara.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                ONE-MEDIA: Tim multimedia OSIS SMAK 1 PENABUR Jakarta yang beranggotakan anggota OSIS Bidang 9 yang bertugas untuk melancarkan pelaksanaan kegiatan dan acara sekolah dan OSIS.
+                            </p>
+                        </li>
+                            <br/>
+                        <li>
+                            <p className="text-justify">
+                                ONECAST: Podcast resmi OSIS SMAK 1 PENABUR Jakarta yang dibawakan oleh peserta didik SMAK 1 dan dapat didengarkan Spotify.
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
