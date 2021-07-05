@@ -58,7 +58,7 @@ export default function KehidupanPage() {
                 <h2 className="justify-left text-left font-bold px-2 pt-4 pb-2">
                     Waktu Istirahat
                 </h2>
-                <p className="justify-center text-justify pb-12">
+                <p className="justify-center text-justify px-2 pb-12">
                     Setelah menjalani jam pelajaran yang panjang dan menguras tenaga, siswa-siswi dapat menghabiskan waktu istirahatnya di area kantin. Ada berbagai 
                     stall yang menjual makanan dan minuman yang bervariasi, mulai dari yang manis, pedas, hingga panas dan dingin. Berbagai tanaman yang menghiasi 
                     kantin, menciptakan suasana yang rindang dan asri.
