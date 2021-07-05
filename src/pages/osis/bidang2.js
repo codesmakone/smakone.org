@@ -39,8 +39,9 @@ export default function bidang2() {
                 <div>
                     <Osis
                         img={ kevin } 
-                        title="Chloe Stephanie Sugiarto" 
-                        desc="Halo semuanya salam kenal , namaku Geoffrey Li dan biasanya dipanggil Gio. Saat ini saya sedang duduk di kelas 11 MIPA. Nah kalau hobiku sendiri itu biasanya berhubungan dengan olahraga seperti menonton bola . Nah fun fact tentang aku ya gais , aku orangnya kalau ngomong suka cepet banget sampe kadang temenku ga ngerti sama yg aku ngomongin hehehehe . Jadi nanti kalo aku ngomongnya ada yang tidak jelas feel free buat tanya lagi aja ya"
+                        title="Kevin Frans Periatna" 
+                        desc="Haloo semuanyaa, aku Kevin Frans Periatna biasa dipanggil Kev. Aku saat ini ada di kelas 11 IPS. Untuk hobi hmm... aku sih suka nonton tv series, main game sampai mendengarkan lagu. Nah untuk jenis lagu yang aku dengerin itu dari indo sampai kpop semuaa aku dengerin ;) Terakhirrr, untuk kalian yang mau tanya apapun gausah malu-malu yaa bole contact aku di ig akfp05 atau line.. 
+                        "
                     />
                 </div>
                 <div>
