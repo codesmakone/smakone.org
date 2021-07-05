@@ -10,8 +10,10 @@ export default function OsisPage() {
     const content = (
         <Content>
             <div className="container mx-auto">
+            <h1 className="justify-center text-center p-2 font-medium text-5xl mb-5">
+                Tentang Kami
+            </h1>
             <KegiatanSection
-                title="Tentang Kami"
                 img={OSIS}
                 alt="Pelantikan OSIS"
             />
@@ -22,14 +24,14 @@ export default function OsisPage() {
                 Jalan yang akan dilewati bebas dari hambatan untuk OSIS SMAK 1 terus melebarkan sayapnya. 
             </p>
             <br />
-            <h2 className="font-medium text-lg lg:text-5xl mt-12 justify-center text-center">
+            <h2 className="font-medium text-3xl mt-12 justify-center text-center">
                 Visi Kami
             </h2>
             <p className="justify-center text-center p-2">
                 Meningkatkan eksistensi SMAK 1 PENABUR melalui pengembangan prestasi, potensi, dan bakat peserta didik SMAK 1 PENABUR, baik di bidang akademik maupun non-akademik, 
                 sekaligus membangun karakter yang berlandaskan iman, ilmu, dan pelayanan, serta mengedepankan pemanfaatan teknologi modern dan terwujudnya cita-cita sekaligus aspirasi warga SMAK 1 PENABUR
             </p>
-            <h2 className="font-medium text-lg lg:text-5xl mt-12 justify-center text-center">
+            <h2 className="font-medium text-3xl mt-12 justify-center text-center">
                 Misi Kami
             </h2>
             <p className="justify-center text-center p-2">

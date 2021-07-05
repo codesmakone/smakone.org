@@ -3,7 +3,7 @@ import AboutLayout from '../../components/page_template/AboutLayout'
 import Banner from "../../images/banner2.jpg"
 
 export default function SongsPage() {
-    const title = "Sekilas Tentang SMAKONE"
+    const title = "Tentang Kami"
     const content = (
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 pb-12">
             <div>
