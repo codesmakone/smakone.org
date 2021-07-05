@@ -24,7 +24,7 @@ import tow from "../../images/fasilitas/toiletwanita.jpg"
 import UKS from "../../images/fasilitas/UKS.jpg"
 
 export default function FasilitasPage() {
-    const title = "Sejarah, Visi, dan Misi SMAKONE"
+    const title = "Tentang Kami"
     const content = (
         <div>
             <h2 className="font-medium text-3xl lg:text-5xl mt-12 justify-center text-center">

@@ -5,7 +5,7 @@ import LogoBPK from "../../images/Logo_BPK.png"
 import LogoOSIS from "../../images/OSIS-SMAK-1.png"
 
 export default function LogoPage() {
-    const title = "Sejarah, Visi, dan Misi SMAKONE"
+    const title = "Tentang Kami"
     const content = (
         <div>
             <h2 className="font-medium text-3xl lg:text-5xl mt-12 justify-center text-center pb-12">

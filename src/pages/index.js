@@ -3,10 +3,10 @@ import Parser from 'rss-parser';
 import { Parallax, Background } from 'react-parallax';
 import MainContainer from '../components/page_template/MainContainer'
 import HomeCard from '../components/home/homeCard'
+import HomeCardWhite from '../components/home/homeCardWhite'
 
 import HeroImage from '../images/home/HeroImage.jpg'
 
-import KehidupanSMUKIERZ from '../images/home/kehidupanSMUKIERZ.jpg'
 import Kegiatan from '../images/home/Kegiatan.jpg'
 import Osis from '../images/home/OSIS.jpg'
 
@@ -43,9 +43,9 @@ const IndexPage = () => {
             <Parallax strength={200} className="mt-20 min-h-700 w-full" bgClassName="w-full" bgStyle={{width:"100%"}}>
               <Background className="w-full">
                 <div className="grid grid-cols-6 lg:grid-cols-12 min-h-700">
-                  <div className="col-span-6 lg:bg-gray-100 bg-white flex flex-col justify-center my-5" >
-                    <h1 className="text-6xl font-bold ml-16">Selamat Datang</h1>
-                    <h1 className="text-3xl font-serif mt-3 ml-16">Di Website OSIS SMAK 1 BPK Penabur Jakarta</h1>
+                  <div className="col-span-6 lg:bg-gray-100 bg-white flex flex-col justify-center text-center my-10 mx-3" >
+                    <h1 className="text-6xl font-bold">Selamat Datang</h1>
+                    <h1 className="text-3xl mt-3">Di Website OSIS SMAK 1 BPK Penabur Jakarta</h1>
                   </div>
                   <div className="col-span-6">
                     <img src={HeroImage} className="object-cover min-h-700"/>
@@ -106,7 +106,7 @@ const IndexPage = () => {
         </div>
         
         
-        <div className="bg-yellow-400 lg:px-12 px-3 py-40 shadow-xl">
+        <div className="bg-purple-700 lg:px-12 px-3 py-40 shadow-xl">
           <div className="container mx-auto">
             <h1 className="justify-center text-white text-5xl text-center font-bold mb-12">
               Kegiatan
@@ -116,28 +116,28 @@ const IndexPage = () => {
                 <img src={Kegiatan} className="object-fill w-full h-auto rounded-2xl"/>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:mx-5 rounded-2xl">
-                  <HomeCard
+                  <HomeCardWhite
                       img={ Smakonecup } 
                       alt="Smakonecup"
                       desc='"Acara tahunan yang penuh sinar matahari, keringat, dan kejutan"'
                       title="Smakonecup" 
                       dir="/kegiatan/smakonecup"
                   />
-                  <HomeCard
+                  <HomeCardWhite
                       img={ Sound } 
                       alt="Soundscape"
                       desc='"Pertunjukan Spektakuler Di Akhir Smakonecup"'
                       title="Soundscape" 
                       dir="/kegiatan/soundscape"
                   />
-                  <HomeCard
+                  <HomeCardWhite
                       img={ STN } 
                       alt="STN"
                       desc='"Saat berbagai seni dipadukan dan menghasilkan sebuah karya yang memukau"'
                       title="SMUKIEZ Theater Night" 
                       dir="/kegiatan/stn"
                   />
-                  <HomeCard
+                  <HomeCardWhite
                       img={ Kriza } 
                       alt="KR1ZA"
                       desc='"Terus berlatih dan raih prestasi"'
@@ -193,7 +193,7 @@ const IndexPage = () => {
           </div>
         </div>
 
-        <div className="bg-red-300 lg:px-12 px-3 py-40">
+        <div className="bg-blue-900 lg:px-12 px-3 py-40">
           <div className="container mx-auto">
             <h1 className="justify-center text-white text-5xl text-center font-bold mb-12">
               Kenal Kami Lebih Jauh
@@ -203,22 +203,22 @@ const IndexPage = () => {
                 <img src={Osis} className="object-fill w-full h-auto rounded-2xl"/>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:mx-5 rounded-2xl">
-                  <HomeCard
+                  <HomeCardWhite
                       img={ Pelantikan } 
                       title="Tentang OSIS SMAK 1" 
                       dir="/osis"
                   />
-                  <HomeCard
+                  <HomeCardWhite
                       img={ Lobby } 
                       title="Tentang SMAK 1" 
                       dir="/about"
                   />
-                  <HomeCard
+                  <HomeCardWhite
                       img={ Perpus } 
                       title="Fasilitas" 
                       dir="/about/fasilitas"
                   />
-                  <HomeCard
+                  <HomeCardWhite
                       img={ SC } 
                       title="Lagu Tema" 
                       dir="/about/songs"

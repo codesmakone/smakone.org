@@ -8,7 +8,7 @@ export default function KegiatanPage() {
     const title = "Kegiatan"
     const content = (
         <div className="container mx-auto"> 
-            <h1 className="justify-center text-center p-2 font-extrabold text-5xl mb-5">
+            <h1 className="justify-center text-center p-2 font-medium text-5xl mb-5">
                 Ada Apa Aja Sih di SMAK 1?
             </h1>
             <div className="mb-8 iframe-container">

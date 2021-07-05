@@ -10,7 +10,7 @@ export default function HeroImage({title,hero,opacity = 60,color="blue-900"}) {
                 <h1 className="text-7xl top-9 text-white font-bold block max-w-4xl text-center">{title}</h1>
             </div>   
         </Parallax>    
-        <div class="absolute bottom-0 xl:visible lg:visible md:invisible sm:invisible left-0 w-full">
+        <div class="absolute bottom-0 xl:visible invisible left-0 w-full">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path style={{fill:"rgb(254,254,255)"}} fill-opacity="1" d="M0,256L80,240C160,224,320,192,480,202.7C640,213,800,267,960,272C1120,277,1280,235,1360,213.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
             </svg>

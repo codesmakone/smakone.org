@@ -3,7 +3,7 @@ import AboutLayout from '../../components/page_template/AboutLayout'
 import Banner from "../../images/banner2.jpg"
 
 export default function HistoryPage() {
-    const title = "Sejarah, Visi, dan Misi SMAKONE"
+    const title = "Tentang Kami"
     const content = (
         <div>
             <h2 className="justify-left text-left font-bold text-lg pt-4 pb-2">
