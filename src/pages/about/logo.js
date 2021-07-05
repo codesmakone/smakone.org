@@ -8,17 +8,14 @@ export default function LogoPage() {
     const title = "Sejarah, Visi, dan Misi SMAKONE"
     const content = (
         <div>
-            <div className="grid grid-cols-2 gap-10">
-                <div>
-                    <img src={LogoBPK} alt="Logo BPK"></img>
-                </div>
-                <div>
-                    <img className="lg:w-3/5 w-4/5" src={LogoOSIS} alt="Logo OSIS"></img>
-                </div>     
-            </div>
-            <h2 className="justify-left text-center text-xl font-bold px-2 pt-12 pb-12">Arti Logo:</h2>
-            <div className="grid grid-cols-2 gap-10">
-                <div>
+            <h2 className="font-medium text-3xl lg:text-5xl mt-12 justify-center text-center pb-12">
+                Arti Logo
+            </h2>
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 mb-12">
+                <div className="mx-auto">
+                    <div className="container mx-auto">
+                        <img src={LogoBPK} alt="Logo BPK" className="h-96 mx-auto object-center"/>
+                    </div>
                     <ul className="list-disc px-6 pt-2 pb-12">
                         <li>Salib berwarna merah sebagai darah Yesus</li>
                         <li>Buku berwarna kuning sebagai terang pelita</li>
@@ -27,7 +24,8 @@ export default function LogoPage() {
                         <li>Dasar Iman, Ilmu, dan Pelayanan artinya iman Kristiani ilmu yang bermutu handal, dan pelayanan yang adil dan benar</li>
                     </ul>
                 </div>
-                <div> 
+                <div>
+                    <img className="h-96 mx-auto object-center" src={LogoOSIS} alt="Logo OSIS"/>
                     <ul className="list-disc px-6 pt-2 pb-12">
                         <li>Salib melambangkan Iman yang nyata dalam perbuatan</li>
                         <li>Buku melambangkan ilmu yang digunakan untuk membuat segala sesuatu menjadi lebih baik</li>
