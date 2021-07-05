@@ -8,9 +8,17 @@ export default function KegiatanPage() {
     const title = "Kegiatan"
     const content = (
         <div className="container mx-auto"> 
-            <h1 className="justify-center text-center p-2 font-extrabold text-5xl">
+            <h1 className="justify-center text-center p-2 font-extrabold text-5xl mb-5">
                 Ada Apa Aja Sih di SMAK 1?
             </h1>
+            <div className="mb-8 iframe-container">
+                <iframe
+                    src="https://www.youtube.com/embed/XifGVzIuT_I"
+                    title="Life at SMAKONE"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
             <p className="justify-center text-justify p-2">
                 Banyak orang mengira di SMAK 1 itu hanya belajar, belajar, dan belajar. Memang benar sih kami banyak belajar, 
                 tetapi belajarnya bukan hanya dalam bidang akademis. Dalam bidang non-akademis kami juga banyak belajar, loh. 

@@ -17,12 +17,12 @@ export default function KehidupanPage() {
                 "Hidup penuh keseimbangan"
             </p>
             <div className="mb-8 iframe-container">
-                <img src={Banner} alt="sementara"/>
-                {/*
-                <video controls>
-                    <source src={LifeAtSMAKONE} type="video/mp4"/>
-                </video>
-                */}
+                <iframe
+                    src="https://www.youtube.com/embed/XifGVzIuT_I"
+                    title="Life at SMAKONE"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
             </div>
             <div>
                 <p className="justify-center text-justify p-2">
