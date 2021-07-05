@@ -11,14 +11,13 @@ export default function AboutPage() {
             <h2 className="font-medium text-3xl lg:text-5xl mt-12 justify-center text-center">
                 Sekilas Tentang SMAK 1
             </h2>
-            <div className="mb-8 iframe-container">
-                {/*
-                <img src={Banner} alt="sementara"/>
-                
-                <video controls>
-                    <source src={LifeAtSMAKONE} type="video/mp4"/>
-                </video>
-                */}
+            <div className="mt-4 mb-8 iframe-container">
+                <iframe
+                    src="https://www.youtube.com/embed/XifGVzIuT_I"
+                    title="Life at SMAKONE"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
             </div>
             <p className=" text-justify p-2 pb-5">
                 SMAK 1 PENABUR merupakan sekolah Kristen bergengsi di wilayah Tanjung Duren, Jakarta. Dengan visi untuk mewujudnyatakan sekolah unggul yang 

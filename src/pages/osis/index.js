@@ -6,7 +6,7 @@ import KegiatanSection from '../../components/kegiatan/KegiatanSection'
 import OSIS from '../../images/pelantikan.jpg'
 
 export default function OsisPage() {
-    const title = "Deeper Look Into SMAK 1 Student Council"
+    const title = "OSIS"
     const content = (
         <Content>
             <div className="container mx-auto">
