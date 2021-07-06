@@ -7,7 +7,7 @@ import Banner from "../../images/bannerKegiatan.jpg"
 
 
 export default function PengumumanPage() {
-    const title = "Pengumuman"
+    const title = "PLS2021"
     const content = (
         <div className="container mx-auto"> 
             <div className="m-3">
