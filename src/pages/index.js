@@ -35,7 +35,7 @@ const IndexPage = () => {
                 <div className="grid grid-cols-6 lg:grid-cols-12 min-h-700">
                   <div className="col-span-6 lg:bg-gray-100 bg-white flex flex-col justify-center text-center my-10 mx-3" >
                     <h1 className="text-6xl font-bold">Selamat Datang</h1>
-                    <h1 className="text-3xl mt-3">Di Website OSIS SMAK 1 BPK Penabur Jakarta</h1>
+                    <h1 className="text-3xl mt-3">Di Website OSIS SMAK 1 BPK PENABUR Jakarta</h1>
                   </div>
                   <div className="col-span-6">
                     <img src={HeroImage} className="object-cover min-h-700" alt="main"/>
