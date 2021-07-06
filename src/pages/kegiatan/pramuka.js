@@ -14,7 +14,7 @@ export default function DofEPage() {
         <div className="container mx-auto"> 
             <KegiatanSection
                 title="PRAMUKA"
-                subtitle='"Ambalan Soekarno-Fatmawati SIap!"'
+                subtitle='"Ambalan Soekarno-Fatmawati Siap!"'
                 img={Pramuka}
                 alt="Pramuka"
             />
