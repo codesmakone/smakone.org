@@ -33,87 +33,87 @@ export default function FasilitasPage() {
             <br />
             <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
                 <div>
-                    <img src={aula} />
+                    <img src={aula} alt="Aula"/>
                     <p className="justify-center text-center p-2">Aula</p>
                 </div>
                 <div>
-                    <img src={kantin} />
+                    <img src={kantin} alt="Kantin" />
                     <p className="justify-center text-center p-2">Kantin</p>
                 </div>
                 <div>
-                    <img src={kelas} />
+                    <img src={kelas} alt="Kelas" />
                     <p className="justify-center text-center p-2">Kelas</p>
                 </div>
                 <div>
-                    <img src={koperasi} />
+                    <img src={koperasi} alt="Koperasi" />
                     <p className="justify-center text-center p-2">Koperasi</p>
                 </div>
                 <div>
-                    <img src={labb} />
+                    <img src={labb} alt="lab bio" />
                     <p className="justify-center text-center p-2">Lab Biologi</p>
                 </div>
                 <div>
-                    <img src={labf} />
+                    <img src={labf} alt="lab fisika" />
                     <p className="justify-center text-center p-2">Lab Fisika</p>
                 </div>
                 <div>
-                    <img src={labkim} />
+                    <img src={labkim} alt="lab kimia" />
                     <p className="justify-center text-center p-2">Lab Kimia</p>
                 </div>
                 <div>
-                    <img src={labkomp} />
+                    <img src={labkomp} alt="lab komp" />
                     <p className="justify-center text-center p-2">Lab Komputer</p>
                 </div>
                 <div>
-                    <img src={labe} />
+                    <img src={labe} alt="lab ing" />
                     <p className="justify-center text-center p-2">Lab Inggris</p>
                 </div>
                 <div>
-                    <img src={lobi}/>
+                    <img src={lobi} alt="lobby"/>
                     <p className="justify-center text-center p-2">Lobi</p>
                 </div>
                 <div>
-                    <img src={lift}/>
+                    <img src={lift} alt="lift"/>
                     <p className="justify-center text-center p-2">Lift</p>
                 </div>
                 <div>
-                    <img src={lap}/>
+                    <img src={lap} alt="lapangan"/>
                     <p className="justify-center text-center p-2">Lapangan</p>
                 </div>
                 <div>
-                    <img src={park} />
+                    <img src={park} alt="taman" />
                     <p className="justify-center text-center p-2">Parkiran</p>
                 </div>
                 <div>
-                    <img src={audit} />
+                    <img src={audit} alt="auditorium" />
                     <p className="justify-center text-center p-2">Auditorium</p>
                 </div>
                 <div>
-                    <img src={musik} />
+                    <img src={musik} alt="musik" />
                     <p className="justify-center text-center p-2">Ruang Musik</p>
                 </div>
                 <div>
-                    <img src={osis} />
+                    <img src={osis} alt="ruang osis" />
                     <p className="justify-center text-center p-2">Ruang OSIS</p>
                 </div>
                 <div>
-                    <img src={perpus} />
+                    <img src={perpus} alt="perpus" />
                     <p className="justify-center text-center p-2">Perpustakaan</p>
                 </div>
                 <div>
-                    <img src={radio} />
+                    <img src={radio} alt="ruang radio" />
                     <p className="justify-center text-center p-2">Ruang Radio</p>
                 </div>
                 <div>
-                    <img src={UKS} />
+                    <img src={UKS} alt="uks" />
                     <p className="justify-center text-center p-2">Unit Kesehatan Sekolah (UKS)</p>
                 </div>
                 <div>
-                    <img src={top} />
+                    <img src={top} alt="toilet pria" />
                     <p className="justify-center text-center p-2">Toilet Pria</p>
                 </div>
                 <div>
-                    <img src={tow} />
+                    <img src={tow} alt="toilet wanita" />
                     <p className="justify-center text-center p-2">Toilet Wanita</p>
                 </div>
             </div>

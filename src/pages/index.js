@@ -1,5 +1,4 @@
-import React,{useState,useEffect} from 'react'
-import Parser from 'rss-parser';
+import React from 'react'
 import { Parallax, Background } from 'react-parallax';
 import MainContainer from '../components/page_template/MainContainer'
 import HomeCard from '../components/home/homeCard'
@@ -26,15 +25,6 @@ import Perpus from '../images/perpus.jpg'
 import SC from '../images/SC.jpg'
 
 const IndexPage = () => {
-  const {podcast,setPodcast} = useState();
-  let parser = new Parser();
-  useEffect(()=>{
-    const RSS_URL = `https://anchor.fm/s/53711968/podcast/rss`;
-
-    parser.parseURL(RSS_URL,(data)=>{
-      console.log(data)
-    })
-  },[])
   return (
     <MainContainer>
       <div>
@@ -48,7 +38,7 @@ const IndexPage = () => {
                     <h1 className="text-3xl mt-3">Di Website OSIS SMAK 1 BPK Penabur Jakarta</h1>
                   </div>
                   <div className="col-span-6">
-                    <img src={HeroImage} className="object-cover min-h-700"/>
+                    <img src={HeroImage} className="object-cover min-h-700" alt="main"/>
                   </div>
                 </div>
               </Background>
@@ -113,7 +103,7 @@ const IndexPage = () => {
             </h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 rounded-lg">
               <div className="rounded-lg">
-                <img src={Kegiatan} className="object-fill w-full h-auto rounded-2xl"/>
+                <img src={Kegiatan} className="object-fill w-full h-auto rounded-2xl" alt="Kegiatan"/>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:mx-5 rounded-2xl">
                   <HomeCardWhite
@@ -200,7 +190,7 @@ const IndexPage = () => {
             </h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 rounded-lg">
               <div className="rounded-lg">
-                <img src={Osis} className="object-fill w-full h-auto rounded-2xl"/>
+                <img src={Osis} className="object-fill w-full h-auto rounded-2xl" alt="Osis"/>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:mx-5 rounded-2xl">
                   <HomeCardWhite

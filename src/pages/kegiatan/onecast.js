@@ -1,6 +1,6 @@
 import React from 'react'
 import KegiatanSection from '../../components/kegiatan/KegiatanSection'
-// import KegiatanList from '../../components/kegiatan/KegiatanList'
+import {Link} from 'gatsby'
 import KegiatanLayout from '../../components/page_template/KegiatanLayout'
 
 import ONECAST from '../../images/kegiatan/onecast.png'
@@ -30,6 +30,13 @@ export default function OnecastPage() {
             siswa-siswi SMAK 1 yang ingin menjadi bagian dari ONECAST, dapat mendaftarkan diri di awal 
             tahun ajaran dengan periode kerja 1 tahun.  
             </p>
+            <div className="pb-12 pt-12">
+                <div className="text-center">
+                    <Link className="text-white btn bg-yellow-400" target="blank" to="https://open.spotify.com/show/19z2XBIe5VEyAx0UvhdTZe?si=HOok4DrNS-O1YKHXb4yceA&dl_branch=1">
+                        Kenali Lebih Lanjut {">"}
+                    </Link>
+                </div>
+            </div>
         </div>
     )
     return (

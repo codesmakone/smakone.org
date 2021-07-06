@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import { Parallax } from 'react-parallax';
 export default function HeroImage({title,hero,opacity = 60,color="blue-900"}) {
     return (

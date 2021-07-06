@@ -127,7 +127,7 @@ export default function AnggotaPage() {
                 Pembinaan Budi Pekerti Luhur dan Akhlak Mulia
             </h1>
             <br />
-            <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
+            <div className="grid lg:grid-cols-4 grid-cols-1 gap-4">
                 <div>
                     <Team 
                         img={ Darrel } 
@@ -150,6 +150,14 @@ export default function AnggotaPage() {
                         title="Chloe Stephanie Sugiarto" 
                         desc="Anggota Bidang"
                         alt="Chloe"
+                    />
+                </div>
+                <div>
+                    <Team 
+                        img={ Kevin } 
+                        title="Kevin Frans Periatna" 
+                        desc="Anggota Bidang"
+                        alt="Kevin"
                     />
                 </div>
             </div>
@@ -223,8 +231,8 @@ export default function AnggotaPage() {
                  Pembinaan Demokrasi, HAM, Pendidikan Politik, Lingkungan Hidup, Kepekaan, dan Toleransi Sosial Dalam Konteks Masyarakat Plural
             </h1>
             <br />
-            <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
-                <div className="justify-center mx-auto col-start-1 col-end-2">
+            <div className="grid lg:grid-cols-6 grid-cols-1 gap-4">
+                <div className="justify-center mx-auto col-start-2 col-end-3">
                     <Team 
                         img={ Gillian } 
                         title="Gillian Season" 
@@ -232,7 +240,7 @@ export default function AnggotaPage() {
                         alt="Gillian"
                     />
                 </div>
-                <div className="justify-center mx-auto col-start-3 col-end-4">
+                <div className="justify-center mx-auto col-start-4 col-end-5">
                     <Team 
                         img={ Jocelyn } 
                         title="Jocelyn Emmanuella Mok" 
