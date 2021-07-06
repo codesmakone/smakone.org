@@ -14,7 +14,7 @@ export default function PengumumanPage() {
                 <img src={ PLS} className="object-cover w-full rounded-lg shadow-xl" alt="PLS" />
                 <div className="p-2">
                     <h2 className="font-semibold text-center text-3xl">Pengenalan Lingkungan Sekolah</h2>
-                    <p className="text-center mb-6">New Journey, New Adventure</p>
+                    <p className="text-center mb-6">"New Journey, New Adventure"</p>
                 </div>
             </div>
             <p className="justify-center text-justify p-2">
