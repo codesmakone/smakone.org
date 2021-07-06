@@ -7,7 +7,7 @@ import Banner from "../../images/bannerKegiatan.jpg"
 
 
 export default function PengumumanPage() {
-    const title = "Ada Apa Aja Sih di SMAK 1?"
+    const title = "Pengumuman"
     const content = (
         <div className="container mx-auto"> 
             <div className="m-3">
