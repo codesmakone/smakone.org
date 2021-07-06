@@ -67,16 +67,19 @@ export default function bidang2() {
                                 Paskibra, Pasukan Pengibar Bendera bertugas pada setiap kegiatan Upacara 
                             </p>
                         </li>
+                            <br />
                         <li>
                             <p className="text-justify">
                                 RESTORE : OSIS Bidang 3 membuat program bagi peserta didik untuk berekreasi ke destinasi wisata di Indonesia untuk menambah wawasan tentang budaya Indonesia 
                             </p>
                         </li>
+                            <br />
                         <li>
                             <p className="text-justify">
                                 Perayaan Hari Kartini : OSIS Bidang 3 membuat perayaan untuk Hari Kartini sebagai ajang bagi peserta didik untuk mengapresiasi jasa Ibu R.A Kartini 
                             </p>
                         </li>
+                            <br />
                         <li>
                             <p className="text-justify">
                                 Perayaan Hari Guru : OSIS Bidang 3 mengadakan acara Perayaan Hari Guru sebagai ajang bagi peserta didik untuk memberi penghormatan dan menunjukkan rasa terima kasih kepada para guru yang sudah berjasa bagi mereka
