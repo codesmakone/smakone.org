@@ -33,7 +33,7 @@ const IndexPage = () => {
             <Parallax strength={200} className="mt-20 min-h-700 w-full" bgClassName="w-full" bgStyle={{width:"100%"}}>
               <Background className="w-full">
                 <div className="grid grid-cols-6 lg:grid-cols-12 min-h-700">
-                  <div className="col-span-6 lg:bg-gray-100 bg-white flex flex-col justify-center text-center my-10 mx-3" >
+                  <div className="col-span-6 lg:bg-gray-100 bg-white flex flex-col justify-center text-center my-10" >
                     <h1 className="text-6xl font-bold">Selamat Datang</h1>
                     <h1 className="text-3xl mt-3">Di Website OSIS SMAK 1 BPK PENABUR Jakarta</h1>
                   </div>
