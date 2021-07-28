@@ -3,7 +3,7 @@ import OsisLayout from '../../components/page_template/OsisLayout'
 import Banner from "../../images/banner2.jpg"
 import Osis from '../../components/osis/OsisSection'
 import gillian from '../../images/team/gillian.jpg'
-import stephanie from '../../images/team/stephanie.jpg'
+import jocelyn from '../../images/team/Jocelyn.jpg'
 
 
 export default function bidang2() {
@@ -21,7 +21,7 @@ export default function bidang2() {
                 </div>
                 <div>
                     <Osis
-                        img={ stephanie } 
+                        img={ jocelyn } 
                         title="Jocelyn Emmanuella Mok"  
                         desc="Hi! Namaku Jocelyn Emmanuella Mok dan saat ini merupakan murid kelas 11 IPS. Untuk mengisi waktu luang, aku biasanya dengar lagu and I also enjoy taking landscape pictures. Selain OSIS, aku juga join beberapa organisasi di smuki seperti tedxyouth@smakone dan shutterone, yang pastinya juga menambah pengetahuan dan pengalaman baru yang gak kalah seru. Fun Fact tentang ku, aku anak rantau guyss hehehe, jadi yang dari luar kota juga don’t hesitate to reach out! Have fun di smuki!!"
                     />

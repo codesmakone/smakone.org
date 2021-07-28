@@ -6,7 +6,7 @@ import Michael from '../../../images/Card/MichaelAbimanyu.jpg'
 import Banner from "../../../images/17an.jpg"
 
 export default function MichaelPage() {
-    const title = "Kehidupan SMUKIERZ"
+    const title = "Kehidupan SMUKIERS"
     const content = (
         <div className="grid grid-cols-1 gap-3 py-5">
             <div className="pb-20">
@@ -14,7 +14,7 @@ export default function MichaelPage() {
             <h1 className="text-center mt-5 font-bold text-5xl">
                 Michael Abimanyu
             </h1>
-            <p className="text-center mb-8">"Pianis sekaligus musisi andalan SMUKIERZ"</p>
+            <p className="text-center mb-8">"Pianis sekaligus musisi andalan SMUKIERS"</p>
             <AlumniArticle>
                 Michael Abimanyu merupakan siswa SMAK 1 yang dikenal karena kemampuan bermain musiknya yang luar biasa. Michael tertarik ke dalam musik pada usia 
                 tiga tahun. Ketika ia mendengar suara piano di rumah teman ayahnya, Michael yang berusia tiga tahun terkagum dengan indahnya melodi dari piano 

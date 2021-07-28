@@ -141,15 +141,15 @@ const IndexPage = () => {
 
         <div className="container mx-auto py-40">
           <h1 className="justify-center text-5xl text-center font-bold mb-5">
-            Kehidupan SMUKIERZ
+            Kehidupan SMUKIERS
           </h1>
           <div className="grid grid-cols-1 lg:grid-cols-4">
             <div>
               <HomeCard
                     img={ Kehidupan } 
-                    alt="Kehidupan Selama Menjadi SMUKIERZ" 
+                    alt="Kehidupan Selama Menjadi SMUKIERS" 
                     desc='"Hidup penuh keseimbangan"'
-                    title="Kehidupan Selama Menjadi SMUKIERZ" 
+                    title="Kehidupan Selama Menjadi SMUKIERS" 
                     dir="/smukierz"
                 />
             </div>
@@ -158,7 +158,7 @@ const IndexPage = () => {
                     img={ Tips } 
                     alt="Tips Belajar"
                     desc='"Selalu berusaha meraih yang terbaik"'
-                    title="Tips Belajar SMUKIERZ" 
+                    title="Tips Belajar SMUKIERS" 
                     dir="/smukierz/tips"
                 />
             </div>
@@ -175,7 +175,7 @@ const IndexPage = () => {
               <HomeCard
                     img={ Interview } 
                     alt="Gabriela Erin"
-                    title="Bertemu Dengan SMUKIERZ" 
+                    title="Bertemu Dengan SMUKIERS" 
                     desc='"Dengar langsung dari murid SMAK 1"'
                     dir="/smukierz/interview"
                 />

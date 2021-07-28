@@ -7,7 +7,7 @@ import afterschool from '../../images/afterschool.jpg'
 
 
 export default function AfterPage() {
-    const title = "Kehidupan SMUKIERZ"
+    const title = "Kehidupan SMUKIERS"
     const content = (
         <div className="container mx-auto"> 
             <KegiatanSection
@@ -19,7 +19,7 @@ export default function AfterPage() {
             <p className="justify-center text-justify p-2">
                 Bel pulang sekolah berbunyi, menandakan selesainya segala kegiatan belajar mengajar di sekolah. Bagi beberapa siswa-siswi, 
                 istirahat usai sekolah merupakan suatu hal yang dapat menyegarkan pikiran dan waktu untuk melakukan kegiatan yang diinginkan. 
-                Tetapi, apakah yang biasanya <i>smukierz</i> lakukan?
+                Tetapi, apakah yang biasanya <i>smukiers</i> lakukan?
             </p>
             <h2 className="justify-left text-left font-bold px-2 pt-4 pb-2">
                 Berorganisasi di sekolah

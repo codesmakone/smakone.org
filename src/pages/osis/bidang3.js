@@ -18,19 +18,19 @@ export default function bidang2() {
                         title="Meilista Angelica Hierenvira" 
                         desc="Hai semua, nama saya Meilista Angelica Hierenvira, koordinator OSIS Bidang 3. Tahun ini saya berada di kelas 12 dan hobi saya adalah menonton film dan juga membaca buku"
                     />
+                </div> 
+                <div>
+                    <Osis
+                        img={ sherley } 
+                        title="Sherley Aurellia Pricilla Bong" 
+                        desc="Hello, nama saya Sherley Aurellia Pricilla Bong, anggota OSIS Bidang 3. Saya senang menonton film, cartoon, serial tv, dan mencoba makanan-makanan baru."
+                    />
                 </div>
                 <div>
                     <Osis
                         img={ sheperd } 
                         title="Sheperd Petra Karauwan" 
                         desc="Halo semua, perkenalkan nama saya Sheperd, anggota OSIS Bidang 3. Saya lahir di Manado dan menetap di Jakarta semenjak menduduki bangku kelas 2 SD. Saya sangat menggemari hal-hal yang berkaitan dengan dunia sepakbola dan saya juga sangat gemar menonton film-film perang dan action."
-                    />
-                </div>
-                <div>
-                    <Osis
-                        img={ sherley } 
-                        title="Sherley Aurellia Pricilla Bong" 
-                        desc="Hello, nama saya Sherley Aurellia Pricilla Bong, anggota OSIS Bidang 3. Saya senang menonton film, cartoon, serial tv, dan mencoba makanan-makanan baru."
                     />
                 </div>
                 <div>

@@ -8,7 +8,7 @@ export default function SmukierzLayout({title, hero, content}) {
     const sideMenuItem = [
         {
             id:1,
-            title: "Kehidupan SMUKIERZ",
+            title: "Kehidupan SMUKIERS",
             link:"/smukierz"
         },
         {
@@ -23,7 +23,7 @@ export default function SmukierzLayout({title, hero, content}) {
         },
         {
             id:4,
-            title: "Dengar Dari SMUKIERZ",
+            title: "Dengar Dari SMUKIERS",
             link:"/smukierz/interview"
         }
     ]

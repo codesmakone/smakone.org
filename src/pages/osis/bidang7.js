@@ -22,6 +22,13 @@ export default function bidang2() {
                 </div>
                 <div>
                     <Osis
+                        img={ david } 
+                        title="David Chen" 
+                        desc="Halo semua perkenalkan nama aku David Chen dari kelas 12 MIPA  . Aku tinggal di taman palem lestari. Hobi aku bermain basket dan juga mendengarkan musik. Fun fact dari aku adalah aku orang gk suka liat kamar berantakan"
+                    />
+                </div>
+                <div>
+                    <Osis
                         img={ jessica } 
                         title="Jessica Valerie Dewanta" 
                         desc="Halo semua salam kenal! Pekenalkan nama aku Jessica Valerie Dewanta biasanya dipanggilnya JV. Aku tahun ini kelas 11. Hobby aku itu nonton series, main basket, dan juga makan. Funfact tentang aku itu aku takut banget sama ruangan yang kecil dan gelap :) Semoga kita bisa lebih saling kenal ya."
@@ -31,14 +38,7 @@ export default function bidang2() {
                     <Osis
                         img={ valeska } 
                         title="Valeska Theodora Beatrice" 
-                        desc="Salam kenal semua!Halo semua, perkenalkan nama aku Valeska Theodora Beatrice dari kelas XI MIPA, biasanya aku dipanggil val. Hobi aku bermain piano, nonton film, dan juga makan. Nah, untuk jenis film yang aku suka aku paling suka film action. Terakhir, buat kalian yang mau tanya apapun ke aku gausah malu malu ya boleh langsung contact aku aja di ig @valeska_beatrice"
-                    />
-                </div>
-                <div>
-                    <Osis
-                        img={ david } 
-                        title="David Chen" 
-                        desc="Halo semua perkenalkan nama aku David Chen dari kelas 12 MIPA  . Aku tinggal di taman palem lestari. Hobi aku bermain basket dan juga mendengarkan musik. Fun fact dari aku adalah aku orang gk suka liat kamar berantakan"
+                        desc="Salam kenal semua! Halo semua, perkenalkan nama aku Valeska Theodora Beatrice dari kelas XI MIPA, biasanya aku dipanggil val. Hobi aku bermain piano, nonton film, dan juga makan. Nah, untuk jenis film yang aku suka aku paling suka film action. Terakhir, buat kalian yang mau tanya apapun ke aku gausah malu malu ya boleh langsung contact aku aja di ig @valeska_beatrice"
                     />
                 </div>
                 <div>

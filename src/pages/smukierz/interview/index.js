@@ -11,18 +11,18 @@ import Darren from '../../../images/Card/DarrenJonathan.jpg'
 
 
 export default function AfterPage() {
-    const title = "Kehidupan SMUKIERZ"
+    const title = "Kehidupan SMUKIERS"
     const content = (
         <div className="container mx-auto"> 
             <KegiatanSection
-                title="Dengar Dari Smukierz"
+                title="Dengar Dari Smukiers"
                 subtitle='"Pengalaman nyata penuh keseruan"'
             />
             <div className="grid grid-cols-3 gap-4 mb-12">
                 <Card
                     img={ Michael } 
                     alt="Michael Abimanyu" 
-                    desc='"Pianis sekaligus musisi andalan SMUKIERZ"'
+                    desc='"Pianis sekaligus musisi andalan SMUKIERS"'
                     title="Michael Abimanyu" 
                     dir="./michael"
                 />

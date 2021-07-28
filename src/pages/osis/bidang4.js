@@ -21,17 +21,19 @@ export default function bidang2() {
                 </div>
                 <div>
                     <Osis
-                        img={ michael } 
-                        title="Michael Evan Djunaidi" 
-                        desc="Hi guys, salam kenal, namaku Michael Evan , biasanya dipanggil Michael. Saat ini aku lagi duduk di kelas 11 MIPA. Untuk hobi, aku suka main musik, terutama gitar. Aku juga suka nonton drakor, terutama yang ada action sama romance. Anyway, aku kadang orangnya agak chatty, jadi kalau ada yang merasa terganggu ya feel free to tell me"
-                    />
-                </div>
-                <div>
-                    <Osis
                         img={ geoffrey } 
                         title="Geoffrey Li" 
                         desc="Halo semuanya salam kenal , namaku Geoffrey Li dan biasanya dipanggil Gio. Saat ini saya sedang duduk di kelas 11 MIPA. Nah kalau hobiku sendiri itu biasanya berhubungan dengan olahraga seperti menonton bola . Nah fun fact tentang aku ya gais , aku orangnya kalau ngomong suka cepet banget sampe kadang temenku ga ngerti sama yg aku ngomongin hehehehe . Jadi nanti kalo aku ngomongnya ada yang tidak jelas feel free buat tanya lagi aja ya"
                     />
+                    
+                </div>
+                    <Osis
+                        img={ michael } 
+                        title="Michael Evan Djunaidi" 
+                        desc="Hi guys, salam kenal, namaku Michael Evan , biasanya dipanggil Michael. Saat ini aku lagi duduk di kelas 11 MIPA. Untuk hobi, aku suka main musik, terutama gitar. Aku juga suka nonton drakor, terutama yang ada action sama romance. Anyway, aku kadang orangnya agak chatty, jadi kalau ada yang merasa terganggu ya feel free to tell me"
+                    />
+                <div>
+                    
                 </div>
                 <div>
                     <h1 className="font-semibold text-center text-4xl"><b>Deskripsi</b></h1>

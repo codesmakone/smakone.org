@@ -33,7 +33,7 @@ export default function bph() {
                     <Osis
                         img={ Angeline } 
                         title="Angeline Marcelle Lukito" 
-                        desc="Halo! Kenalin aku Angeline, kelas 12, selaku Sekretaris OSIS. Ini instagramku ya, @angelinemarcellee, jangan lupa di follow 😉. Fun fact! Tau gasih, salah satu fakta unik tentangku adalah aku bisa lari pakai high heels loh! Selain itu, aku suka baca buku dan ngobrol sama teman. Trust the timung of your life, itulah motto hidupku!
+                        desc="Halo! Kenalin aku Angeline, kelas 12, selaku Sekretaris OSIS. Ini instagramku ya, @angelinemarcellee, jangan lupa di follow 😉. Fun fact! Tau gasih, salah satu fakta unik tentangku adalah aku bisa lari pakai high heels loh! Selain itu, aku suka baca buku dan ngobrol sama teman. Trust the timing of your life, itulah motto hidupku!
                         "
                     />
                 </div>

@@ -6,7 +6,7 @@ import Gabriela from '../../../images/Card/GabrielaErin.jpg'
 import Banner from "../../../images/17an.jpg"
 
 export default function GabrielaPage() {
-    const title = "Kehidupan SMUKIERZ"
+    const title = "Kehidupan SMUKIERS"
     const content = (
         <div className="grid grid-cols-1 gap-3 py-5">
             <div className="pb-20">

@@ -7,11 +7,11 @@ import Banner from "../../images/17an.jpg"
 
 
 export default function KehidupanPage() {
-    const title = "Kehidupan SMUKIERZ"
+    const title = "Kehidupan SMUKIERS"
     const content = (
         <div className="container mx-auto"> 
             <h2 className="font-medium text-3xl lg:text-5xl mt-12 justify-center text-center">
-                Kehidupan Selama Menjadi SMUKIERZ
+                Kehidupan Selama Menjadi SMUKIERS
             </h2>
             <p className="mb-6 justify-center text-center text-lg text-gray-500">
                 "Hidup penuh keseimbangan"

@@ -20,7 +20,7 @@ export default function OsisLayout({title, hero, content}) {
         },
         {
             id:4,
-            title: "Bidang 1: Agama",
+            title: "Bidang 1: Keimanan dan Ketakwaan",
             link:"/osis/bidang1",
             slug:"bidang1"
         },
