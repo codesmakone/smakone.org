@@ -1,29 +1,53 @@
-import React from "react"
+import * as React from "react"
 import { Link } from "gatsby"
 
-import MainContainer from '../components/page_template/MainContainer'
+// styles
+const pageStyles = {
+  color: "#232129",
+  padding: "96px",
+  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+}
+const headingStyles = {
+  marginTop: 0,
+  marginBottom: 64,
+  maxWidth: 320,
+}
+
+const paragraphStyles = {
+  marginBottom: 48,
+}
+const codeStyles = {
+  color: "#8A6534",
+  padding: 4,
+  backgroundColor: "#FFF4DB",
+  fontSize: "1.25rem",
+  borderRadius: 4,
+}
 
 // markup
 const NotFoundPage = () => {
   return (
-    <MainContainer>
-      <div className="container mx-auto h-full my-64 justify-center text-center">
-        <h1 className="text-9xl font-semibold">404</h1>
-        <p className="mt-5">
-          Menyimpan rasa terlalu dalam<br/>
-          Ujungnya sakit sendiri kan?<br/>
-          Mohon maaf{" "}dari hati terdalam
-          <span role="img" aria-label="Pensive emoji">
-            😔
-          </span>{" "}
-          <br />
-          halaman tidak berhasil ditemukan.
-        </p>
-        <p className="mt-12">
-          <Link to="/" className="bg-red-700 p-3 rounded-lg text-white">Kembali ke halaman utama</Link>
-        </p>
-      </div>
-    </MainContainer>
+    <main style={pageStyles}>
+      <title>Not found</title>
+      <h1 style={headingStyles}>Page not found</h1>
+      <p style={paragraphStyles}>
+        Sorry{" "}
+        <span role="img" aria-label="Pensive emoji">
+          😔
+        </span>{" "}
+        we couldn’t find what you were looking for.
+        <br />
+        {process.env.NODE_ENV === "development" ? (
+          <>
+            <br />
+            Try creating a page in <code style={codeStyles}>src/pages/</code>.
+            <br />
+          </>
+        ) : null}
+        <br />
+        <Link to="/">Go home</Link>.
+      </p>
+    </main>
   )
 }
 
