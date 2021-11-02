@@ -11,7 +11,10 @@ export default function NovemberPage() {
         November's Youth
       </h1>
       <div className="mb-8 iframe-container">
-        <iframe
+        <h1 className="justify-center text-center p-2 font-medium text-4xl mb-5">
+          Coming Soon!
+        </h1>
+        {/* <iframe
           src="https://www.flipbookpdf.net/web/site/26dca515e81cc0654f5d4dda43a7d5a5ff713edc202111.pdf.html"
           width="1000"
           height="700"
@@ -20,7 +23,7 @@ export default function NovemberPage() {
           mozallowfullscreen
           allowFullScreen
           sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation"
-        ></iframe>
+        ></iframe> */}
       </div>
     </div>
   );
