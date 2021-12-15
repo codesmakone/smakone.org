@@ -13,6 +13,7 @@ export default function NovemberPage() {
       <div className="mb-8 iframe-container">
         <iframe
           src="https://www.flipbookpdf.net/web/site/26dca515e81cc0654f5d4dda43a7d5a5ff713edc202111.pdf.html"
+          title="November's Youth"
           width="1000"
           height="700"
           frameborder="0"
