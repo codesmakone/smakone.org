@@ -8,7 +8,7 @@ export default function NovemberPage() {
   const content = (
     <div className="container mx-auto">
       <h1 className="justify-center text-center p-2 font-medium text-5xl mb-5">
-        November's Youth
+        Mindful Christmas
       </h1>
       <div className="mb-8 iframe-container">
         <iframe
