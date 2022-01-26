@@ -17,6 +17,12 @@ export default function EmagzLayout({title, hero, content}) {
             title: "Mindful Christmas",
             link:"/Emagz/2ndissue",
             slug:"2nd Issue"
+        },
+        {
+            id:3,
+            title: "Square One",
+            link:"/Emagz/3rdissue",
+            slug:"3rd Issue"
         }
     ]
     return (
