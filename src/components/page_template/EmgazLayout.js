@@ -23,6 +23,12 @@ export default function EmagzLayout({title, hero, content}) {
             title: "Square One",
             link:"/Emagz/3rdissue",
             slug:"3rd Issue"
+        },
+        {
+            id:4,
+            title: "Festive February",
+            link:"/Emagz/4thissue",
+            slug:"4th Issue"
         }
     ]
     return (
