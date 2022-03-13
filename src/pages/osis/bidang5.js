@@ -23,15 +23,16 @@ export default function bidang2() {
                     <Osis
                         img={ charmaine } 
                         title="Charmaine Dominique"  
-                        desc="Haii semuanyaa🥰! Kenalin aku Floren dan sekarang aku kelas 10 MIPA. Hobby aku nonton film/series (mostly kdrama hihi) dan denger lagu. Kalau mau nanya-nanya atau ngobrol, feel free buat line or dm aku yaa @florentina_0328."
-                    />
+                        desc="Halo semuaaa! Hai, aku Charmaine, cara bacanya “carmen” aja dan aku kelas 10 MIPA! A little fun fact about me, aku suka hal - hal baru & aku tahan denger 1 lagu sampai 6 jam diulang - ulang lhoo! Jadi pastinya hobiku denger lagu dong ya hehe. Kalau mau ngobrol, bisa chat me through line (usernamenya nama panjangku) / dm me yaa (search for my name di followers ig smukie!) "
+                   />
                 </div>
                 <div>
                     <Osis
                         img={ Floo } 
-                        title="Florentina Gwendolyn"  
-                        desc="Halo semuaaa! Hai, aku Charmaine, cara bacanya “carmen” aja dan aku kelas 10 MIPA! A little fun fact about me, aku suka hal - hal baru & aku tahan denger 1 lagu sampai 6 jam diulang - ulang lhoo! Jadi pastinya hobiku denger lagu dong ya hehe. Kalau mau ngobrol, bisa chat me through line (usernamenya nama panjangku) / dm me yaa (search for my name di followers ig smukie!) "
-                    />
+                        title="Florentina Gwendolyn"
+                        desc="Haii semuanyaa🥰! Kenalin aku Floren dan sekarang aku kelas 10 MIPA. Hobby aku nonton film/series (mostly kdrama hihi) dan denger lagu. Kalau mau nanya-nanya atau ngobrol, feel free buat line or dm aku yaa @florentina_0328."
+                     
+                 />
                 </div>
                 <div>
                     <h1 className="font-semibold text-center text-4xl"><b>Deskripsi</b></h1>
