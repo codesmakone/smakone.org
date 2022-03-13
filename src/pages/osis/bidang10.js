@@ -2,9 +2,9 @@ import React from 'react'
 import OsisLayout from '../../components/page_template/OsisLayout'
 import Banner from "../../images/banner2.jpg"
 import Osis from '../../components/osis/OsisSection'
-import naomi from '../../images/team/naomi.jpg'
-import amelia from '../../images/team/amelia.jpg'
-import irving from '../../images/team/irving.jpg'
+import Marco from '../../images/team/Marcp.jpg'
+import amelia from '../../images/team/Amelia.jpg'
+import irving from '../../images/team/Irving.jpg'
 
 export default function bidang2() {
     const title = "OSIS"
@@ -14,23 +14,24 @@ export default function bidang2() {
                 <h1 className="font-semibold text-center text-4xl"><b>Bidang Pembinaan Komunikasi dalam Bahasa Inggris</b></h1>
                 <div>
                     <Osis
-                        img={ naomi } 
-                        title="Naomi Hasian Felicia Butarbutar" 
-                        desc="Halo semuanya! Perkenalkan nama aku Naomi dari kelas 12, dan aku koordinator dari Bidang 10. Hobi aku itu baca, terutama komik sama novel, dengerin musik, dan jalan-jalan. Makanan favorit aku pokoknya yang berbau ayam, ayam diapain aja aku suka semuanya. Terus funfact, dulu aku pernah tinggal di Myanmar sama Kamboja. Salam kenal semua!" 
-                   />
+                        img={ irving } 
+                        title="Irving Jorryn Lie" 
+                        desc="Haiii Semua!!!, Perkenalkan nama aku Irving dari kelas 11 dan aku adalah koordinator dari Bidang 10. Aku suka bernyanyi, bermain alat musik, mendesain, nonton, dengerin lagu, dan masih banyak lagi. Salam kenall semuanyaa!!"
+                    />
                 </div>
                 <div>
                     <Osis
                         img={ amelia } 
                         title="Amelia Maureen Widiya" 
-                        desc="Hai semuanyaa! Namaku Amelia, biasanya aku dipanggil Amel atau Mel. Aku anggota Bidang 10 di OSIS dan sekarang ini aku kelas 11. Belakangan ini, aku lagi suka banget main game, dengerin musik, nonton film, dan ngegambar! Satu fun fact tentang aku, makanan kesukaanku itu telor. Salam kenal semuaa!"
+                        desc="Halo semua! Kenalin namaku Amelia Maureen Widiya, biasa dipanggil Amel atau Mel. Sekarang aku kelas XI MIPA. Hobiku belakangan ini main game, dengerin lagu, dan menggambar. Salam kenal semuanya! 👋
+                        "
                     />
                 </div>
                 <div>
                     <Osis
-                        img={ irving } 
-                        title="Irving Jorryn Lie" 
-                        desc="Haloo semua!, Perkenalkan nama aku Irving dari kelas 11. Aku adalah salah satu anggota dari Bidang 10. Aku suka bernyanyi, bermain alat musik, mendesain, nonton, dengerin lagu, dan masih banyak lagi. Salah satu fun fact mengenai aku itu, aku memiliki passion dalam musik. Selama pandemi aku juga lgii suka mainn game, main piano dan pstinya binge watch! Salam kenall semuanyaa!"
+                        img={ Marco } 
+                        title="Marco Sebastian Tjiong" 
+                        desc="Yo! Halo semua, aku Marco Sebastian Tjiong, nama panggilan Marco. Aku sekarang ada di kelas X MIPA. Hobi aku musiman, tapi ada 2 hobi yang konsisten yaitu main dan tidur. Salam kenal semua 👋👋"
                     />
                 </div>
                 <div>

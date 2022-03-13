@@ -2,10 +2,10 @@ import React from 'react'
 import OsisLayout from '../../components/page_template/OsisLayout'
 import Banner from "../../images/banner2.jpg"
 import Osis from '../../components/osis/OsisSection'
-import darrel from '../../images/team/darrel.jpg'
-import stephanie from '../../images/team/stephanie.jpg'
-import chloe from '../../images/team/Chloe .jpg'
-import kevin from '../../images/team/kevin frans.jpg'
+import Nicole from '../../images/team/Nicole.jpg'
+import Jessica from '../../images/team/Jessica.jpg'
+import Eileen from '../../images/team/Eileen1.jpg'
+import kevin from '../../images/team/Kevin.jpg'
 
 export default function bidang2() {
     const title = "OSIS"
@@ -15,31 +15,30 @@ export default function bidang2() {
                 <h1 className="font-semibold text-center text-4xl"><b>Bidang Pembinaan Budi Pekerti Luhur dan Akhlak Mulia</b></h1>
                 <div>
                     <Osis
-                        img={ darrel } 
-                        title="Darrel Afrian Tjahjadi" 
-                        desc="Halo teman-teman, namaku Darrel Afrian Tjahjadi, biasa dipanggil Darrel, aku bertugas sebagai koordinator bidang 2 OSIS SMAK 1 Penabur Jakarta. Aku bersekolah di SMAK 1 pada tahun 2019-2022, aku sekarang duduk di kelas 12 MIPA, Hobi aku suka menonton dan olahraga, satu hal lagi, silakan ya teman teman kalau mau tanya tanya tentang SMUKI sama aku
-                        "
-                    />
-                </div>
-                <div>
-                    <Osis
-                        img={ stephanie } 
-                        title="Stephanie Patricia Anshell" 
-                        desc="Haiii!!! Nama aku Stephanie Patricia Anshell biasa dipanggil Stephanie. Saat ini aku adalah anak kelas 12 IPS. Kalo ditanya tentang hobi hmm hobiku cukup banyak diantaranya olahraga, baca novel, masak, dan jalan-jalan. Kalo olahraga sendiri selain karena bikin badan sehat tapi juga seru misalnya seperti bersepeda, jogging, renang, dll. Percaya lah alasan utama aku hobi masak karena aku suka ngerecokin dapur ada sensasi kesenangan sendiri aja gitu hahaha. Btw, kalau ada yang mau ditanya tentang aku atau sekolah, jangan malu buat tanya ya."
-                    />
-                </div>
-                <div>
-                    <Osis
-                        img={ chloe } 
-                        title="Chloe Stephanie Sugiarto" 
-                        desc="Hii smuaa! namaku Chloe Stephanie Sugiarto, kalian bisa panggil aku chloe. Aku lahir di jakarta, tahun 2005. Salah satu fun fact tentang aku, aku tuh gabisa diem jadi suka coba hal-hal baru. Seru aja gitu rasanya kalo ada tantangan. Oh iya, aku juga suka bangett nonton film series sama drakor. Jadi kalo ada juga yang suka, pasti nyambung deh kitaa! itu aja sii tentang aku. last but not least, feel free aja yaa yang mau ngobrol atau nanya tentang apa ajaa. xoxo, chloe"
-                    />
-                </div>
-                <div>
-                    <Osis
                         img={ kevin } 
                         title="Kevin Frans Periatna" 
-                        desc="Haloo semuanyaa, aku Kevin Frans Periatna biasa dipanggil Kev. Aku saat ini ada di kelas 11 IPS. Untuk hobi hmm... aku sih suka nonton tv series, main game sampai mendengarkan lagu. Nah untuk jenis lagu yang aku dengerin itu dari indo sampai kpop semuaa aku dengerin ;) Terakhirrr, untuk kalian yang mau tanya apapun gausah malu-malu yaa bole contact aku di ig akfp05 atau line.. "
+                        desc="Haloo semuanya!! Nama aku Kevin Frans Periatna biasa dipanggil Kev atau beberapa orang tau aku akfp hehe, jadi ini few things about me ya hohoho. Kalo lagi ga ngapa-ngapain aku suka banget main FIFA sama nonton series. Aku suka banget series yang fantasy gitu tapi ga nutup kemungkinan buat nonton yang romance juga sih.. Fun fact about me itu aku gasuka nonton film horror tapi suka sama hal berbau mistis.. Aneh ya, tapi yasudala. Ok next, hobi aku itu aku suka denger music. Mau lagi belajar ato lagi nganggur pasti spotify aku on 24/7 hehehehehe. Nah terakhir kalo kalian punya pertanyaan atau kek mau ngobrol aja feel free to contact me ya gaes.. Boleh banget di add line ku ato IG ku ato bahkan spotifyku @akfp05 ya gausa takut ya gaes ya aku gak galak kok hehhehe.. Salken semuaa!"
+                    />
+                </div>
+                <div>
+                    <Osis
+                        img={ Eileen } 
+                        title="Eileen Elton" 
+                        desc="Hiii guys,,,, nama aku Eileen Elton, panggil aja eileen/leen boleh. Nah ini tuh facts about me gituu yaaa. Ok jadi yang pertama itu musik…. Spotify aku pasti nyala terus beneran :| tapiii playlist-playlistnya pasti aku hide :)) karena i wanna gatekeep my musics hehe. Trus ehm other than music paling ya main sih… main apa aja deh atau ga paling nonton… i am open with any genre possible soo kalo bagus ya bagus gitu. Finally, kalau kalian mau tanya-tanya tentang apaa aja atau ngobrol, chat aja ya line aku or my instagram @eileeneltonn. I’ll try my best to answer it. Udah gitu,,,, salam kenal :))(("
+                    />
+                </div>
+                <div>
+                    <Osis
+                        img={ Jessica } 
+                        title="Jessica Jolene Djayasaputra" 
+                        desc="Haiii semuanyaa!! Namaku Jessica Jolene Djayasaputra, biasa dipanggil Jejo dan sekarang aku adalah murid 10 MIPA. Kalau lagi luang, aku suka nonton (kdrama terutama ;p) dan main piano. Sooo kalau hobi kita sama, fix kita bisa nyambung ngobrolnya! Anyways, fun fact about me adalah aku SUKA BANGET sama pizza <33. Aku selalu rayain birthdayku di restoran pizza. TAPI sayangnya, aku alergi tomat yang adalah salah satu bahan dasar pizza ;(( tapi aku selalu makan anyways sih HEHE. Last but not least, if you have any questions about me/smukie/etc., kalian boleh banget chat aku lewat Instagram @jessicajolenedj cuz I’d love to help or chat with you guys! Salam kenalll semuanyaa!!"
+                    />
+                </div>
+                <div>
+                    <Osis
+                        img={ Nicole } 
+                        title="Nicole Edline Simon" 
+                        desc="Haii semuanya !! Namaku Nicole Edline Simon, biasa dipanggil nic. Aku saat ini ada di kelas 10 MIPA. Kalau lagi ga sibuk aku suka banget binge watch series netflix atau main piano. Series favorite aku pasti yang ada romance-dramanya, tapi tenang aku ga banyak drama kok. Fun fact tentang aku adalah aku suka banget travelling sayangnya karena pandemi jadi di rumah aja T-T. Lastly kalo kalian ada pertanyaan tentang smukie atau kayak pengen ngobrol aja feel free buat contact aku lewat instagram @coleedline_ atau add line aku ya. Salam kenal semuaa!! "
                     />
                 </div>
                 <div>
@@ -54,13 +53,7 @@ export default function bidang2() {
                     <ul className="list-decimal ml-5">
                         <li>
                             <p className="text-justify">
-                                Christmas carol, adalah program berupa kunjungan ke panti jompo pada masa menjelang natal, disana akan diadakan semacam talent show yang fungsinya untuk menghibur para lansia disana,
-                            </p>
-                        </li>
-                            <br/>
-                        <li>
-                            <p className="text-justify">
-                                Quozzy, adalah quiz berbasis quotes yang ada di instagram,
+                                Voice of Smakone, adalah sebuah program yang menyalurkan berbagai pandangan dari warga sekolah SMAK 1 BPK PENABUR.
                             </p>
                         </li>
                             <br/>

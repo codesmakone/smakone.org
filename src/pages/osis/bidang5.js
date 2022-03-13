@@ -3,8 +3,8 @@ import OsisLayout from '../../components/page_template/OsisLayout'
 import Banner from "../../images/banner2.jpg"
 import Osis from '../../components/osis/OsisSection'
 import gillian from '../../images/team/gillian.jpg'
-import jocelyn from '../../images/team/Jocelyn.jpg'
-
+import charmaine from '../../images/team/charmaine.jpg'
+import Floo from '../../images/team/floo.jpg'
 
 export default function bidang2() {
     const title = "OSIS"
@@ -16,14 +16,21 @@ export default function bidang2() {
                     <Osis
                         img={ gillian } 
                         title="Gillian Season" 
-                        desc="Halo, semua! Aku Gillian Season dan aku murid kelas 11 IPA. Aku masuk OSIS bidang 5 ini karena aku suka berdiskusi soal isu-isu lingkungan dan sosial. Selain itu, aku hobi banget yang namanya binge watch film seri. Beberapa fun fact tentang ku, sebelum masuk SMA, aku sempat belajar bahasa dulu sekitar 5 bulan di Taiwan. Selain OSIS, di smuki aku juga ikut MUN dan DA yang pastinya seru banget juga! Feel free to reach out to me kalo mau nanya-nanya tentang apapun or even if you just want to fangirling film seri bareng <3"
+                        desc="Helooo, semua! Aku Gillian Season sekarang kelas 11 IPA! Aku masuk OSIS bidang 5 ini karena aku suka berdiskusi soal isu-isu lingkungan dan sosial. Beberapa fun fact tentang diriku, aku hobi banget binge watch tv series! HAHAHA Feel free to reach out to me if you need someone to talk to or if you just want to fangirling film seri bareng <3"
                     />
                 </div>
                 <div>
                     <Osis
-                        img={ jocelyn } 
-                        title="Jocelyn Emmanuella Mok"  
-                        desc="Hi! Namaku Jocelyn Emmanuella Mok dan saat ini merupakan murid kelas 11 IPS. Untuk mengisi waktu luang, aku biasanya dengar lagu and I also enjoy taking landscape pictures. Selain OSIS, aku juga join beberapa organisasi di smuki seperti tedxyouth@smakone dan shutterone, yang pastinya juga menambah pengetahuan dan pengalaman baru yang gak kalah seru. Fun Fact tentang ku, aku anak rantau guyss hehehe, jadi yang dari luar kota juga don’t hesitate to reach out! Have fun di smuki!!"
+                        img={ charmaine } 
+                        title="Charmaine Dominique"  
+                        desc="Haii semuanyaa🥰! Kenalin aku Floren dan sekarang aku kelas 10 MIPA. Hobby aku nonton film/series (mostly kdrama hihi) dan denger lagu. Kalau mau nanya-nanya atau ngobrol, feel free buat line or dm aku yaa @florentina_0328."
+                    />
+                </div>
+                <div>
+                    <Osis
+                        img={ Floo } 
+                        title="Florentina Gwendolyn"  
+                        desc="Halo semuaaa! Hai, aku Charmaine, cara bacanya “carmen” aja dan aku kelas 10 MIPA! A little fun fact about me, aku suka hal - hal baru & aku tahan denger 1 lagu sampai 6 jam diulang - ulang lhoo! Jadi pastinya hobiku denger lagu dong ya hehe. Kalau mau ngobrol, bisa chat me through line (usernamenya nama panjangku) / dm me yaa (search for my name di followers ig smukie!) "
                     />
                 </div>
                 <div>
@@ -38,38 +45,43 @@ export default function bidang2() {
                     <ul className="list-decimal ml-5">
                         <li>
                             <p className="text-justify">
-                                EcoVille, Berupa Artikel dan Quiz interaktif mengenai berbagai isu lingkungan hidup. Untuk gambaran yang lebih jelas, bisa check di instagram story kita yaa @smukiee.
+                            EcoVille, Berupa Artikel dan Quiz interaktif mengenai berbagai isu lingkungan hidup. Untuk gambaran yang lebih jelas, bisa check di instagram story kita yaa @smukiee.
                             </p>
                         </li>
                             <br/>
                         <li>
                             <p className="text-justify">
-                                We Care merupakan program bidang 5 berupa video kampanye yang menyuarakan berbagai isu kemanusiaan dan lingkungan hidup. Check out video campaign kita di feeds @smukiee!
+                            We Care merupakan program bidang 5 berupa video kampanye yang menyuarakan berbagai isu kemanusiaan dan lingkungan hidup. Check out video campaign kita di feeds @smukiee!
                             </p>
                         </li>
                             <br/>
                         <li>
                             <p className="text-justify">
-                                EcoGuru, melalui EcoGuru, diharapkan para peserta MPLS dapat mengerti akan pentingnya menjaga lingkungan hidup baik di lingkungan sekolah maupun luar sekolah.
+                            Aspire, Asp1re merupakan wadah bagi seluruh siswa SMAK 1 untuk menyalurkan aspirasinya terhadap berbagai program OSIS yang berjalan, agar penyelenggaraan program tersebut dapat mengalami perbaikan di tahun-tahun berikutnya.
                             </p>
                         </li>
                             <br/>
                         <li>
                             <p className="text-justify">
-                                Aspire, Asp1re merupakan wadah bagi seluruh siswa SMAK 1 untuk menyalurkan aspirasinya terhadap berbagai program OSIS yang berjalan, agar penyelenggaraan program tersebut dapat mengalami perbaikan di tahun-tahun berikutnya. 
+                            One Vote, pelaksanaan pemilihan ketua dan wakil ketua OSIS.
                             </p>
                         </li>
                             <br/>
                         <li>
                             <p className="text-justify">
-                                One Vote, pelaksanaan pemilihan ketua dan wakil ketua OSIS 
+                            Kompetisi Debat, kompetisi debat bahasa Indonesia yang akan dilaksanakan pada saat perayaan 17 Agustus.
                             </p>
                         </li>
                             <br/>
                         <li>
                             <p className="text-justify">
-                                Kompetisi Debat
+                            Kompetisi Pidato, Kompetisi berpidato yang akan diselenggarakan bersamaan dengan perayaan Hari Pahlawan.
                             </p>
+                        </li>
+                        <li>
+                            <p className='text-justify'>
+                            Bye Bye Plastic Bag Jakarta School Club, merupakan club yang fokus pada gerakan pengurangan penggunaan plastik di SMAK 1.
+                        </p>
                         </li>
                     </ul>
                 </div>

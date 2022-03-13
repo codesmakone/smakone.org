@@ -11,6 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <title>OSIS SMAK 1 PENABUR Jakarta</title>
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-EZHENXJ8ML"

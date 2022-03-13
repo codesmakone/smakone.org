@@ -2,9 +2,8 @@ import React from 'react'
 import OsisLayout from '../../components/page_template/OsisLayout'
 import Banner from "../../images/banner2.jpg"
 import Osis from '../../components/osis/OsisSection'
-import brigitta from '../../images/team/birgitta.jpg'
+import Cheryn from '../../images/team/Cheryn wihono.jpg'
 import jesslyn from '../../images/team/jesslyn.jpg'
-import bob from '../../images/team/bob.jpg'
 
 export default function bidang2() {
     const title = "OSIS"
@@ -14,30 +13,25 @@ export default function bidang2() {
                 <h1 className="font-semibold text-center text-4xl"><b>Bidang Kreativitas, Keterampilan, dan Kewirausahaan</b></h1>
                 <div>
                     <Osis
-                        img={ bob } 
-                        title="Bob Jesse Lie" 
-                        desc="Halo semua!!! Kenalin, nama aku Bob Jesse Lie, biasa dipanggil Bob. Aku lahir di Jogja pada tanggal 7 Mei 2004. Dari kecil sampai lulus SMP aku tinggal di Magelang. Biar mendapat pengalaman baru, aku mencoba menempuh jenjang SMA di SMAK 1 Penabur Jakarta. Nah aku disini sebagai koordinator OSIS bidang 6 tahun 2021. Tahun ini aku bersyukur banget bisa dapet anggota - anggota bidang yang suportif and seru banget. Disini aku punya hobi buat dengerin musik and nonton film"
-                    />
-                </div>
-                <div>
-                    <Osis
-                        img={ brigitta } 
-                        title="Birgitta Graciella" 
-                        desc="Hello everyone! Warm Greetings! Perkenalkan, nama saya Birgitta Graciella, atau biasa dipanggil Grace atau Birgitta. Saya adalah anggota OSIS Bidang 6. Saya lahir di Jakarta, pada tanggal 19 Juni tahun 2004. Saya tinggal di Jakarta dari saya lahir hingga sekarang saya berumur 17 tahun. Bergabung dalam OSIS bidang 6 adalah sebuah kesempatan yang luar biasa untuk saya, karena di OSIS Bidang 6, saya bertemu dengan teman-teman yang baik, dan tentunya membuat saya lebih berkembang lagi. And a little more about me, i'm addicted to spotify🤣I could listen to spotify for almost 7 hours a day! sounds crazy, isn't it?"
-                    />
-                </div>
-                <div>
-                    <Osis
                         img={ jesslyn } 
                         title="Jesslyn Theodora" 
-                        desc="Hai semuaa! Perkenalkan nama aku Jesslyn Theodora, biasa dipanggil Jess. Lahir pada tanggal 28 Desember 2005 di Bandung dan akhirnya menetap di Jakarta sejak usia 5 tahun. Aku tergabung dalam anggota OSIS bidang 6, dimana teman-teman baik, suportif dan kreatif bisa ditemukan. Aku pecinta bulutangkis dan suka banget nonton film. Fun fact tentang aku, humorku receh banget!  Jadi jangan kaget ya kalau yang garing aja aku ketawain!"
+                        desc="Halo semua! Kenalin nama aku Jesslyn Theodora, biasa dipanggil Jess. Aku lahir tanggal 28 Desember 2005, dan tahun ini 17 tahun, tapi masih lama sih hehehe! Sekarang aku kelas 11 nih ^^. Aku suka nonton film, baca novel, dan gambar. Oh iya, aku juga penggemar berat bulu tangkis! Ig aku @jess_theodora , jangan lupa di follow ya ^^. Bergabung dalam kepengurusan OSIS bidang 6 merupakan kesempatan luar biasa buat aku, karena disini, teman yang baik, suportif dan kreatif bisa ditemukan. So, nanti jangan lupa daftar bidang 6 ya! Satu fun fact tentang aku, humorku itu receh banget! Jadi jangan kaget ya kalau yang garing aja aku ketawain!
+                        "
+                    />
+                </div>
+                <div>
+                    <Osis
+                        img={ Cheryn } 
+                        title="Cheryn Wihono" 
+                        desc="Hai semua! Perkenalkan, nama aku Cheryn Wihono kalian bisa panggil aku cheryn/cher. Aku lahir pada tanggal 2 November 2006 (akhir tahun banget ya HAHAHA) jadi tahun ini aku 16 tahun. Sekarang aku masih duduk di kelas 10. Hobi aku banyak sih, tapi yang utama aku suka nari hehehe. To be in OSIS is a very great opportunity loh, kalian belajar banyak banget dan tentunya seru banget, bidang 6 sendiri merupakan salah satu dari great opportunitynya. Jadi kalo kalian daftar OSIS jangan lupa daftar di bidang 6!! Username IG aku @cheryn_wihono , boleh tuh di follow 😙. Oh iya fun fact about me, aku takut banget sama kecoa 👎👎.
+                        "
                     />
                 </div>
                 <div>
                     <h1 className="font-semibold text-center text-4xl"><b>Deskripsi</b></h1>
                     <br/>
                     <p className="text-center">
-                        OSIS Bidang 6 merupakan seksi dalam organisasi OSIS yang membina kreativitas, keterampilan, dan kewirausahaan untuk siswa. Kami memiliki beberapa program kerja yang bertujuan untuk meningkatkan kreativitas dan keterampilan siswa serta meningkatkan usaha koperasi siswa.
+                    OSIS Bidang 6 merupakan seksi dalam organisasi OSIS yang bertujuan untuk membina kreativitas, keterampilan, dan kewirausahaan untuk siswa/i SMAK 1 PENABUR Jakarta. Kami memiliki beberapa program kerja yang bertujuan untuk meningkatkan kreativitas dan keterampilan siswa serta meningkatkan usaha koperasi siswa.
                     </p>
                     <br/>
                     <h1 className="font-semibold text-left text-4xl"><b>Program Kerja</b></h1>
@@ -45,31 +39,41 @@ export default function bidang2() {
                     <ul className="list-decimal ml-5">
                         <li>
                             <p className="text-justify">
-                                Secret Admirer,  Secret Admirer adalah sebuah program tahunan untuk memperingati hari valentin.
+                            BazOne : BazOne merupakan program terbaru dari bidang 6 dan merupakan salah satu acara besar SMAK 1. BazOne merupakan acara bazaar terbuka bagi warga SMAK 1 dan juga masyarakat luas dalam gerakan mendukung UMKM Indonesia dan juga memiliki beberapa sesi talkshow dan workshop sesuai dengan minat siswa/i SMAK 1.
                             </p>
                         </li>
                             <br/>
                         <li>
                             <p className="text-justify">
-                                Technopreneur,  workshop mengenai minat murid murid
+                            Technopreneur : Technopreneur merupakan workshop dengan tema yang telah dipilih oleh siswa/i SMAK 1 dan akan dilaksanakan pada saat BazOne berlangsung.
                             </p>
                         </li>
                             <br/>
                         <li>
                             <p className="text-justify">
-                                Koperasi Kejujuran
+                            Secret Admirer : Secret Admirer merupakan sebuah program tahunan OSIS untuk memperingati hari Valentine.
                             </p>
                         </li>
                             <br/>
                         <li>
                             <p className="text-justify">
-                                Monopoly,  program terbaru bidang kami yang akan dilaksanakan pada saat peringatan kemerdekaan Indonesia pada tanggal 17 Agustus.
+                            Entrepreneur’s Day : Entrepreneur’s Day merupakan kegiatan workshop bagi warga SMAK 1 mengenai stock trading. Setelah workshop berakhir, akan diadakan perlombaan stock trading secara tim.
                             </p>
                         </li>
                             <br/>
                         <li>
                             <p className="text-justify">
-                                Vintage Store,  program pengajaran anak-anak kurang beruntung yang diadakan bersama Yayasan Sahabat Anak, di mana kami  beserta para relawan siswa/i akan mengajarkan mereka pelajaran seperti matematika dasar, bahasa inggris dan lain-lain. 
+                            Smukiez Artweek : Smukiez Artweek merupakan pameran seni SMAK 1. 
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text-justify">
+                            Monopoly : Monopoly merupakan salah satu cabang perlombaan yang diadakan pada perayaan HUT RI di SMAK 1.
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text-justify">
+                            Koperasi Kejujuran : Koperasi siswa yang berada di lantai 1 sekolah dengan tujuan untuk meningkatkan kejujuran siswa/i SMAK 1.
                             </p>
                         </li>
                     </ul>

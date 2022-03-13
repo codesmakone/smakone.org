@@ -28,26 +28,27 @@ export default function OsisPage() {
                 Visi Kami
             </h2>
             <p className="justify-center text-center p-2">
-                Meningkatkan eksistensi SMAK 1 PENABUR melalui pengembangan prestasi, potensi, dan bakat peserta didik SMAK 1 PENABUR, baik di bidang akademik maupun non-akademik, 
-                sekaligus membangun karakter yang berlandaskan iman, ilmu, dan pelayanan, serta mengedepankan pemanfaatan teknologi modern dan terwujudnya cita-cita sekaligus aspirasi warga SMAK 1 PENABUR
+                Menjadikan SMAK 1 PENABUR Jakarta sebagai wadah bagi siswa-siswi untuk mengembangkan potensi dan prestasi, baik secara akademik maupun non-akademik yang berlandaskan pada iman, ilmu, 
+                pelayanan dan menjadikan OSIS sebagai sarana untuk menampung inspirasi, aspirasi, serta kreasi siswa.
+            </p>
+            <p className="justify-center text-center p-2">
+                Meningkatkan partisipasi siswa-siswi SMAK 1 PENABUR Jakarta dalam berbagai program yang edukatif, kreatif dan inovatif, serta dapat menjalar masyarakat luar, sehingga siswa-siswi SMAK 1 
+                dapat menjadi berkat, baik bagi internal maupun eksternal.
             </p>
             <h2 className="font-medium text-3xl mt-12 justify-center text-center">
                 Misi Kami
             </h2>
             <p className="justify-center text-center p-2">
-                Memperkenalkan serta memberikan kesempatan bagi seluruh peserta didik untuk menunjukkan kemampuan, talenta, dan hasil karya dalam program yang diadakan OSIS
+                Memberikan kesempatan seluas-luasnya bagi seluruh peserta didik untuk melakukan pengembangan bakat dan minat melalui program-program yang diadakan OSIS.
             </p>
             <p className="justify-center text-center p-2">
-                Membantu menjaga kesehatan mental dan kesehatan fisik, serta membangun karakter positif bagi warga SMAK 1 PENABUR
+                Membuka ruang terbuka bagi peserta didik SMAK 1 untuk bergerak dan berkontribusi secara konkret dalam pelestarian lingkungan hidup.    
             </p>
             <p className="justify-center text-center p-2">
-                Meningkatkan keterampilan dan kesiapan dalam era modern, serta menginspirasi seluruh warga SMAK 1 PENABUR untuk selalu melangkah ke depan
+                Membangun kesadaran peserta didik SMAK 1 untuk berpartisipasi dalam kegiatan-kegiatan yang berorientasi kepada masyarakat, sehingga dapat memberikan dampak yang lebih luas.
             </p>
             <p className="justify-center text-center p-2">
-                Menjawab setiap aspirasi yang telah disampaikan serta merealisasikan dengan baik seluruh program OSIS sebagai bentuk nyata berjalannya OSIS yang penuh tanggung jawab
-            </p>
-            <p className="justify-center text-center px-2 pt-2 pb-12">
-                Menciptakan relasi yang baik dan harmonis antar seluruh warga SMAK 1 PENABUR disertai peran OSIS sebagai penghubungnya
+            Mengoptimalisasikan kualitas SDM SMAK 1 melalui restorasi organisasi yang disruptif serta pengembangan program yang sudah ada dengan evaluasi secara berkala.
             </p>
             </div>
         </Content>

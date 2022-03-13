@@ -2,9 +2,9 @@ import React from 'react'
 import OsisLayout from '../../components/page_template/OsisLayout'
 import Banner from "../../images/banner2.jpg"
 import Osis from '../../components/osis/OsisSection'
-import jonathan from '../../images/team/jonat.jpg'
-import ferdinand from '../../images/team/ferdinand.jpg'
-import mikhael from '../../images/team/mikhael.jpg'
+import Amanda from '../../images/team/amanda.jpg'
+import ferdinand from '../../images/team/Ferdinand.jpg'
+import enrichie from '../../images/team/enrichie.jpg'
 
 export default function bidang2() {
     const title = "OSIS"
@@ -14,23 +14,23 @@ export default function bidang2() {
                 <h1 className="font-semibold text-center text-4xl"><b>Bidang Pembinaan Teknologi Informasi dan Komunikasi (TIK)</b></h1>
                 <div>
                     <Osis
-                        img={ jonathan } 
-                        title="Jonathan Kristian" 
-                        desc="Halo semua, aku Jonathan Kristian. Sekarang aku duduk di kelas 12. Kalian boleh panggil jonat, jo, nat ato mau bikin baru juga gapapa (ada yang manggil aku donat dan aku ga tersinggung kok :D). Fun fact, aku ga terlalu suka coklat :) "
-                    />
-                </div>
-                <div>
-                    <Osis
                         img={ ferdinand } 
                         title="Ferdinand" 
-                        desc="Halo semua, perkenalkan saya Ferdinand, anggota OSIS Bidang 9. Saya lahir dan besar di Jakarta dan saya sangat menyukai hal-hal yang berhubungan dengan Fisika dan Astronomi. Jadi, bagi ada yang suka sama hal-hal tersebut, feel free untuk chat ke saya ya! Fun fact, aslinya saya pendiam banget lho!"
+                        desc="Halo semua, perkenalkan aku Ferdinand, anggota OSIS Bidang 9. aku lahir dan besar di Jakarta dan aku sangat menyukai hal-hal yang berhubungan dengan Fisika dan Astronomi. Jadi, bagi ada yang suka sama hal-hal tersebut, feel free untuk chat ke aku ya di @fercananything! Fun fact, aslinya aku pendiam banget lho!"
                     />
                 </div>
                 <div>
                     <Osis
-                        img={ mikhael } 
-                        title="Mikhael James Linsky" 
-                        desc="Hi semua, nama saya Mikhael James Linsky kalian semua boleh panggil saya dengan MJ. Sekarang saya lagi duduk di kelas XI IPA. Aku punya hobi nonton anime (kalau punya recommendasi tolong kasih tau ya :D ), main game dan coding."
+                        img={ Amanda } 
+                        title="Amanda Michelle Setiawan" 
+                        desc="Hi everyone! Perkenalkan nama aku Amanda bisa juga dipanggil Manda. Sekarang ada duduk sebagai anggota bidang 9 dan hobiku adalah melukis, membaca buku, dan mendengar lagu. Kalau mau reach out, contact aja di ig aku @amandamchlleee!                        "
+                    />
+                </div>
+                <div>
+                    <Osis
+                        img={ enrichie } 
+                        title="Enrichie Gracia" 
+                        desc="Halo semuanya!!! Perkenalkan namaku Enrichie, kalian bisa panggil aku rich, rici, en, atau enrich. Tahun ini, aku menjabat sebagai anggota pengurus OSIS bidang 9. Di waktu luang, aku suka berenang dan juga membuat karya menggunakan software Blender. Kalau kalian tertarik untuk melihat karya yang sudah dibuat oleh aku, kalian bisa mengunjungi Instagram aku @enrichie_gracia. Selain berkreasi, aku juga suka berenang."
                     />
                 </div>
                 <div>
@@ -45,12 +45,6 @@ export default function bidang2() {
                         <li>
                             <p className="text-justify">
                                 Website: Website merupakan program situs resmi OSIS SMAK 1 PENABUR Jakarta dimana terdapat informasi mengenai OSIS SMAK 1 dan acara-acara OSIS yang sudah maupun akan diadakan.
-                            </p>
-                        </li>
-                            <br/>
-                        <li>
-                            <p className="text-justify">
-                                Photo Gallery: Berisikan dokumentasi yang berupa gambar dari acara SMAK 1. Photo Gallery dapat diakses bagi seluruh warga SMAK 1 di https://smakone.org/.
                             </p>
                         </li>
                             <br/>
@@ -74,18 +68,6 @@ export default function bidang2() {
                             <br/>
                         <li>
                             <p className="text-justify">
-                                ANEWS: Tempat penerbitan berita terbaru mengenai hampir segala hal mengenai OSIS, SMAK 1, maupun acara-acara yang sudah atau akan diadakan.
-                            </p>
-                        </li>
-                            <br/>
-                        <li>
-                            <p className="text-justify">
-                                Cashless Canteen: Metode pembayaran kantin yang tidak memakai uang tunai.
-                            </p>
-                        </li>
-                            <br/>
-                        <li>
-                            <p className="text-justify">
                                 Monograph: Organisasi naungan OSIS SMAK 1 PENABUR Jakarta yang beranggotakan siswa-siswi bertalenta dalam membuat desain yang akan digunakan untuk acara.
                             </p>
                         </li>
@@ -99,6 +81,12 @@ export default function bidang2() {
                         <li>
                             <p className="text-justify">
                                 ONECAST: Podcast resmi OSIS SMAK 1 PENABUR Jakarta yang dibawakan oleh peserta didik SMAK 1 dan dapat didengarkan Spotify.
+                            </p>
+                        </li>
+                            <br />
+                        <li>
+                            <p className="text-justify">
+                                E-Magazine: Majalah elektronik resmi OSIS SMAK 1 PENABUR Jakarta yang bertujuan untuk menambah wawasan siswa-siswi SMAK 1. Ditulis langsung oleh peserta didik SMAK 1 dan dapat diakses di website ini.
                             </p>
                         </li>
                     </ul>
