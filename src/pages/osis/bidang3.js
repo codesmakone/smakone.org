@@ -77,6 +77,12 @@ export default function bidang2() {
                             <p className="text-justify">
                             Perayaan Hari Guru : OSIS Bidang 3 mengadakan acara Perayaan Hari Guru sebagai ajang bagi peserta didik untuk memberi penghormatan dan menunjukkan rasa terima kasih kepada para guru yang sudah berjasa bagi mereka
                             </p>
+                        </li>  
+                            <br />
+                        <li>
+                            <p className="text-justify">
+                            Memo1rs : OSIS Bidang 3 membuat video pendek mengenai pahlawan-pahlawan Indonesia yang dapat dibilang "anti-mainstream" atau yang belum terlalu dikenal
+                            </p>
                         </li>
                             <br />
                         <li>
@@ -96,12 +102,7 @@ export default function bidang2() {
                             K1SAH 
                             </p>
                         </li>
-                            <br />
-                        <li>
-                            <p className="text-justify">
-                            Memo1rs : OSIS Bidang 3 membuat video pendek mengenai pahlawan-pahlawan Indonesia yang dapat dibilang "anti-mainstream" atau yang belum terlalu dikenal
-                            </p>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
