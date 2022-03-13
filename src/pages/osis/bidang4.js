@@ -67,6 +67,7 @@ export default function bidang2() {
                             UNI-ASS1ST - Memberikan informasi mengenai universitas. Mulai dari sejarah, jurusan, biaya, hingga jalur beasiswa melalui website sehingga murid-murid bisa mendapatkan gambaran yang lebih jelas akan universitas yang akan mereka pilih.
                             </p>
                         </li>
+                            <br />
                         <li>
                             <p className="text-justify">
                             Ask Away - merupakan program talkshow yang mengundang beberapa alumni SMAK 1 untuk berbicara tentang fakultas - fakultas universitas serta kehidupan di universitas nantinya.

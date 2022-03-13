@@ -79,6 +79,7 @@ export default function bidang2() {
                             Kompetisi Pidato, Kompetisi berpidato yang akan diselenggarakan bersamaan dengan perayaan Hari Pahlawan.
                             </p>
                         </li>
+                            <br />
                         <li>
                             <p className='text-justify'>
                             Bye Bye Plastic Bag Jakarta School Club, merupakan club yang fokus pada gerakan pengurangan penggunaan plastik di SMAK 1.

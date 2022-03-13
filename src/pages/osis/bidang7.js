@@ -33,7 +33,7 @@ export default function bidang2() {
                     <Osis
                         img={ Fidella } 
                         title="Fidella Lukita" 
-                        desc="Hello semua 👋🏻 Perkenalkan nama aku Fidella Lukita, you can call me Fidel. Saat ini aku merupakan murid kelas X MIPA. Di waktu senggang, aku suka tidur dan nonton film/drama. Fun fact tentang aku yaitu aku pegang mouse pake tangan kiri walaupun aku nulis pake tangan kanan. If you want to know more about me, don’t hesitate to reach me out on my ig @fidellalukita !
+                        desc="Hello semua 👋🏻 Perkenalkan aku Fidella Lukita, just call me Fidel. Sekarang aku berada di kelas X MIPA. Kalau lagi ada waktu senggang, aku biasanya tidur atau nonton drama. Fun fact, aku kalau pegang mouse pake tangan kiri padahal aku aslinya right-handed. If you wanna know more about me, don't hesitate to reach me out on my IG @fidellalukita ! 
                         "
                     />
                 </div>

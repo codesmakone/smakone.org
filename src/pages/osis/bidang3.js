@@ -84,16 +84,19 @@ export default function bidang2() {
                             Hari Batik Nasional
                             </p>
                         </li>
+                            <br />
                         <li>
                             <p className="text-justify">
                             SAHANAYA
                             </p>
                         </li>
+                            <br />
                         <li>
                             <p className="text-justify">
                             K1SAH 
                             </p>
                         </li>
+                            <br />
                         <li>
                             <p className="text-justify">
                             Memo1rs : OSIS Bidang 3 membuat video pendek mengenai pahlawan-pahlawan Indonesia yang dapat dibilang "anti-mainstream" atau yang belum terlalu dikenal
