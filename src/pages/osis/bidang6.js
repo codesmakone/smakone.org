@@ -66,11 +66,13 @@ export default function bidang2() {
                             Smukiez Artweek : Smukiez Artweek merupakan pameran seni SMAK 1. 
                             </p>
                         </li>
+                            <br />
                         <li>
                             <p className="text-justify">
                             Monopoly : Monopoly merupakan salah satu cabang perlombaan yang diadakan pada perayaan HUT RI di SMAK 1.
                             </p>
                         </li>
+                            <br />
                         <li>
                             <p className="text-justify">
                             Koperasi Kejujuran : Koperasi siswa yang berada di lantai 1 sekolah dengan tujuan untuk meningkatkan kejujuran siswa/i SMAK 1.
