@@ -16,7 +16,7 @@ export default function bidang2() {
                     <Osis
                         img={ ferdinand } 
                         title="Ferdinand" 
-                        desc="Halo semua, perkenalkan aku Ferdinand, anggota OSIS Bidang 9. aku lahir dan besar di Jakarta dan aku sangat menyukai hal-hal yang berhubungan dengan Fisika dan Astronomi. Jadi, bagi ada yang suka sama hal-hal tersebut, feel free untuk chat ke aku ya di @fercananything! Fun fact, aslinya aku pendiam banget lho!"
+                        desc="Halo semua, perkenalkan aku Ferdinand, koordinator OSIS Bidang 9. aku lahir dan besar di Jakarta dan aku sangat menyukai hal-hal yang berhubungan dengan Fisika dan Astronomi. Jadi, bagi ada yang suka sama hal-hal tersebut, feel free untuk chat ke aku ya di @fercananything! Fun fact, aslinya aku pendiam banget lho!"
                     />
                 </div>
                 <div>

@@ -87,19 +87,19 @@ export default function bidang2() {
                             <br />
                         <li>
                             <p className="text-justify">
-                            Hari Batik Nasional
+                            Hari Batik Nasional : OSIS Bidang 3 membuat perayaan Hari Batik Nasional dalam bentuk lomba sebagai ajang bagi peserta didik untuk melestarikan salah satu kebudayaan Indonesia yaitu Batik
                             </p>
                         </li>
                             <br />
                         <li>
                             <p className="text-justify">
-                            SAHANAYA
+                            SAHANAYA Satukan Hati, Nyalakan Budaya) : OSIS Bidang 3 menyediakan wadah bagi klub-klub seni SMAK 1 Penabur Jakarta untuk menyalurkan bakatnya dalam bentuk video setiap 3 bulan sekali
                             </p>
                         </li>
                             <br />
                         <li>
                             <p className="text-justify">
-                            K1SAH 
+                            K1SAH : OSIS Bidang 3 bekerja sama dengan eskul manga untuk membuat komik singkat setiap perayaan hari-hari besar Indonesia
                             </p>
                         </li>
                         
