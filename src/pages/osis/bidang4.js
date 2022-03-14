@@ -31,7 +31,7 @@ export default function bidang2() {
                     <Osis
                         img={ Grant } 
                         title="Grant Wendra Halim" 
-                        desc="Hai semua, perkenalkan nama aku Grant Wendra Halim, biasanya dipanggil Grant. Saat ini aku lagi duduk di kelas 11 MIPA. Hobi aku main basket, dan main game. Fun fact about aku, aku kalo lagi nulis pasti mulutnya ikutan gerak. Kalau ada yang mau kalian tanyakan, boleh contact aku di IG @granthalim"
+                        desc="Hai semua, perkenalkan nama aku Grant Wendra Halim, biasanya dipanggil Grant. Saat ini aku lagi duduk di kelas 10 MIPA. Hobi aku main basket, dan main game. Fun fact about aku, aku kalo lagi nulis pasti mulutnya ikutan gerak. Kalau ada yang mau kalian tanyakan, boleh contact aku di IG @granthalim"
                     />                    
                 </div>
                 <div>
