@@ -29,6 +29,12 @@ export default function EmagzLayout({title, hero, content}) {
             title: "Festive February",
             link:"/Emagz/4thissue",
             slug:"4th Issue"
+        },
+        {
+            id:5,
+            title: "Inspiration Floraison",
+            link:"/Emagz/5thissue",
+            slug:"5th Issue"
         }
     ]
     return (
