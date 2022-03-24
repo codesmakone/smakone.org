@@ -8,12 +8,12 @@ export default function NovemberPage() {
   const content = (
     <div className="container mx-auto">
       <h1 className="justify-center text-center p-2 font-medium text-5xl mb-5">
-        Inspiration Floraison
+        Floraison
       </h1>
       <div className="mb-8 iframe-container">
         <iframe
           src="https://heyzine.com/flip-book/dc4f4f44ec.html"
-          title="Inspiration Floraison"
+          title="Floraison"
           width="1000"
           height="700"
           frameborder="0"
