@@ -35,6 +35,12 @@ export default function EmagzLayout({title, hero, content}) {
             title: "Floraison",
             link:"/Emagz/5thissue",
             slug:"5th Issue"
+        },
+        {
+            id:6,
+            title: "Aphrodite April",
+            link: "/Emagz/6thissue",
+            slug: "6th Issue"
         }
     ]
     return (
