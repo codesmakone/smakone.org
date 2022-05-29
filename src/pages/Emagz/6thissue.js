@@ -10,9 +10,9 @@ export default function NovemberPage() {
       <h1 className="justify-center text-center p-2 font-medium text-5xl mb-5">
         Aphrodite April
       </h1>
-      <div className="mb-8 iframe-container">
+      <div className="mb-8 iframe-container hidden lg:block">
         <iframe
-          src="https://heyzine.com/flip-book/b020da68d8.html"
+          src="https://heyzine.com/flip-book/5c1931dac5.html"
           title="Aphrodite April"
           width="1000"
           height="700"
@@ -22,6 +22,12 @@ export default function NovemberPage() {
           allowFullScreen
           sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation"
         ></iframe>
+      </div>
+      <div className="lg:hidden">
+      <p className="justify-center text-center p-2 text-2xl">
+        You are viewing this in your phone/tablet. For better readability, please kindly visit this 
+        <a className="text-blue-500 underline-offset-4" href="https://heyzine.com/flip-book/5c1931dac5.html" target="_blank"> link</a>.
+      </p>
       </div>
     </div>
   );

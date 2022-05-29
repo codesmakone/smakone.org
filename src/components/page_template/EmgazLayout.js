@@ -41,7 +41,13 @@ export default function EmagzLayout({title, hero, content}) {
             title: "Aphrodite April",
             link: "/Emagz/6thissue",
             slug: "6th Issue"
-        }
+        },
+        {
+            id:7,
+            title: "Summer Maylodies",
+            link: "/Emagz/7thissue",
+            slug: "7th Issue"
+        },
     ]
     return (
         <MainContainer>

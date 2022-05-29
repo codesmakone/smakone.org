@@ -8,12 +8,12 @@ export default function NovemberPage() {
   const content = (
     <div className="container mx-auto">
       <h1 className="justify-center text-center p-2 font-medium text-5xl mb-5">
-        Floraison
+        Summer Maylodies
       </h1>
       <div className="mb-8 iframe-container hidden lg:block">
         <iframe
-          src="https://heyzine.com/flip-book/dc4f4f44ec.html"
-          title="Floraison"
+          src="https://heyzine.com/flip-book/a5b0ed1cb6.html"
+          title="Summer Maylodies"
           width="1000"
           height="700"
           frameborder="0"
@@ -26,7 +26,7 @@ export default function NovemberPage() {
       <div className="lg:hidden">
       <p className="justify-center text-center p-2 text-2xl">
         You are viewing this in your phone/tablet. For better readability, please kindly visit this 
-        <a className="text-blue-500 underline-offset-4" href="https://heyzine.com/flip-book/dc4f4f44ec.html" target="_blank"> link</a>.
+        <a className="text-blue-500 underline-offset-4" href="https://heyzine.com/flip-book/a5b0ed1cb6.html" target="_blank"> link</a>.
       </p>
       </div>
     </div>
